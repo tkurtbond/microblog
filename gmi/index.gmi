@@ -1,0 +1,7 @@
+# Lacking Natural Simplicity, Another Take
+
+Random musings about books, computers, tabletop role-playing games, and miscellaneous bits.  A supplement to the original, not a replacement.
+
+=> blog/blog.html Blog
+=> random.html Random Things
+=> Colophon.html Colophon

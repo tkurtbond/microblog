@@ -1,0 +1,21 @@
+One of my favorite pieces of Forth code:
+```
+\ BNF Parser                                (c) 1988 B. J. Rodriguez
+0 VARIABLE SUCCESS
+: <BNF   SUCCESS @ IF  R> IN @ >R DP @ >R  >R
+   ELSE  R> DROP  THEN ;
+: BNF>   SUCCESS @ IF  R>  R> R> 2DROP   >R
+   ELSE  R>  R> DP ! R> IN !  >R THEN ;
+: |    SUCCESS @ IF  R> R> R> 2DROP DROP
+   ELSE  R> R> R> 2DUP >R >R IN ! DP !  1 SUCCESS !  >R THEN ;
+: BNF:   [COMPILE] : SMUDGE COMPILE <BNF ; IMMEDIATE
+: ;BNF   COMPILE BNF> SMUDGE [COMPILE] ; ; IMMEDIATE
+
+: @TOKEN ( - n)   IN @ TIB @ + C@ ;
+: +TOKEN ( f)    IF 1 IN +! THEN ;
+: =TOKEN ( n)    SUCCESS @ IF @TOKEN =  DUP SUCCESS ! +TOKEN
+   ELSE DROP THEN ;
+: TOKEN ( n)    <BUILDS C, DOES> ( a)  C@ =TOKEN ;
+```
+
+=> https://www.bradrodriguez.com/papers/bnfparse.htm Its origin

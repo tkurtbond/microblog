@@ -1,0 +1,9 @@
+.DS_Store
+.~
+*~
+\#*\#
+.\#*
+.~*\#
+*.html
+!*/template/*.html
+/lichen.zip

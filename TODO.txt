@@ -1,0 +1,13 @@
+This is the TODO.text from Lichen, preserved here since a couple are
+still applicable.
+
+homepage illustration
+more factoring
+more tests
+assert stack depth in test
+asserts in code
+
+staticgen: specify output directory?
+upload.cgi: if .gmi file, try rendering html?
+generate table of contents
+utf-8 support???

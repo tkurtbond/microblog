@@ -1,0 +1,14 @@
+This is the source for TKB's microsite and  microblog, written in Gemtext (the text format of the Gemini protocol), and the Forth software used render it to static HTML.  It was based on the Lichen CMS; I simply deleted the parts I didn't need, changed the build script, added the nfsrsync script, and changed the header and footer templates slightly.
+
+=> http://consp.org/ Lacking Natural Simplicity, Another Take
+=> https://gemini.circumlunar.space/docs/gemtext.gmi Gemtext
+=> gemini://gemini.circumlunar.space/docs/gemtext.gmi Gemtext on Gemini
+=> https://gemini.circumlunar.space/ The Gemini Project
+=> gemini://gemini.circumlunar.space/ The Gemini Project in Gemini space
+=> https://lichen.sensorstation.co/ Lichen
+=> http://forth.org/ Forth Interest Group
+=> https://forth-standard.org/ Forth Standard website
+
+Lichen can run as cgi scripts, but I'm only using the part that builds static HTML files.
+
+The Gemtext files for the site are in the gmi directory, and that's also where the HTML files are generated.

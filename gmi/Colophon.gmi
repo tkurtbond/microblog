@@ -1,0 +1,8 @@
+# Colophon
+
+I use the Emacs text editor with visual-line-mode to edit the Gemtext of this site, and the Lichen Content Management System to render it to static HTML files.
+
+=> https://www.gnu.org/software/emacs/ Emacs
+=> https://gemini.circumlunar.space/docs/cheatsheet.gmi Gemtext
+=> https://lichen.sensorstation.co/ Lichen
+
