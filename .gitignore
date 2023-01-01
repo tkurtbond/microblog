@@ -4,6 +4,5 @@
 \#*\#
 .\#*
 .~*\#
-*.html
-!*/template/*.html
-/lichen.zip
+gmi/*.html
+gmi/blog/*.html

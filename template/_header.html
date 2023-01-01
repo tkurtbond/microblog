@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+	<title>Lichen</title>
+	<style>
+		body {
+			font-family: serif;
+			font-size: 0.85rem;
+			line-height: 1.6;
+			max-width: 512px;
+			color: #3d3533;
+			background-color: #e8e7e3;
+
+			margin: 1rem auto;
+			padding: 1rem;
+		}
+		@media (min-width: 768px) {
+			body {
+				font-size: 0.9rem;
+				padding: 2rem;
+			}
+		}
+		h1, h2, h3, ul, ol, li, p, blockquote, pre, a {
+			font-family: inherit;
+			font-size: inherit;
+			margin: 0;
+		}
+		h1, h2, h3 { font-weight: bold; }
+		h1:before, h2:before, h3:before {
+			color: #7265a8;
+			display: inline-block;
+			margin-right: 1ch;
+		}
+		h1:before { content: '#'; }
+		h2:before { content: '##'; }
+		h3:before { content: '###'; }
+		h1 { font-size: 1.2rem; }
+		h2 { font-size: 1.1rem; }
+		h3 { font-size: 1.0rem; }
+
+		ul {
+			list-style: none;
+			padding-left: 0;
+		}
+		ul li {
+			position: relative;
+			padding-left: 3ch;
+		}
+		ul li:before {
+			content: '＊';
+			font-weight: bold;
+			color: #7265a8;
+			position: absolute;
+			left: 0;
+			font-family: inherit;
+			font-size: inherit;
+		}
+		a {
+			text-decoration: underline;
+			color: #7265a8;
+			display: inline-block;
+			line-break: anywhere;
+			-x-webkit-line-break: anywhere;
+			padding-left: 0.5ch;
+			padding-right: 0.5ch;
+			margin: 1ch 0;
+			position: relative;
+			box-sizing: border-box;
+		}
+		a:hover {
+			background-color: #7265a8;
+			color: white;
+			text-decoration: none;
+		}
+
+		main a:before {
+			content: '❯';
+			display: inline-block;
+			position: absolute;
+			left: 0.5ch;
+		}
+		main a {
+			padding-left: 2.5ch;
+		}
+
+		main img {
+			display: block;
+			max-width: 100%;
+			margin: 1rem auto;
+		}
+		pre {
+			padding: 1ch;
+			background-color: #d8d8d8;
+			line-height: 1.1;
+			font-family: monospace;
+			overflow-x: auto;
+		}
+		blockquote {
+			padding: 0.25rem;
+			background-color: #d8d8d8;
+			position: relative;
+			border-left: 2px solid #7265a8;
+			margin: 0.25rem 0;
+		}
+		blockquote p {
+			margin: 0.5rem;
+		}
+		nav {
+			margin-top: 3rem;
+			padding: 0.5rem 0rem;
+			border-top: 1px dotted #3d3533;
+			display: flex;
+			gap: 0.5rem;
+			white-space: nowrap;
+			flex-wrap: wrap;
+		}
+		nav a {
+			margin: 0;
+		}
+		footer {
+			padding-top: 3ch;
+			border-top: 1px dotted #3d3533;
+			color: #3d3533;
+			font-size: 0.9rem;
+			text-align: center;
+		}
+		footer * {
+			margin: auto;
+		}
+	</style>
+</head>
+<body>
+	<main>
