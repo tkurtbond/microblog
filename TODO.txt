@@ -11,3 +11,8 @@ staticgen: specify output directory?
 upload.cgi: if .gmi file, try rendering html?
 generate table of contents
 utf-8 support???
+
+TKB Todo
+
+? https://en.wikipedia.org/wiki/Atom_(web_standard)
+  https://datatracker.ietf.org/doc/html/rfc4287
