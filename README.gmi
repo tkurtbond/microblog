@@ -13,4 +13,4 @@ Lichen can run as cgi scripts, but I'm only using the part that builds static HT
 
 The Gemtext files for the site are in the gmi directory, and that's also where the HTML files are generated.
 
-Lichen only works with gforth 0.7.3, not the bleeding edge from the git repository.
+Lichen only works with gforth 0.7.3, not the bleeding edge gforth from the git repository.
