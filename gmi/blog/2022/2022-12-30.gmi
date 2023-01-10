@@ -1,10 +1,6 @@
 # 2022-12-30 20:22 EST - New (micro) blog!
 
-I ran across Lichen, a Content Management System written in Forth and
-which uses Gemtext (which reminded me of Gemini; something to look at
-again).  Anyway, I decided to try out Lichen, which can statically
-render Gemtext to HTML, thinking its light cognitive overhead might
-encourage me to blog more.
+I ran across Lichen, a Content Management System written in Forth and which uses Gemtext (which reminded me of Gemini; something to look at again).  Anyway, I decided to try out Lichen, which can statically render Gemtext to HTML, thinking its light cognitive overhead might encourage me to blog more.
 
 => https://lichen.sensorstation.co/ Lichen
 => https://gemini.circumlunar.space/ Gemini
