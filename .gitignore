@@ -6,3 +6,4 @@
 .~*\#
 gmi/*.html
 gmi/blog/*.html
+gmi/blog/*/*.html
