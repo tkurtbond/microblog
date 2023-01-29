@@ -1,0 +1,10 @@
+# 2023-01-29 14:42 EST - Owlbear Rodeo 1.0 will be open-sourced
+
+This is old news, but according to the Owlbear.Rodeo folks, Owlbear.Rodeo 1.0 will eventually be shut down, but it will also be open-sourced.
+
+I've found Owlbear.Rodeo to be an excellent simple virtual table top (VTT), easy to use and low overhead.  Combined with Discord for audio and dice rolling it's a great way to play any RPG that doesn't have a dedicated VTT implementation.  I put the character sheets and campaign notes in Google Drive, and sometimes use a Google Sheets spreadsheet for games with per-character initiative, like the one I use for Mini Six.
+
+=> https://blog.owlbear.rodeo/owlbear-rodeo-2-0-timeline-update/ Road to Owlbear Rodeo 2.0 - Timeline Updates and Owlbear Rodeo 1.0
+=> https://en.wikipedia.org/wiki/Digital_tabletop_game#Virtual_tabletops Virtual Table Top (VTT)
+=> https://docs.google.com/spreadsheets/d/1rJwv0YSkGGTUc1WGUj_CvdeKYZ9W92_MPz-brMKR4AM/edit?usp=sharing Mini Six Initiative Tracker Template
+=> https://tkurtbond.github.io/posts/2020/11/29/looking-at-the-mini-six-rpg-and-related-games/ Mini Six
