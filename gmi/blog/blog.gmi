@@ -1,5 +1,6 @@
 # What have I been doing?
 
+=> 2023/2023-01-30.html 2023-01-30 13:06 EST - Mini Six Middle Sea session 6
 => 2023-01-29.html 2023-01-29 14:42 EST - Owlbear Rodeo 1.0 will be open-sourced
 => 2023/2023-01-15.html 2023-01-15 16:03 EST - Mini Six Middle Sea Game
 => 2023/2023-01-10.html 2023-01-10 10:40 EST - A Banner Image
