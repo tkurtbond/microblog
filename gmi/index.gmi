@@ -4,7 +4,7 @@
 
 Random musings about books, computers, tabletop role-playing games, and miscellaneous bits, in smaller bits.  A supplement to the original, not a replacement.
 
-=> blog/blog.html Blog
+=> blog/blog.html µBlog
 => blog/blog-middle-sea.html Mini Six Middle Sea Blog
 => random.html Random Things
 => Colophon.html Colophon

@@ -1,8 +1,11 @@
 # Colophon
 
-I use the Emacs text editor with visual-line-mode to edit the Gemtext of this site, and the Lichen Content Management System to render it to static HTML files.
+I use the Emacs text editor with visual-line-mode to edit the Gemtext of this site, and the Lichen Content Management System to render it to static HTML files, using a Forth program run using Gforth, GNU Forth 0.7.3 (NOT the bleeding edge version), and a couple of bash scripts to run the Forth program.
 
 => https://www.gnu.org/software/emacs/ Emacs
 => https://gemini.circumlunar.space/docs/cheatsheet.gmi Gemtext
 => https://lichen.sensorstation.co/ Lichen
-
+=> http://forth.org/ Forth
+=> https://www.gnu.org/software/gforth/ GNU Gforth home page
+=> https://ftp.gnu.org/gnu/gforth/gforth-0.7.3.tar.gz Gforth version 0.7.3
+=> https://gforth.org/ Gforth home page, with bleeding edge version
