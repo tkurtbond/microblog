@@ -2,6 +2,6 @@
 
 rsync -avz --exclude=\*.gmi --exclude=\*~ --exclude=.~ --exclude='.#*' \
       --exclude='#*#' \
-      --chmod=ugo=rX \
+      --chmod=ugo=rwX --no-perms --no-group \
       gmi/ \
       tkb_consp@ssh.phx.nearlyfreespeech.net:/home/public
