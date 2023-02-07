@@ -1,3 +1,3 @@
 # Computing
 
-=> 2023/2023-02-06-How-I-Edit-This-Blog.html 2023-02-06 22:16 EST - How I Edit This Blog
+=> 2023/2023-02-06-How-I-Edit-This-Blog.gmi 2023-02-06 22:16 EST - How I Edit This Blog

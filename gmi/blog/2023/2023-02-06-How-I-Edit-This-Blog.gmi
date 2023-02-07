@@ -2,10 +2,13 @@
 
 I use GNU Emacs, of course.
 => https://www.gnu.org/software/emacs/ GNU Emacs
-The file tkb-microblog.el contains has everything I wrote to support editing blog posts.:
+The file tkb-microblog.el contains everything I wrote to support editing these blog posts:
 => https://github.com/tkurtbond/emacs-lisp/blob/master/tkb-microblog.el tkb-microblog.el 
-When I execute the tkb-microblog function it prompts me for blog post title, then asks what sub-blogs I want to add it to, if any.  Then it adds a link to the new blog post file to main blog index and each of the sub-blog index files I specified, creating them if necessary.
+When I execute the tkb-microblog function it prompts me for the blog post title, then asks what sub-blogs I want to add it to, if any.  Then it adds a link to the new blog post file to the main blog index and each of the sub-blog indexes I specified, creating them if necessary.
 
 The function tkb-find-file-hook makes sure that I edit gemtext files (which end in .gmi) with visual-line-mode on and auto-fill-mode off, because gemini browsers wraps long lines, unless they are preformatted text, and paragraphs are indicated by blank lines.  I also have a minor mode that rebinds M-q (which is normally bound to fill-paragraph) to a function that tells the user not to do that, because the lines are not supposed to be filled.
 
 Anyway, I think it works well.
+
+Amusingly, right now tkb-microblog.el is 131 lines, about 26% the size of the Lichen CMS, at 494 lines, that I use to render the gemtext of this blog to HTML.
+=> https://lichen.sensorstation.co/ Lichen
