@@ -6,5 +6,6 @@ Random musings about books, computers, tabletop role-playing games, and miscella
 
 => blog/blog.html µBlog
 => blog/blog-middle-sea.html Mini Six Middle Sea sub-Blog
+=> blog/blog-computing.html Computing
 => random.html Random Things
 => Colophon.html Colophon

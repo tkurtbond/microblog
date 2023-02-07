@@ -1,5 +1,6 @@
 # What have I been doing?
 
+=> 2023/2023-02-06-How-I-Edit-This-Blog.html 2023-02-06 22:16 EST - How I Edit This Blog
 => 2023/2023-02-05-Mini-Six-Middle-Sea-Game-session-7.html 2023-02-05 23:15 EST - Mini Six Middle Sea Game, session 7
 => 2023/2023-02-01.html 2023-02-01 12:00 EST - BESM 4E's Dimension Walk Attribute is exactly Shadow Shifting from Zelazny's Amber Chronicles
 => 2023/2023-01-30.html 2023-01-30 13:39 EST - If you get the message "Error: unbound variable: geiser#geiser-eval" when working with CHICKEN Scheme and geiser...

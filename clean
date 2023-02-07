@@ -1,0 +1,2 @@
+#! /usr/bin/env bash
+find gmi -name \*.html -exec rm -v {} \;
