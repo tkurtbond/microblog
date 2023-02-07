@@ -4,8 +4,12 @@
 
 Random musings about books, computers, tabletop role-playing games, and miscellaneous bits, in smaller bits.  A supplement to the original, not a replacement.
 
-=> blog/blog.html µBlog
-=> blog/blog-middle-sea.html Mini Six Middle Sea sub-Blog
-=> blog/blog-computing.html Computing
-=> random.html Random Things
 => Colophon.html Colophon
+=> random.html Random Things
+
+## Blogs
+
+=> blog/blog.html µBlog
+=> blog/blog-middle-sea.html Mini Six Middle Sea Sub-Blog
+=> blog/blog-computing.html Computing Sub-Blog
+=> blog/blog-gaming.gmi Gaming Sub-Blog
