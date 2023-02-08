@@ -1,23 +1,23 @@
 # What have I been doing?
 
-=> 2023/2023-02-07-fuzzy-recollections-of-a-neat-capability-of-unroff.gmi 2023-02-07 15:28 EST - Fuzzy Recollections of a Neat Capability of Unroff: file-insertions
-=> 2023/2023-02-07-dynamic-powers-vs.power-flux-in-besm-4e.gmi 2023-02-07 10:20 EST - Dynamic Powers vs. Power Flux in BESM 4E
-=> 2023/2023-02-06-How-I-Edit-This-Blog.gmi 2023-02-06 22:16 EST - How I Edit This Blog
-=> 2023/2023-02-05-Mini-Six-Middle-Sea-Game-session-7.gmi 2023-02-05 23:15 EST - Mini Six Middle Sea Game, session 7
-=> 2023/2023-02-01.gmi 2023-02-01 12:00 EST - BESM 4E's Dimension Walk Attribute is exactly Shadow Shifting from Zelazny's Amber Chronicles
-=> 2023/2023-01-30.gmi 2023-01-30 13:39 EST - If you get the message "Error: unbound variable: geiser#geiser-eval" when working with CHICKEN Scheme and geiser...
-=> 2023/2023-01-29.gmi 2023-01-29 23:06 EST - Mini Six Middle Sea Game, session 6
-=> 2023/2023-01-29a.gmi 2023-01-29 14:42 EST - Owlbear Rodeo 1.0 will be open-sourced
-=> 2023/2023-01-22.gmi 2023-01-22 15:34 EST - Mini Six Middle Sea Game, session 5
-=> 2023/2023-01-15.gmi 2023-01-15 16:03 EST - Mini Six Middle Sea Game, session 4
-=> 2023/2023-01-10.gmi 2023-01-10 10:40 EST - A Banner Image
-=> 2023/2023-01-07.gmi 2023-01-07 12:58 EST - BESM Multiverse: Anime RPG World Expansions
-=> 2023/2023-01-01.gmi 2023-01-01 - The New Year is Here!
-=> 2022/2022-12-31.gmi 2022-12-31 - Spending New Year's Eve the Right Way!
-=> 2022/2022-12-30.gmi 2022-12-30 - New (micro) blog!
+=> 2023/2023-02-07-fuzzy-recollections-of-a-neat-capability-of-unroff.gmi 2023-02-07 15:28:00 EST - Fuzzy Recollections of a Neat Capability of Unroff: file-insertions
+=> 2023/2023-02-07-dynamic-powers-vs.power-flux-in-besm-4e.gmi 2023-02-07 10:20:00 EST - Dynamic Powers vs. Power Flux in BESM 4E
+=> 2023/2023-02-06-How-I-Edit-This-Blog.gmi 2023-02-06 22:16:00 EST - How I Edit This Blog
+=> 2023/2023-02-05-Mini-Six-Middle-Sea-Game-session-7.gmi 2023-02-05 23:15:00 EST - Mini Six Middle Sea Game, session 7
+=> 2023/2023-02-01.gmi 2023-02-01 12:00:00 EST - BESM 4E's Dimension Walk Attribute is exactly Shadow Shifting from Zelazny's Amber Chronicles
+=> 2023/2023-01-30.gmi 2023-01-30 13:39:00 EST - If you get the message "Error: unbound variable: geiser#geiser-eval" when working with CHICKEN Scheme and geiser...
+=> 2023/2023-01-29.gmi 2023-01-29 23:06:00 EST - Mini Six Middle Sea Game, session 6
+=> 2023/2023-01-29a.gmi 2023-01-29 14:42:00 EST - Owlbear Rodeo 1.0 will be open-sourced
+=> 2023/2023-01-22.gmi 2023-01-22 15:34:00 EST - Mini Six Middle Sea Game, session 5
+=> 2023/2023-01-15.gmi 2023-01-15 16:03:00 EST - Mini Six Middle Sea Game, session 4
+=> 2023/2023-01-10.gmi 2023-01-10 10:40:00 EST - A Banner Image
+=> 2023/2023-01-07.gmi 2023-01-07 12:58:00 EST - BESM Multiverse: Anime RPG World Expansions
+=> 2023/2023-01-01.gmi 2023-01-01 01:01:01 EST - The New Year is Here!
+=> 2022/2022-12-31.gmi 2022-12-31 23:01:01 EST - Spending New Year's Eve the Right Way!
+=> 2022/2022-12-30.gmi 2022-12-30 23:01:01 EST - New (micro) blog!
 
 Isn't time travel SUCH fun?!?!?!?
 
-=> 2022/2022-12-23.gmi 2022-12-23 13:50 EST - Mini Six Middle Sea Game, session 3
-=> 2021/2021-06-11.gmi 2021-06-11 16:23 EST - Mini Six Middle Sea Game, session 2
-=> 2021/2021-06-04.gmi 2021-06-04 16:15 EST - Mini Six Middle Sea Game, session 1
+=> 2022/2022-12-23.gmi 2022-12-23 13:50:00 EST - Mini Six Middle Sea Game, session 3
+=> 2021/2021-06-11.gmi 2021-06-11 16:23:00 EST - Mini Six Middle Sea Game, session 2
+=> 2021/2021-06-04.gmi 2021-06-04 16:15:00 EST - Mini Six Middle Sea Game, session 1

@@ -1,4 +1,4 @@
-# 2023-01-29 14:42 EST - Owlbear Rodeo 1.0 will be open-sourced
+# 2023-01-29 14:42:00 EST - Owlbear Rodeo 1.0 will be open-sourced
 
 This is old news, but according to the Owlbear.Rodeo folks, Owlbear.Rodeo 1.0 will eventually be shut down, but it will also be open-sourced.
 

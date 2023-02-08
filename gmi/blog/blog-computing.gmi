@@ -1,4 +1,4 @@
 # Computing
 
-=> 2023/2023-02-07-fuzzy-recollections-of-a-neat-capability-of-unroff.gmi 2023-02-07 15:28 EST - Fuzzy Recollections of a Neat Capability of Unroff: file-insertions
-=> 2023/2023-02-06-How-I-Edit-This-Blog.gmi 2023-02-06 22:16 EST - How I Edit This Blog
+=> 2023/2023-02-07-fuzzy-recollections-of-a-neat-capability-of-unroff.gmi 2023-02-07 15:28:00 EST - Fuzzy Recollections of a Neat Capability of Unroff: file-insertions
+=> 2023/2023-02-06-How-I-Edit-This-Blog.gmi 2023-02-06 22:16:00 EST - How I Edit This Blog

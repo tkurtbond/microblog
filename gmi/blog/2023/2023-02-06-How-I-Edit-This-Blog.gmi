@@ -1,4 +1,4 @@
-# 2023-02-06 22:16 EST - How I Edit This Blog
+# 2023-02-06 22:16:00 EST - How I Edit This Blog
 
 I use GNU Emacs, of course.
 => https://www.gnu.org/software/emacs/ GNU Emacs

@@ -1,4 +1,4 @@
-# 2023-01-10 10:40 EST - A Banner Image
+# 2023-01-10 10:40:00 EST - A Banner Image
 
 A friend thought I should put a image on my micro site/blog, so I did.  It is at the index page for the site, and in this post as well.
 

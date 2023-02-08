@@ -1,4 +1,4 @@
-# 2023-02-07 15:28 EST - Fuzzy Recollections of a Neat Capability of Unroff: file-insertions 
+# 2023-02-07 15:28:00 EST - Fuzzy Recollections of a Neat Capability of Unroff: file-insertions 
 
 TKB: So, you know how you sometimes need to output something before the data you need to do it has been read from the input?  So normally you save the input data in memory until you’ve read it all, then you find the information you need to output the early bit, then process the input data from memory to produce the output?
 
