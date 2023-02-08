@@ -7,9 +7,9 @@ Random musings about books, computers, tabletop role-playing games, and miscella
 => Colophon.gmi Colophon
 => random.gmi Random Things
 
-## Blogs
+## µBlog
 
-=> blog/blog.gmi µBlog
-=> blog/blog-middle-sea.gmi Mini Six Middle Sea Sub-Blog
-=> blog/blog-computing.gmi Computing Sub-Blog
-=> blog/blog-gaming.gmi Gaming Sub-Blog
+=> blog/blog.gmi T. Kurt Bond's µBlog
+=> blog/blog-middle-sea.gmi T. Kurt Bond's µBlog, Mini Six Middle Sea Sub-Blog
+=> blog/blog-computing.gmi T. Kurt Bond's µBlog, Computing Sub-Blog
+=> blog/blog-gaming.gmi T. Kurt Bond's µBlog, Gaming Sub-Blog
