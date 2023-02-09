@@ -1,2 +1,2 @@
 #! /usr/bin/env bash
-./build.sh && ./nfsrsync
+./build.sh && ./atom && ./nfsrsync

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom">
+  <title>T. Kurt Bond's µBlog, Computing Sub-Blog</title>
+  <link rel="alternate" type="text/html" href="http://consp.org/blog/blog-computing.html"/>
+  <link rel="self" type="application/atom+xml" href="http://consp.org/blog/blog-computing.atom"/>
+  <updated>2023-02-07T15:28:00-05:00</updated>
+  <author>
+    <name>T. Kurt Bond</name>
+  </author>
+  <id>http://consp.org/blog/blog-computing.atom</id>
+  <rights>Copyright © 2023 T. Kurt Bond</rights>
+  <generator uri="https://github.com/tkurtbond/microblog/blob/main/Tools/gmi-blog-atom.scm">gmi-blog-atom</generator>
+
+  <entry>
+    <title>Fuzzy Recollections of a Neat Capability of Unroff: file-insertions</title>
+    <link href="http://consp.org/blog/2023/2023-02-07-fuzzy-recollections-of-a-neat-capability-of-unroff.html"/>
+    <id>http://consp.org/blog/2023/2023-02-07-fuzzy-recollections-of-a-neat-capability-of-unroff.html</id>
+    <updated>2023-02-07T15:28:00-05:00</updated>
+  </entry>
+
+  <entry>
+    <title>How I Edit This Blog</title>
+    <link href="http://consp.org/blog/2023/2023-02-06-How-I-Edit-This-Blog.html"/>
+    <id>http://consp.org/blog/2023/2023-02-06-How-I-Edit-This-Blog.html</id>
+    <updated>2023-02-06T22:16:00-05:00</updated>
+  </entry>
+
+</feed>

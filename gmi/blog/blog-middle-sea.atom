@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom">
+  <title>T. Kurt Bond's µBlog, Mini Six Middle Sea Sub-Blog</title>
+  <link rel="alternate" type="text/html" href="http://consp.org/blog/blog-middle-sea.html"/>
+  <link rel="self" type="application/atom+xml" href="http://consp.org/blog/blog-middle-sea.atom"/>
+  <updated>2023-02-05T23:15:00-05:00</updated>
+  <author>
+    <name>T. Kurt Bond</name>
+  </author>
+  <id>http://consp.org/blog/blog-middle-sea.atom</id>
+  <rights>Copyright © 2023 T. Kurt Bond</rights>
+  <generator uri="https://github.com/tkurtbond/microblog/blob/main/Tools/gmi-blog-atom.scm">gmi-blog-atom</generator>
+
+  <entry>
+    <title>Mini Six Middle Sea Game, session 7</title>
+    <link href="http://consp.org/blog/2023/2023-02-05-Mini-Six-Middle-Sea-Game-session-7.html"/>
+    <id>http://consp.org/blog/2023/2023-02-05-Mini-Six-Middle-Sea-Game-session-7.html</id>
+    <updated>2023-02-05T23:15:00-05:00</updated>
+  </entry>
+
+  <entry>
+    <title>Mini Six Middle Sea Game, session 6</title>
+    <link href="http://consp.org/blog/2023/2023-01-29.html"/>
+    <id>http://consp.org/blog/2023/2023-01-29.html</id>
+    <updated>2023-01-29T23:06:00-05:00</updated>
+  </entry>
+
+  <entry>
+    <title>Mini Six Middle Sea Game, session 5</title>
+    <link href="http://consp.org/blog/2023/2023-01-22.html"/>
+    <id>http://consp.org/blog/2023/2023-01-22.html</id>
+    <updated>2023-01-22T15:34:00-05:00</updated>
+  </entry>
+
+  <entry>
+    <title>Mini Six Middle Sea Game, session 4</title>
+    <link href="http://consp.org/blog/2023/2023-01-15.html"/>
+    <id>http://consp.org/blog/2023/2023-01-15.html</id>
+    <updated>2023-01-15T16:03:00-05:00</updated>
+  </entry>
+
+  <entry>
+    <title>Mini Six Middle Sea Game, session 3</title>
+    <link href="http://consp.org/blog/2022/2022-12-23.html"/>
+    <id>http://consp.org/blog/2022/2022-12-23.html</id>
+    <updated>2022-12-23T13:50:00-05:00</updated>
+  </entry>
+
+  <entry>
+    <title>Mini Six Middle Sea Game, session 2</title>
+    <link href="http://consp.org/blog/2021/2021-06-11.html"/>
+    <id>http://consp.org/blog/2021/2021-06-11.html</id>
+    <updated>2021-06-11T16:23:00-05:00</updated>
+  </entry>
+
+  <entry>
+    <title>Mini Six Middle Sea Game, session 1</title>
+    <link href="http://consp.org/blog/2021/2021-06-04.html"/>
+    <id>http://consp.org/blog/2021/2021-06-04.html</id>
+    <updated>2021-06-04T16:15:00-05:00</updated>
+  </entry>
+
+</feed>

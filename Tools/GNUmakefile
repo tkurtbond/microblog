@@ -7,19 +7,15 @@ BINDIR=$(HOME)/local/bin
 
 INSTALL_PROGRAMS=gmi-blog-atom tztable2scm
 OTHER_PROGRAMS=
-PROGRAMS=$(INSTALL_PROGRAMS:%=build/%) $(OTHER_PROGRAMS:%=build/%)
+PROGRAMS=$(INSTALL_PROGRAMS) $(OTHER_PROGRAMS)
 
-all: build $(PROGRAMS)
+all: $(PROGRAMS)
 
-build:
-	mkdir build
-
-build/gmi-blog-atom: CSCFLAGS+=#-static
-
-build/% : %.scm
-	$(TIME) $(CSC) $(CSCFLAGS) -o $@ $^
-
-$(BINDIR)/% : build/%
+% : %.scm
+	$(TIME) $(CSC) -static $<
+%.o : %.scm
+	$(TIME) $(CSC) -c -J $^ -unit $(^:.scm=)
+$(BINDIR)/% : %
 	[ -d $(BINDIR) ] || (mkdir -p $(BINDIR) && echo built $(BINDIR))
 	cp $< $@
 
@@ -27,7 +23,7 @@ $(BINDIR)/% : build/%
 install: $(foreach e,$(PROGRAMS:%=%),$(BINDIR)/$(notdir $(e)))
 
 clean: 
-	-rm build/*.so build/*.link $(PROGRAMS)
+	-rm *.o *.so *.import.scm $(PROGRAMS) 
 
 realclean: clean
 	-rm .what-sys.dat

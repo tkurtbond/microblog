@@ -7,4 +7,9 @@
 gmi/*.html
 gmi/blog/*.html
 gmi/blog/*/*.html
+gmi/blog/*/*.atom
 Tools/build
+Tools/*.import.scm
+Tools/*.link
+Tools/gmi-blog-atom
+Tools/tztable2scm
