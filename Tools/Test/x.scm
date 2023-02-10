@@ -21,3 +21,20 @@
 
 (define (x0 line) (set! m (irregex-search link-irx line)))
 
+(import (chicken io))
+(import (html-parser))
+(import (sxpath))
+
+
+(define filename "/Users/tkb/Repos/microblog/gmi/blog/2023/2023-02-10-updated-blog-and-atom-generator-to-use-numeric-time-zone-offsets.html")
+(define file (with-input-from-file filename read-string))
+(define x (with-input-from-file filename html->sxml))
+(define y ((sxpath '(html body main)) x))
+(define z (sxml->html y))
+(define a (html-escape z))
+
+  
+(define (x1 s) (set! m (irregex-search irx s)))
+(define irx (sre->irregex '(seq bos (+ alphabetic (* (or alphabetic numeric #\+ #\- #\.)))
+                                #\))))
+

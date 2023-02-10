@@ -1,10 +1,10 @@
 #! /usr/bin/env bash
-
-find gmi -name blog\*.gmi | while read filename
-do
-    atomfilename=$(strip-extension $filename).atom
-    echo atom: converting $filename to $atomfilename
-    gmi-blog-atom \
-        --author="T. Kurt Bond" --drop=1 --base="http://consp.org/" \
-        $filename >$atomfilename
-done
+cd gmi/blog &&
+    find . -name blog\*.gmi | while read filename
+    do
+        atomfilename=$(strip-extension $filename).atom
+        echo atom: converting $filename to $atomfilename
+        gmi-blog-atom \
+            --author="T. Kurt Bond" --base="http://consp.org/blog/" \
+            $filename >$atomfilename
+    done

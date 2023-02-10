@@ -1,5 +1,7 @@
 ;;;; gmi-blog-atom.scm - Convert gemtext .gmi file to an .atom file.
 ;;;
+;;; This needs to run in the same directory as the blog indexes it is reading.
+;;;
 ;;; References: 
 ;;;     Subscribing to Gemini pages -- https://gemini.circumlunar.space/docs/companion/subscription.gmi
 ;;;     RFC 4287 The Atom Syndication Format -- https://www.rfc-editor.org/info/rfc4287
@@ -29,6 +31,10 @@
 (import (srfi 19))
 (import (srfi 152))
 
+(import (html-parser))
+(import (sxpath))
+(import (uri-generic))
+
 (define-syntax dbg
   (syntax-rules ()
     ((_ e1 e2 ...)
@@ -51,34 +57,72 @@
   (if (string>=? s1 s2)
       s1
       s2))
+
+(define (string-empty? s)
+  (= 0 (string-length s)))
  
 (define (make-date-time date time tz)
     (string-append date "T" time tz))
 
 (define (drop-directories number-to-drop pathname)
   (let*-values (((directory filename extension)
-                 (decompose-pathname pathname))
-                ((base-origin base-directory directory-elements)
-                 (decompose-directory directory)))
-    (let* ((directories (drop directory-elements number-to-drop)))
-      (make-pathname directories filename extension))))
+                 (decompose-pathname pathname)))
+    (if directory
+        (let*-values (((base-origin base-directory directory-elements)
+                       (decompose-directory directory)))
+          (let* ((directories (drop directory-elements number-to-drop)))
+            (make-pathname directories filename extension)))
+        pathname)))
+    
+
+(define url-scheme-irx
+  (sre->irregex '(seq bos alphabetic (* (or alphabetic numeric #\+ #\- #\.)))))
+
+(define (make-absolute directory href)
+  (let* ((url (cadr href))
+         (blog-uri (uri-reference (string-append *base-url* directory)))
+         (uri (uri-reference url)))
+    (when (relative-ref? uri)
+      (set-cdr! href (uri->string (uri-relative-to uri blog-uri))))))
 
 (define (process-entry link)
-  (let* ((m             (irregex-search link-irx link))
-         (relative-href (irregex-match-substring m 1))
-         (href          (pathname-replace-extension
-                         (string-append *base-url* "blog/" relative-href)
-                         ".html"))
-         (date          (irregex-match-substring m 2))
-         (time          (irregex-match-substring m 3))
-         (tz            (irregex-match-substring m 4))
-         (title         (irregex-match-substring m 5))
-         (updated       (make-date-time date time tz)))
+  (let* ((m                  (irregex-search link-irx link))
+         (gmi-relative-href  (irregex-match-substring m 1))
+         (html-relative-href (pathname-replace-extension gmi-relative-href
+                                                         ".html"))
+         (_                  (show (current-error-port) "html-relative-href: "
+                                   html-relative-href nl))
+         (href               (string-append *base-url* 
+                                            html-relative-href))
+         (blog-relative     (string-append  (pathname-directory
+                                                    html-relative-href)
+                                           "/"))
+         (_                  (show (current-error-port) "blog-relative: " blog-relative nl))
+         (date               (irregex-match-substring m 2))
+         (time               (irregex-match-substring m 3))
+         (tz                 (irregex-match-substring m 4))
+         (title              (irregex-match-substring m 5))
+         (updated            (make-date-time date time tz))
+         (sxml               (with-input-from-file html-relative-href
+                               html->sxml))
+         (main               ((sxpath '(html body main)) sxml))
+         (_                  (loop for href in ((sxpath '(// main // a @ href))
+                                                sxml)
+                                   do (make-absolute blog-relative href)))
+         (_                  (loop for src in ((sxpath '(// main // img @ src))
+                                               sxml)
+                                   do (make-absolute blog-relative src)))
+         (html               (sxml->html main))
+         (content            (html-escape html)))
+
     (show #t "  <entry>" nl)
     (show #t "    <title>" title "</title>" nl)
     (show #t "    <link href=\"" href "\"/>" nl)
     (show #t "    <id>" href "</id>" nl)
     (show #t "    <updated>" updated "</updated>" nl)
+    (show #t "    <content type=\"text/html\">" nl)
+    (show #t content nl)
+    (show #t "    </content>" nl)
     (show #t "  </entry>" nl nl)))
 
 (define (process-feed update-date gmi-filename title links)
@@ -187,7 +231,11 @@
     (unless *base-url*    (die 127 "Base url was not specified"))
 
     (loop for filename in operands
-          do (generate-atom filename))))
+          do (let-values (((directory filename extension)
+                           (decompose-pathname filename)))
+               (let* ((directory (if (string=? directory ".") #f directory))
+                      (filename (make-pathname directory filename extension)))
+                 (generate-atom filename))))))
 
 ;; Only invoke main if this has been compiled.  That way we can load the
 ;; module into csi and debug it. 
