@@ -3,7 +3,7 @@
   <title>T. Kurt Bond's µBlog, Computing Sub-Blog</title>
   <link rel="alternate" type="text/html" href="http://consp.org/blog/blog-computing.html"/>
   <link rel="self" type="application/atom+xml" href="http://consp.org/blog/blog-computing.atom"/>
-  <updated>2023-02-10T08:20:39-05:00</updated>
+  <updated>2023-02-10T13:20:23-05:00</updated>
   <author>
     <name>T. Kurt Bond</name>
   </author>
@@ -12,10 +12,35 @@
   <generator uri="https://github.com/tkurtbond/microblog/blob/main/Tools/gmi-blog-atom.scm">gmi-blog-atom</generator>
 
   <entry>
+    <title>And now the Atom feeds have the content of the posts in the entries</title>
+    <link href="http://consp.org/blog/2023/2023-02-10-and-now-the-atom-feeds-have-the-content-of-the-posts-in-the-entries.html"/>
+    <id>http://consp.org/blog/2023/2023-02-10-and-now-the-atom-feeds-have-the-content-of-the-posts-in-the-entries.html</id>
+    <updated>2023-02-10T13:20:23-05:00</updated>
+    <content type="text/html">
+&lt;main&gt;
+&lt;h1&gt;2023-02-10 13:20:23-05:00 - And now the Atom feeds have the content of the posts in the entries&lt;/h1&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;This way, when you look at an entry in a feed reader, it shows you the content of the blog post, instead of looking empty and requiring you to open the link to the content, however your feed reader does that.  The content has a lot of vertical white space, which seems to be an unfortunate interaction between how I&amp;#39;ve been writing the gemtext of the blog and way the Lichen CMS, which I use to render the gemtext of the blog to HTML, does its conversion.&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;https://lichen.sensorstation.co/&quot;&gt;Lichen&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;https://gemini.circumlunar.space/docs/gemtext.html&quot;&gt;gemtext &lt;/a&gt;&lt;/p&gt;	&lt;/main&gt;
+    </content>
+  </entry>
+
+  <entry>
     <title>Updated blog and Atom generator to use numeric time zone offsets</title>
     <link href="http://consp.org/blog/2023/2023-02-10-updated-blog-and-atom-generator-to-use-numeric-time-zone-offsets.html"/>
     <id>http://consp.org/blog/2023/2023-02-10-updated-blog-and-atom-generator-to-use-numeric-time-zone-offsets.html</id>
     <updated>2023-02-10T08:20:39-05:00</updated>
+    <content type="text/html">
+&lt;main&gt;
+&lt;h1&gt;2023-02-10 08:20:39-05:00 - Updated blog and Atom generator to use numeric time zone offsets&lt;/h1&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;It turns out that multiple locations use, colloquially, the same time zone abbreviations for different time zones.  For instance, apparently, EST is used for part of the Americas and also for part of Australia.  So I decided to eliminate that ambiguity and just use the numeric time zone offset in the headers on this blog.  It makes generating the Atom feeds simpler.&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;Oh, that&amp;#39;s right; I&amp;#39;ve updated the blog and sub-blogs to have Atom feeds.&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;https://en.wikipedia.org/wiki/Atom_(web_standard)&quot;&gt;Atom Syndication Format&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;https://www.rfc-editor.org/info/rfc4287&quot;&gt;RFC 4287 The Atom Syndication Format&lt;/a&gt;&lt;/p&gt;	&lt;/main&gt;
+    </content>
   </entry>
 
   <entry>
@@ -23,6 +48,29 @@
     <link href="http://consp.org/blog/2023/2023-02-07-fuzzy-recollections-of-a-neat-capability-of-unroff.html"/>
     <id>http://consp.org/blog/2023/2023-02-07-fuzzy-recollections-of-a-neat-capability-of-unroff.html</id>
     <updated>2023-02-07T15:28:00-05:00</updated>
+    <content type="text/html">
+&lt;main&gt;
+&lt;h1&gt;2023-02-07 15:28:00-05:00 - Fuzzy Recollections of a Neat Capability of Unroff: file-insertions &lt;/h1&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;TKB: So, you know how you sometimes need to output something before the data you need to do it has been read from the input?  So normally you save the input data in memory until you’ve read it all, then you find the information you need to output the early bit, then process the input data from memory to produce the output?&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;CPB: Yep, I have been there before!&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;TKB: But that is pain if you have to deal with large files and don’t have enough memory.  Usually you’ve got more disk space than memory, so there is an interesting trick you can do instead that I learned from how Unroff (the roff translator written in Elk Scheme) handled cross references and tables of contents when converting to HTML.  You don’t have the section titles for the table of contents or the names of the HTML files they’ll be in (because you’re chucking the output into multiple files) until you have read the whole document.  So, just record the position in the file where the table of contents would go, and has you encounter sections record the section title and the output file it is in and then at the end of generating the files copy the file up to the point where the table of contents is, then output the table of contents with all the correct section titles and links to the output html files, and then copy the rest of the file.  In fact, Unroff generalized to multiple files in such a way that you could record positions to use later in any file and add the necessary information no matter where in the input and output you were.  Very useful!&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;TKB: Back to unroff, I downloaded the source and groffed the manual, and see it is a little more primitive than I remembered.  You used a stream-position function to record the output positions you were interested in, and added the filename, position, and text to be inserted to a list, and at the end of the program you passed all those to the file-insertions procedure (probably as the result of an exit event handler), which did all the rewriting.  This was supported by the streams functionality: “Input, output, and storage of text lines in unroff are centered around a new Scheme data type named stream and a set of primitives that work on streams. A stream can act as a source (input stream) or as a sink (output stream) for lines of text. Streams not only serve as the basis for input and output operations and for the exchange of text with shell commands, but can also be used to temporarily buffer lines of text (e.g. foot- notes or tables of contents) and to implement user-defined macros in a simple way.”&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;Unroff was written in Elk Scheme, which was a neat early Scheme.  The versions from the original pages are still available, but may not run on modern Unixen. &lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;http://www-rn.informatik.uni-bremen.de/software/unroff/&quot;&gt;Unroff Home Page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;http://www-rn.informatik.uni-bremen.de/software/unroff/dist/unroff-1.0.tar.gz&quot;&gt;Unroff Source&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;http://www-rn.informatik.uni-bremen.de/software/elk/&quot;&gt;Elk Scheme: The Extension Language Kit&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;http://www-rn.informatik.uni-bremen.de/software/elk/dist.html&quot;&gt;Elk: Distribution and Source Page&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;http://www-rn.informatik.uni-bremen.de/software/elk/dist/elk-3.0.tar.gz&quot;&gt;Elk Source&lt;/a&gt;&lt;/p&gt;&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;There is a newer version of Elk Scheme that may run on modern Unixen.&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;http://sam.zoy.org/elk/&quot;&gt;Elk Scheme - the Extension Language Kit, from Sam Voy&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;http://sam.zoy.org/elk/elk-3.99.8.tar.bz2&quot;&gt;Prerelease: Elk Scheme 3.99.8&lt;/a&gt;&lt;/p&gt;&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;Here are the manuals that come with Unroff in PDF:&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;http://consp.org/files/unroff/unroff.1.pdf&quot;&gt;unroff.1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;http://consp.org/files/unroff/unroff-html-man.1.pdf&quot;&gt;unroff-html-man.1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;http://consp.org/files/unroff/manual.ms.pdf&quot;&gt;manual.ms&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;http://consp.org/files/unroff/unroff-html.1.pdf&quot;&gt;unroff-html.1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;http://consp.org/files/unroff/unroff-html-ms.1.pdf&quot;&gt;unroff-html-ms.1&lt;/a&gt;&lt;/p&gt;&lt;br&gt;&lt;/br&gt;
+	&lt;/main&gt;
+    </content>
   </entry>
 
   <entry>
@@ -30,6 +78,21 @@
     <link href="http://consp.org/blog/2023/2023-02-06-How-I-Edit-This-Blog.html"/>
     <id>http://consp.org/blog/2023/2023-02-06-How-I-Edit-This-Blog.html</id>
     <updated>2023-02-06T22:16:00-05:00</updated>
+    <content type="text/html">
+&lt;main&gt;
+&lt;h1&gt;2023-02-06 22:16:00-05:00 - How I Edit This Blog&lt;/h1&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;I use GNU Emacs, of course.&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;https://www.gnu.org/software/emacs/&quot;&gt;GNU Emacs&lt;/a&gt;&lt;/p&gt;&lt;p&gt;The file tkb-microblog.el contains everything I wrote to support editing these blog posts:&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;https://github.com/tkurtbond/emacs-lisp/blob/master/tkb-microblog.el&quot;&gt;tkb-microblog.el &lt;/a&gt;&lt;/p&gt;&lt;p&gt;When I execute the tkb-microblog function it prompts me for the blog post title, then asks what sub-blogs I want to add it to, if any.  Then it adds a link to the new blog post file to the main blog index and each of the sub-blog indexes I specified, creating them if necessary.&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;The function tkb-find-file-hook makes sure that I edit gemtext files (which end in .gmi) with visual-line-mode on and auto-fill-mode off, because gemini browsers wraps long lines, unless they are preformatted text, and paragraphs are indicated by blank lines.  I also have a minor mode that rebinds M-q (which is normally bound to fill-paragraph) to a function that tells the user not to do that, because the lines are not supposed to be filled.&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;Anyway, I think it works well.&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;Amusingly, right now tkb-microblog.el is 131 lines, about 26% the size of the Lichen CMS, at 494 lines, that I use to render the gemtext of this blog to HTML.&lt;/p&gt;
+&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;https://lichen.sensorstation.co/&quot;&gt;Lichen&lt;/a&gt;&lt;/p&gt;	&lt;/main&gt;
+    </content>
   </entry>
 
 </feed>

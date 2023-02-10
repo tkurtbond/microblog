@@ -1,5 +1,6 @@
 # T. Kurt Bond's µBlog, Computing Sub-Blog
 
+=> 2023/2023-02-10-and-now-the-atom-feeds-have-the-content-of-the-posts-in-the-entries.gmi 2023-02-10 13:20:23-05:00 - And now the Atom feeds have the content of the posts in the entries
 => 2023/2023-02-10-updated-blog-and-atom-generator-to-use-numeric-time-zone-offsets.gmi 2023-02-10 08:20:39-05:00 - Updated blog and Atom generator to use numeric time zone offsets
 => 2023/2023-02-07-fuzzy-recollections-of-a-neat-capability-of-unroff.gmi 2023-02-07 15:28:00-05:00 - Fuzzy Recollections of a Neat Capability of Unroff: file-insertions
 => 2023/2023-02-06-How-I-Edit-This-Blog.gmi 2023-02-06 22:16:00-05:00 - How I Edit This Blog

@@ -1,0 +1,6 @@
+# 2023-02-10 13:20:23-05:00 - And now the Atom feeds have the content of the posts in the entries
+
+This way, when you look at an entry in a feed reader, it shows you the content of the blog post, instead of looking empty and requiring you to open the link to the content, however your feed reader does that.  The content has a lot of vertical white space, which seems to be an unfortunate interaction between how I've been writing the gemtext of the blog and way the Lichen CMS, which I use to render the gemtext of the blog to HTML, does its conversion.
+
+=> https://lichen.sensorstation.co/ Lichen
+=> https://gemini.circumlunar.space/docs/gemtext.gmi gemtext 
