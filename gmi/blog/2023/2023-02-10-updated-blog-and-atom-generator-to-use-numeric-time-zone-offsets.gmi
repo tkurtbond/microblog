@@ -1,0 +1,8 @@
+# 2023-02-10 08:20:39-05:00 - Updated blog and Atom generator to use numeric time zone offsets
+
+It turns out that multiple locations use, colloquially, the same time zone abbreviations for different time zones.  For instance, apparently, EST is used for part of the Americas and also for part of Australia.  So I decided to eliminate that ambiguity and just use the numeric time zone offset in the headers on this blog.  It makes generating the Atom feeds simpler.
+
+Oh, that's right; I've updated the blog and sub-blogs to have Atom feeds.
+
+=> https://en.wikipedia.org/wiki/Atom_(web_standard) Atom Syndication Format
+=> https://www.rfc-editor.org/info/rfc4287 RFC 4287 The Atom Syndication Format

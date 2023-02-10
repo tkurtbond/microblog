@@ -3,13 +3,20 @@
   <title>T. Kurt Bond's µBlog</title>
   <link rel="alternate" type="text/html" href="http://consp.org/blog/blog.html"/>
   <link rel="self" type="application/atom+xml" href="http://consp.org/blog/blog.atom"/>
-  <updated>2023-02-07T15:28:00-05:00</updated>
+  <updated>2023-02-10T08:20:39-05:00</updated>
   <author>
     <name>T. Kurt Bond</name>
   </author>
   <id>http://consp.org/blog/blog.atom</id>
   <rights>Copyright © 2023 T. Kurt Bond</rights>
   <generator uri="https://github.com/tkurtbond/microblog/blob/main/Tools/gmi-blog-atom.scm">gmi-blog-atom</generator>
+
+  <entry>
+    <title>Updated blog and Atom generator to use numeric time zone offsets</title>
+    <link href="http://consp.org/blog/2023/2023-02-10-updated-blog-and-atom-generator-to-use-numeric-time-zone-offsets.html"/>
+    <id>http://consp.org/blog/2023/2023-02-10-updated-blog-and-atom-generator-to-use-numeric-time-zone-offsets.html</id>
+    <updated>2023-02-10T08:20:39-05:00</updated>
+  </entry>
 
   <entry>
     <title>Fuzzy Recollections of a Neat Capability of Unroff: file-insertions</title>
