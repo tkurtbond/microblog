@@ -45,20 +45,15 @@
   (show (current-error-port) "\n")
   (exit status))
 
-(define link-irx (string->irregex "^=> *(.+) +([0-9]{4}-[0-9]{2}-[0-9]{2}) ([0-9]{2}:[0-9]{2}:[0-9]{2}) ([A-Z]{3}+) +- *(.+)"))
+(define link-irx (string->irregex "^=> *(.+) +([0-9]{4}-[0-9]{2}-[0-9]{2}) ([0-9]{2}:[0-9]{2}:[0-9]{2})([-+][0-9]{2}:[0-9]{2}) +- *(.+)"))
 
 (define (string-max s1 s2)
   (if (string>=? s1 s2)
       s1
       s2))
-
-(define tz-abbreviation-to-offset
-  '(("EST" . "-05:00")
-    ("EDT" . "-04:00"))) 
-
+ 
 (define (make-date-time date time tz)
-  (let ((offset (cdr (assoc tz tz-abbreviation-to-offset))))
-    (string-append date "T" time offset)))
+    (string-append date "T" time tz))
 
 (define (drop-directories number-to-drop pathname)
   (let*-values (((directory filename extension)

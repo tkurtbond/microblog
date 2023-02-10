@@ -15,3 +15,9 @@
     ("EST" . "UTC+5")
     ("CST" . "UTC+6")
     ))
+
+(define line "=> 2023/2023-02-10-just-a-test.gmi 2023-02-10 07:59:33-05:00 - Just a test
+")
+
+(define (x0 line) (set! m (irregex-search link-irx line)))
+
