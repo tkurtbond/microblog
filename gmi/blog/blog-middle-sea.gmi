@@ -1,11 +1,11 @@
 # T. Kurt Bond's µBlog, Mini Six Middle Sea Sub-Blog
 
-=> 2023/2023-02-05-Mini-Six-Middle-Sea-Game-session-7.gmi 2023-02-05 23:15:00 EST - Mini Six Middle Sea Game, session 7
-=> 2023/2023-01-29.gmi 2023-01-29 23:06:00 EST - Mini Six Middle Sea Game, session 6
-=> 2023/2023-01-22.gmi 2023-01-22 15:34:00 EST - Mini Six Middle Sea Game, session 5
-=> 2023/2023-01-15.gmi 2023-01-15 16:03:00 EST - Mini Six Middle Sea Game, session 4
-=> 2022/2022-12-23.gmi 2022-12-23 13:50:00 EST - Mini Six Middle Sea Game, session 3
-=> 2021/2021-06-11.gmi 2021-06-11 16:23:00 EST - Mini Six Middle Sea Game, session 2
-=> 2021/2021-06-04.gmi 2021-06-04 16:15:00 EST - Mini Six Middle Sea Game, session 1
+=> 2023/2023-02-05-Mini-Six-Middle-Sea-Game-session-7.gmi 2023-02-05 23:15:00-05:00 - Mini Six Middle Sea Game, session 7
+=> 2023/2023-01-29.gmi 2023-01-29 23:06:00-05:00 - Mini Six Middle Sea Game, session 6
+=> 2023/2023-01-22.gmi 2023-01-22 15:34:00-05:00 - Mini Six Middle Sea Game, session 5
+=> 2023/2023-01-15.gmi 2023-01-15 16:03:00-05:00 - Mini Six Middle Sea Game, session 4
+=> 2022/2022-12-23.gmi 2022-12-23 13:50:00-05:00 - Mini Six Middle Sea Game, session 3
+=> 2021/2021-06-11.gmi 2021-06-11 16:23:00-05:00 - Mini Six Middle Sea Game, session 2
+=> 2021/2021-06-04.gmi 2021-06-04 16:15:00-05:00 - Mini Six Middle Sea Game, session 1
 
 => blog-middle-sea.atom Atom Feed
