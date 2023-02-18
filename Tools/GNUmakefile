@@ -2,17 +2,20 @@ SHELL=bash
 ifndef CSC
 CSC=$(shell type -p csc || type -p chicken-csc || echo 'echo "CSC does not exist; "')
 endif
+ifndef NOSTATIC
+STATIC=-static
+endif
 
 BINDIR=$(HOME)/local/bin
 
-INSTALL_PROGRAMS=gmi-blog-atom tztable2scm
+INSTALL_PROGRAMS=gmi-blog-atom
 OTHER_PROGRAMS=
 PROGRAMS=$(INSTALL_PROGRAMS) $(OTHER_PROGRAMS)
 
 all: $(PROGRAMS)
 
 % : %.scm
-	$(TIME) $(CSC) -static $<
+	$(TIME) $(CSC) $(STATIC) $<
 %.o : %.scm
 	$(TIME) $(CSC) -c -J $^ -unit $(^:.scm=)
 $(BINDIR)/% : %
