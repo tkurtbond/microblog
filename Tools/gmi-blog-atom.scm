@@ -90,14 +90,11 @@
          (gmi-relative-href  (irregex-match-substring m 1))
          (html-relative-href (pathname-replace-extension gmi-relative-href
                                                          ".html"))
-         (_                  (show (current-error-port) "html-relative-href: "
-                                   html-relative-href nl))
          (href               (string-append *base-url* 
                                             html-relative-href))
          (blog-relative     (string-append  (pathname-directory
                                                     html-relative-href)
                                            "/"))
-         (_                  (show (current-error-port) "blog-relative: " blog-relative nl))
          (date               (irregex-match-substring m 2))
          (time               (irregex-match-substring m 3))
          (tz                 (irregex-match-substring m 4))
