@@ -1,5 +1,6 @@
 #! /usr/bin/env bash
 cd gmi/blog &&
+    echo "Running in $(pwd)" &&
     find . -name blog\*.gmi | while read filename
     do
         atomfilename=$(strip-extension $filename).atom
