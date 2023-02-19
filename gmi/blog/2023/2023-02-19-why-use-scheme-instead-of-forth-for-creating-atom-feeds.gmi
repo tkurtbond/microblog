@@ -1,0 +1,31 @@
+# 2023-02-19 16:25:45-05:00 - Why use Scheme instead of Forth for creating Atom feeds?
+
+Despite admiring Forth, and having written an Forth-like language in the dim past, I have to admit that using Forth to parse and translate text with a complicated structure would be difficult for me, and I am more productive using CHICKEN Scheme for that.  Forth's concrete nature and small size, which makes it very appropriate and helpful for some things, especially if you are building something from scratch and control the design of everything involved, but when working with existing complicated designs imposed from outside I find it helpful to use tools with more libraries.
+
+Some people in the Forth world think that you should always start from scratch.  This gives you the greatest control over the software you are designing and implementing, and allows you to throw out many of the complications that you don't really need.  However, when some of that complication is imposed from outside (the Atom Syndication Format, for instance, or HTML) it is helpful to use already written software if it is available and easier to use than writing your own from scratch.
+
+Lichen, the CMS this blog/site uses to render its Gemtext into HTML, does that: parsing Gemtext is very simple, and generating HTML from it is pretty easy, so using Forth works well.  However, to generate Atom feeds you have to follow the rules for Subscribing to Gemini pages, which are pretty simple, and at least four RFCs (4287, 8288, 3339, and 3987), which are somewhat complicated.  While generating the text of an Atom feed is simple, once you've got all the necessary data, to get that data you have to be able to do things like parse dates and HTML, select the interesting parts of the HTML, and re-encode the HTML with the proper escaping.  
+
+If you look at the list of packages available in theForthNet's package manager (the only package manager I've found for Forth) there are 36 packages available, and they don't include any to deal with RFC 3339 Timestamps, parse HTML, select the proper parts of the HTML structure, manipulate them, and generate the HTML.  No regular expression library, etc.  When you look at the list of eggs (what CHICKEN Scheme calls its packaged libraries), there are 564 of them and they include lots of things I used to write the Atom feed generator for this blog/site.
+
+=> http://theforth.net/packages theForthNet Forth packages
+=> http://eggs.call-cc.org/5/ Eggs (packages) for CHICKEN Scheme 5
+
+I know there are 564 because, instead of counting by hand, like I did for the Forth pages at theForthNet, I wrote a 12 line CHICKEN Scheme program using two built-in libraries and three eggs that downloaded the web page that lists the CHICKEN Scheme eggs, parsed it into a Scheme version of XML, selected the relevant parts of the web page, and counted them.  It took me about 10 or 15 minutes, most of which was looking at the API for the libraries and looking at the intermediate results to make sure I was looking at the right things.
+
+Here is the program:
+```
+(import (chicken io))
+(import (chicken port))
+(import (html-parser))
+(import (sxpath))
+(import (http-client))
+;;(import (srfi-1))
+
+(define url "http://eggs.call-cc.org/5/")
+(define eggs-page (with-input-from-request url #f read-string))
+(define eggs-sxml (with-input-from-string eggs-page html->sxml))
+(define eggs-urls ((sxpath '(// td a)) eggs-sxml))
+(length eggs-urls)
+```
+If there had been easily available Forth packages for things I needed help with I would probably have written the Atom feed generator in Forth.  There WERE easily available CHICKEN Scheme packages for those things, so I used it instead.

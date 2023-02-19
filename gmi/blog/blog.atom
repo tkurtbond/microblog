@@ -3,13 +3,71 @@
   <title>T. Kurt Bond's µBlog</title>
   <link rel="alternate" type="text/html" href="http://consp.org/blog/blog.html"/>
   <link rel="self" type="application/atom+xml" href="http://consp.org/blog/blog.atom"/>
-  <updated>2023-02-14T11:45:04-05:00</updated>
+  <updated>2023-02-19T16:25:45-05:00</updated>
   <author>
     <name>T. Kurt Bond</name>
   </author>
   <id>http://consp.org/blog/blog.atom</id>
   <rights>Copyright © 2023 T. Kurt Bond</rights>
   <generator uri="https://github.com/tkurtbond/microblog/blob/main/Tools/gmi-blog-atom.scm">gmi-blog-atom</generator>
+
+  <entry>
+    <title>Why use Scheme instead of Forth for creating Atom feeds?</title>
+    <link href="http://consp.org/blog/2023/2023-02-19-why-use-scheme-instead-of-forth-for-creating-atom-feeds.html"/>
+    <id>http://consp.org/blog/2023/2023-02-19-why-use-scheme-instead-of-forth-for-creating-atom-feeds.html</id>
+    <updated>2023-02-19T16:25:45-05:00</updated>
+    <content type="text/html">
+&lt;main&gt;
+&lt;h1&gt;2023-02-19 16:25:45-05:00 - Why use Scheme instead of Forth for creating Atom feeds?&lt;/h1&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;Despite admiring Forth, and having written an Forth-like language in the dim past, I have to admit that using Forth to parse and translate text with a complicated structure would be difficult for me, and I am more productive using CHICKEN Scheme for that.  Forth&amp;#39;s concrete nature and small size, which makes it very appropriate and helpful for some things, especially if you are building something from scratch and control the design of everything involved, but when working with existing complicated designs imposed from outside I find it helpful to use tools with more libraries.&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;Some people in the Forth world think that you should always start from scratch.  This gives you the greatest control over the software you are designing and implementing, and allows you to throw out many of the complications that you don&amp;#39;t really need.  However, when some of that complication is imposed from outside (the Atom Syndication Format, for instance, or HTML) it is helpful to use already written software if it is available and easier to use than writing your own from scratch.&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;Lichen, the CMS this blog/site uses to render its Gemtext into HTML, does that: parsing Gemtext is very simple, and generating HTML from it is pretty easy, so using Forth works well.  However, to generate Atom feeds you have to follow the rules for Subscribing to Gemini pages, which are pretty simple, and at least four RFCs (4287, 8288, 3339, and 3987), which are somewhat complicated.  While generating the text of an Atom feed is simple, once you&amp;#39;ve got all the necessary data, to get that data you have to be able to do things like parse dates and HTML, select the interesting parts of the HTML, and re-encode the HTML with the proper escaping.  &lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;If you look at the list of packages available in theForthNet&amp;#39;s package manager (the only package manager I&amp;#39;ve found for Forth) there are 36 packages available, and they don&amp;#39;t include any to deal with RFC 3339 Timestamps, parse HTML, select the proper parts of the HTML structure, manipulate them, and generate the HTML.  No regular expression library, etc.  When you look at the list of eggs (what CHICKEN Scheme calls its packaged libraries), there are 564 of them and they include lots of things I used to write the Atom feed generator for this blog/site.&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;http://theforth.net/packages&quot;&gt;theForthNet Forth packages&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;http://eggs.call-cc.org/5/&quot;&gt;Eggs (packages) for CHICKEN Scheme 5&lt;/a&gt;&lt;/p&gt;&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;I know there are 564 because, instead of counting by hand, like I did for the Forth pages at theForthNet, I wrote a 12 line CHICKEN Scheme program using two built-in libraries and three eggs that downloaded the web page that lists the CHICKEN Scheme eggs, parsed it into a Scheme version of XML, selected the relevant parts of the web page, and counted them.  It took me about 10 or 15 minutes, most of which was looking at the API for the libraries and looking at the intermediate results to make sure I was looking at the right things.&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;Here is the program:&lt;/p&gt;
+&lt;pre aria-label=&quot;&quot;&gt;
+(import (chicken io))
+(import (chicken port))
+(import (html-parser))
+(import (sxpath))
+(import (http-client))
+;;(import (srfi-1))
+
+(define url &amp;quot;http://eggs.call-cc.org/5/&amp;quot;)
+(define eggs-page (with-input-from-request url #f read-string))
+(define eggs-sxml (with-input-from-string eggs-page html-&amp;gt;sxml))
+(define eggs-urls ((sxpath &amp;#39;(// td a)) eggs-sxml))
+(length eggs-urls)
+&lt;/pre&gt;
+&lt;p&gt;If there had been easily available Forth packages for things I needed help with I would probably have written the Atom feed generator in Forth.  There WERE easily available CHICKEN Scheme packages for those things, so I used it instead.&lt;/p&gt;
+	&lt;/main&gt;
+    </content>
+  </entry>
+
+  <entry>
+    <title>Why this µBlog/Site?</title>
+    <link href="http://consp.org/blog/2023/2023-02-19-why-this-blog-site.html"/>
+    <id>http://consp.org/blog/2023/2023-02-19-why-this-blog-site.html</id>
+    <updated>2023-02-19T16:09:01-05:00</updated>
+    <content type="text/html">
+&lt;main&gt;
+&lt;h1&gt;2023-02-19 16:09:01-05:00 - Why this µBlog/Site?&lt;/h1&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;Why do I have this micro-blog/site, when I&amp;#39;ve got another blog and site?  Because composing posts in Gemtext forces me to concentrate on writing and not get distracted by formatting the text.&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;In writing I&amp;#39;ve moved from word processors (starting back on the the Apple ][+), to document formatting languages (Digital Standard Runoff, troff, TeX, LaTeX, eventually ConTexT), to SGML/XML/HTML markup languages, to lightweight markup languages (reStructuredText, Markdown), and finally to Gemtext.  After my experience with SGML/XML/DocBook/HTML I began looking for things with less overhead, that take less work between my brain and my fingers when writing.  I&amp;#39;m also easily distracted by tweaking the formatting of things I write.  I&amp;#39;m hoping that the very low overhead way to write will encourage me to write more.  (I know that when I abandoned XML/DocBook I was happier writing, and did more of it.)&lt;/p&gt;
+&lt;br&gt;&lt;/br&gt;
+&lt;p&gt;For some writing my main blog/site is more appropriate for the additional precision that the additional complexity of its implementation gives, but for a lot of things I don&amp;#39;t need that additional complexity.  So, the idea is to choose the appropriate tool for the requirements of the job at hand: troff or ConTexT for complicated output requirements, lightweight markup languages for simple output requirements, and Gemtext for things that have very simple output requirements.&lt;/p&gt;
+	&lt;/main&gt;
+    </content>
+  </entry>
 
   <entry>
     <title>Almost got to play in an OVA game</title>
@@ -20,6 +78,7 @@
 &lt;main&gt;
 &lt;h1&gt;2023-02-14 11:45:04-05:00 - Almost got to play in an OVA game&lt;/h1&gt;
 &lt;br&gt;&lt;/br&gt;
+&lt;img loading=&quot;lazy&quot; src=&quot;http://consp.org/blog/2023/ova-cover.jpeg&quot; alt=&quot;ova-cover.jpeg&quot;&gt;&lt;/img&gt;&lt;br&gt;&lt;/br&gt;
 &lt;p&gt;So, the BESM 4E game I was playing in came to an unexpected stop, alas.  It looked like it might be replaced with OVA: The Anime Role-Playing Game, but in the end we couldn&amp;#39;t agree on an anime setting to play in, and we ended up playing Deathbringer instead.&lt;/p&gt;
 &lt;br&gt;&lt;/br&gt;
 &lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;https://www.dyskami.ca/besm.html&quot;&gt;BESM 4E&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;https://en.wikipedia.org/wiki/Big_Eyes%2C_Small_Mouth&quot;&gt;BESM at Wikipedia&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;https://www.wiseturtle.com/games.html&quot;&gt;OVA: The Anime Role-Playing Game&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a rel=&quot;noreferrer&quot; href=&quot;https://www.drivethrurpg.com/product/396879/Deathbringer-RPG&quot;&gt;Deathbringer&lt;/a&gt;&lt;/p&gt;&lt;br&gt;&lt;/br&gt;

@@ -1,0 +1,7 @@
+# 2023-02-19 16:09:01-05:00 - Why this µBlog/Site?
+
+Why do I have this micro-blog/site, when I've got another blog and site?  Because composing posts in Gemtext forces me to concentrate on writing and not get distracted by formatting the text.
+
+In writing I've moved from word processors (starting back on the the Apple ][+), to document formatting languages (Digital Standard Runoff, troff, TeX, LaTeX, eventually ConTexT), to SGML/XML/HTML markup languages, to lightweight markup languages (reStructuredText, Markdown), and finally to Gemtext.  After my experience with SGML/XML/DocBook/HTML I began looking for things with less overhead, that take less work between my brain and my fingers when writing.  I'm also easily distracted by tweaking the formatting of things I write.  I'm hoping that the very low overhead way to write will encourage me to write more.  (I know that when I abandoned XML/DocBook I was happier writing, and did more of it.)
+
+For some writing my main blog/site is more appropriate for the additional precision that the additional complexity of its implementation gives, but for a lot of things I don't need that additional complexity.  So, the idea is to choose the appropriate tool for the requirements of the job at hand: troff or ConTexT for complicated output requirements, lightweight markup languages for simple output requirements, and Gemtext for things that have very simple output requirements.

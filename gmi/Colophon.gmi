@@ -1,11 +1,28 @@
 # Colophon
 
-I use the Emacs text editor with visual-line-mode to edit the Gemtext of this site, and the Lichen Content Management System to render it to static HTML files, using a Forth program run using Gforth, GNU Forth 0.7.3 (NOT the bleeding edge version), and a couple of bash scripts to run the Forth program.
+I use the Emacs text editor and its visual-line-mode to edit the Gemtext of this site, and the Lichen Content Management System to render it to static HTML files, using a Forth program run using Gforth, GNU Forth 0.7.3 (NOT the bleeding edge version), and a couple of bash scripts to run the Forth program.
 
 => https://www.gnu.org/software/emacs/ Emacs
-=> https://gemini.circumlunar.space/docs/cheatsheet.gmi Gemtext
+=> https://gemini.circumlunar.space/docs/gemtext.gmi Gemtext
 => https://lichen.sensorstation.co/ Lichen
 => http://forth.org/ Forth
 => https://www.gnu.org/software/gforth/ GNU Gforth home page
 => https://ftp.gnu.org/gnu/gforth/gforth-0.7.3.tar.gz Gforth version 0.7.3
 => https://gforth.org/ Gforth home page, with bleeding edge version
+
+I use Emacs and some home-brewed emacs lisp functions to create new blog posts (and keep the blog and sub-blog indexes up-to-date).  I don't really have really have this separated out for other people to use, so you might have to trawl through my other Emacs Lisp init files for some supporting functions.
+
+=> https://github.com/tkurtbond/emacs-lisp/blob/master/tkb-microblog.el tkb-microblog.el, my homebrewed Emacs Lisp stuf to create new posts and keep the blog and sub-blog indexes up-to-date.
+=> https://github.com/tkurtbond/emacs-lisp My Emacs Lisp init files
+
+I recently added Atom feeds generated from the Gemtext indexes of the blog and sub-blog portions of this site.  The program I use to generate them is gmi-blog-atom, and is available in the Tools directory of the Git repository I use for this site and microblog.  It is written in CHICKEN Scheme, a very pragmatic and useful Scheme implementation.
+
+=> https://github.com/tkurtbond/microblog/blob/main/Tools/gmi-blog-atom.scm gmi-blog-atom.scm
+=> https://github.com/tkurtbond/microblog/ Microblog Git Repository
+=> http://call-cc.org/ CHICKEN Scheme
+=> https://www.scheme.org/ The Scheme programming language
+
+## Why?
+
+=> blog/2023/2023-02-19-why-this-blog-site.gmi Why this blog/site?
+=> blog/2023/2023-02-19-why-use-scheme-instead-of-forth-for-creating-atom-feeds.gmi Why use Scheme?
