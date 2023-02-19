@@ -26,7 +26,7 @@ $(BINDIR)/% : %
 install: $(foreach e,$(PROGRAMS:%=%),$(BINDIR)/$(notdir $(e)))
 
 clean: 
-	-rm *.o *.so *.import.scm $(PROGRAMS) 
+	-rm *.o *.so *.import.scm *.link $(PROGRAMS) 
 
 realclean: clean
 	-rm .what-sys.dat
