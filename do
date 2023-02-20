@@ -1,2 +1,2 @@
 #! /usr/bin/env bash
-./build.sh && ./atom && ./nfsrsync
+time (time ./build.sh && time ./atom && time ./nfsrsync)
