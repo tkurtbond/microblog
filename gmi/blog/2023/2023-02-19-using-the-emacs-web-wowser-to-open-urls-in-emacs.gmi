@@ -4,7 +4,7 @@ A couple of the computers I use have limited RAM (4 GiB), and Chrome and Firefox
 
 => https://www.gnu.org/software/emacs/manual/html_mono/eww.html EWW, the Emacs Web Wowser
 
-Here are the functions I use to switch to using EWW.
+Here are the functions I use to switch Emacs to using EWW by default to open URLs:
 ```
 (defun tkb-browse-url-eww (url &optional args)
   "Invoke the eww browser (inside emacs) on URL.  It the optional second
