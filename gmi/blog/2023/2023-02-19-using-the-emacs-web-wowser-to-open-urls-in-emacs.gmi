@@ -1,0 +1,24 @@
+# 2023-02-19 23:56:08-05:00 - Using the Emacs Web Wowser to open URLs in Emacs
+
+A couple of the computers I use have limited RAM (4 GiB), and Chrome and Firefox use up a lot of memory.  So, sometimes I don't want to fire up an entire separate web browser, and since I'm almost always in Emacs anyway, I just use the Emacs Web Wowser, the web browser written in Emacs Lisp.
+
+=> https://www.gnu.org/software/emacs/manual/html_mono/eww.html EWW, the Emacs Web Wowser
+
+Here are the functions I use to switch to using EWW.
+```
+(defun tkb-browse-url-eww (url &optional args)
+  "Invoke the eww browser (inside emacs) on URL.  It the optional second
+argument ARGS is true open in a new buffer."
+  (message "args: %S" args)
+  (eww url (and args 4)))
+
+(defun tkb-toggle-eww ()
+  (interactive)
+  (cond ((eq browse-url-browser-function 'browse-url-default-browser)
+         (message "Switching to EWW for opening URLs.")
+         (setq browse-url-browser-function #'tkb-browse-url-eww))
+        (t
+         (message "Switching to browser-url-default-browser for opening URLs.")
+         (setq browse-url-browser-function #'browse-url-default-browser))))
+```
+You could do something similar using w3m.el, which uses the external text mode web browser w3m to render the HTML, but that doesn't (as far as I know) support images, and EWW does.

@@ -1,5 +1,6 @@
 # T. Kurt Bond's µBlog, Computing Sub-Blog
 
+=> 2023/2023-02-19-using-the-emacs-web-wowser-to-open-urls-in-emacs.gmi 2023-02-19 23:56:08-05:00 - Using the Emacs Web Wowser to open URLs in Emacs
 => 2023/2023-02-19-why-use-scheme-instead-of-forth-for-creating-atom-feeds.gmi 2023-02-19 16:25:45-05:00 - Why use Scheme instead of Forth for creating Atom feeds?
 => 2023/2023-02-10-and-now-the-atom-feeds-have-the-content-of-the-posts-in-the-entries.gmi 2023-02-10 13:20:23-05:00 - And now the Atom feeds have the content of the posts in the entries
 => 2023/2023-02-10-updated-blog-and-atom-generator-to-use-numeric-time-zone-offsets.gmi 2023-02-10 08:20:39-05:00 - Updated blog and Atom generator to use numeric time zone offsets
