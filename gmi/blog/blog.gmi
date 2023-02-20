@@ -1,5 +1,6 @@
 # T. Kurt Bond's µBlog
 
+=> 2023/2023-02-19-mini-six-middle-sea-game-session-8.gmi 2023-02-19 22:21:10-05:00 - Mini Six Middle Sea Game, session 8
 => 2023/2023-02-19-why-use-scheme-instead-of-forth-for-creating-atom-feeds.gmi 2023-02-19 16:25:45-05:00 - Why use Scheme instead of Forth for creating Atom feeds?
 => 2023/2023-02-19-why-this-blog-site.gmi 2023-02-19 16:09:01-05:00 - Why this µBlog/Site?
 => 2023/2023-02-14-almost-got-to-play-in-an-ova-game.gmi 2023-02-14 11:45:04-05:00 - Almost got to play in an OVA game
