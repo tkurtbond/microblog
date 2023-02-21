@@ -1,3 +1,5 @@
+# Random Things
+
 One of my favorite pieces of Forth code:
 ```
 \ BNF Parser                                (c) 1988 B. J. Rodriguez
@@ -19,3 +21,35 @@ One of my favorite pieces of Forth code:
 ```
 
 => https://www.bradrodriguez.com/papers/bnfparse.htm Its origin
+
+And an example of its use:
+```
+                                                           Scr#        7
+\  BNF Parser Example    #2  - infix notation        18 9 88 bjr 14:54
+HEX    2B TOKEN   '+'    2D  TOKEN '-'     2A  TOKEN  '*'     2F TOKEN '/'
+       28 TOKEN   '('    29  TOKEN ')'     5E  TOKEN  '^'
+       30 TOKEN   '0'    31  TOKEN '1'     32  TOKEN  '2'     33 TOKEN '3'
+       34 TOKEN   '4'    35  TOKEN '5'     36  TOKEN  '6'     37 TOKEN '7'
+       38 TOKEN   '8'    39  TOKEN '9'       0 TOKEN  <EOL>
+
+BNF: <DIGIT>      '0'  | '1' | '2' |  '3' | '4' | '5' | '6' | '7'
+    |  '8' | '9' ;BNF
+BNF: <NUMBER>    <DIGIT> <NUMBER>    |     <DIGIT> ;BNF
+
+                                                           Scr#        8
+\ BNF Parser Example     #2 - infix notation         18 9 88 bjr 15:30
+\ from Aho & Ullman,     Principles of Compiler Design, pp.135,178
+: [HERE]     HERE 0 ,   -2 CSP +!  ;    IMMEDIATE
+
+BNF:   <ELEMENT>     '(' [HERE]  ')'  |    <NUMBER> ;BNF
+BNF:   <PRIMARY>     '-' <PRIMARY>    |   <ELEMENT> ;BNF
+BNF:   <FACTOR>    <PRIMARY> '^' <FACTOR> | <PRIMARY> ;BNF
+BNF:   <T'>     '*' <FACTOR> <T'> | '/' <FACTOR> <T'> ;BNF
+BNF:   <TERM>    <FACTOR> <T'> ;BNF
+BNF:   <E'>     '+' <TERM> <E'> | '-' <TERM> <E'>    ;BNF
+BNF:  <EXPRESSION>      <TERM> <E'> ;BNF
+' <EXPRESSION> CFA SWAP !      \ fix the recursion in <ELEMENT>
+
+: PARSE     1 SUCCESS !     <EXPRESSION> <EOL>
+   CR SUCCESS @ IF  ." Successful " ELSE ." Failed " THEN ;
+```
