@@ -1,0 +1,36 @@
+# 2023-02-21 10:45:37-05:00 - Finished rereading OVA: the Anime Role-Playing Game
+
+Well, I finished rereading OVA: the Anime Role-Playing Game.  I takes me longer to read technical writing, like computer books and RPGs, than fiction (my current books-read-per-day score is 1.294, down from my 2022 high of 1.663) but OVA is short, only 165 pages including index, the thanks page, and the two page character sheet.  It is written by Clay Gardner, illustrated by Niko Geyer (whose art also appeared in many BESM books), and published by Wise Turtle.
+
+=> https://www.wiseturtle.com/games.html OVA: The Anime Role-Playing Game
+=> http://www.dyskami.ca/besm.html Big Eyes, Small Mouth (BESM)
+=> https://www.wiseturtle.com/ Wise Turtle
+
+Here is the front cover:
+=> ova-front-cover.png
+
+And here is the back cover:
+=> ova-back-cover.png
+
+It's well and clearly written, with a conversational tone of voice.  The art is well done and appropriate for the Anime theme.
+
+The mechanics are fairly simple.  Allocate positive Levels to Abilities (Attack, Barrier, Cute!, Fly, Knowledge, …), which give your character bonuses to rolls in certain situations and allow them to do things, and negative Levels to Weaknesses (Amnesia, Arrogant, Code of Conduct, Frail, Jittery, …), which give your character penalties to rolls in certain situations.  You can customize them with Perks, which make them more effective but cost Endurance, or Flaws, which make them less effective, but which give back Endurance costs.  (Abilities without Perks generally don't have an Endurance cost.)  Levels are either allocated directly, in which case the characters are limited by the Base Zero Rule, which says the total of a character's Levels of Abilities and Weaknesses should not be above or below zero by more than five, or the Power Ceiling rule, where the GM gives the characters a number of free Levels and a Power Ceiling, and a character can gain more Ability Levels by adding Weaknesses, but the character can't have more levels in Weaknesses than the Power Ceiling minus the number of free Levels.  The third way of limiting characters is the Scaled Cost rule, in which each Level of  Abilities and Weaknesses costs increasingly more points: a Level 1 Ability costs one point, 2 costs two, 3 costs four, 4 costs eight, and 5 costs
+fifteen points.
+
+Characters have Defense, Health, and Endurance ratings.  Defense is two dice plus Levels from relevant Abilities and minus Levels from relevant Weaknesses.  Health and Endurance both start at 40, but can be increased or decreased by Abilities and Weaknesses.  To perform an action you take two dice, add dice to the number of bonuses you have and subtract dice to the number of penalties you have, and roll them and the result is either the value of highest die or the highest sum of matching dice.  So, for instance, if you rolled a 6, 3, 3, 3, 4, and a 4, the result is 9, the highest sum of the matching dice that rolled 3s.  You are rolling against either a GM set Difficulty Number (DN) or an Opposed Roll.  Combat is an Attack Roll versus a Defense Roll, and on a successful attack the Damage is the difference in the two rolls times the Attack's Damage Multiplier (DX).  There are various elaborations, and each character has attacks based on their Level in the Attack ability, modified by Perks and Flaws.
+
+There are 12 sample characters.  Here's the character sheet for one, Karis, and her companion, Arasuni:
+=> karis-character-sheet.png
+
+NPCs are categorized as:
+* Extras, which might not need Abilities and Weaknesses at all.
+* Secondary, which have a few Abilities and Weaknesses at modest Levels, and start with 20 Health and Endurance.
+* Bosses, which are of comparable power to PCs, and have access to special Boss Abilities to give them an extra edge.
+
+There are 8 sample NPCs, 6 Heroic (suitable as Bosses or less antagonistic NPCs), and 2 Secondary.  There are 22 NPC fragments, which are minimally detailed and can be used as is or elaborated further.
+
+It is less detailed and crunchy than BESM, but character generation and game play looks easier.
+
+I think it takes its place as a valuable tool in the RPG toolbox.  I like it a lot.  I'm glad I was reminded of it!
+
+Now I just have to come up with a setting and some adventures to run…
