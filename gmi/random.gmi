@@ -20,7 +20,7 @@ One of my favorite pieces of Forth code:
 : TOKEN ( n)    <BUILDS C, DOES> ( a)  C@ =TOKEN ;
 ```
 
-=> https://www.bradrodriguez.com/papers/bnfparse.htm Its origin
+=> https://www.bradrodriguez.com/papers/bnfparse.htm Its origin: A BNF PARSER IN FORTH
 
 And an example of its use:
 ```
