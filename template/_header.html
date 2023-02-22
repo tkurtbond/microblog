@@ -4,19 +4,35 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 	<title>Lacking Natural Simplicity, Another Take</title>
 	<style>
-                p {
-                        hyphens: auto;
-                        hyphenate-limit-chars: 6 3 2;
-                        hyphenate-limit-lines: 2;
-                        hyphenate-limit-last: always;
-                        text-align: justify;
-                        text-justify: inter-word;
-                }
+		p {
+			-webkit-hyphens: auto;
+			-webkit-hyphenate-limit-before: 3;
+			-webkit-hyphenate-limit-after: 3;
+			-webkit-hyphenate-limit-chars: 6 3 3;
+			-webkit-hyphenate-limit-lines: 2;
+			-webkit-hyphenate-limit-last: always;
+			-webkit-hyphenate-limit-zone: 8%;     -moz-hyphens: auto;
+			-moz-hyphenate-limit-chars: 6 3 3;
+			-moz-hyphenate-limit-lines: 2;
+			-moz-hyphenate-limit-last: always;
+			-moz-hyphenate-limit-zone: 8%;	   -ms-hyphens: auto;
+			-ms-hyphenate-limit-chars: 6 3 3;
+			-ms-hyphenate-limit-lines: 2;
+			-ms-hyphenate-limit-last: always;
+			-ms-hyphenate-limit-zone: 8%;	  hyphens: auto;
+			hyphenate-limit-chars: 6 3 3;
+			hyphenate-limit-lines: 2;
+			hyphenate-limit-last: always;
+			hyphenate-limit-zone: 8%;
+
+			text-align: justify;
+			text-justify: inter-word;
+		}
 		body {
 			font-family: 'Lato', sans-serif;
 			font-size: 0.85rem;
