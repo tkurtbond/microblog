@@ -1,0 +1,7 @@
+#! /usr/bin/env bash
+
+rsync -avz --exclude=\*.html --exclude=\*~ --exclude=.~ --exclude='.#*' \
+      --exclude='#*#' \
+      --chmod=ugo=rwX --no-perms --no-group \
+      gmi/ \
+      germinal@71.19.158.43:consp.org
