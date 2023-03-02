@@ -1,4 +1,5 @@
 # Colophon
+Updated: 2023-03-01 23:33:50-05:00
 
 I use the Emacs text editor and its visual-line-mode to edit the Gemtext of this site, and the Lichen Content Management System to render it to static HTML files, using a Forth program run using Gforth, GNU Forth 0.7.3 (NOT the bleeding edge version), and a couple of bash scripts to run the Forth program.
 
@@ -21,6 +22,11 @@ I recently added Atom feeds generated from the Gemtext indexes of the blog and s
 => https://github.com/tkurtbond/microblog/ Microblog Git Repository
 => http://call-cc.org/ CHICKEN Scheme
 => https://www.scheme.org/ The Scheme programming language
+
+And even more recently I've finally made this available as a capsule in geminispace, using the gemini server software Germinal, which is written in Common Lisp.
+=> gemini://consp.org consp.org in geminispace
+=> https://git.carcosa.net/jmcbray/germinal Germinal
+=> https://lisp-lang.org/ Common Lisp
 
 ## Why?
 
