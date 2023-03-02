@@ -1,5 +1,5 @@
 # 2023-02-19 16:25:45-05:00 - Why use Scheme instead of Forth for creating Atom feeds?
-Updated: 2023-02-20 14:35:05-05:00
+Updated: 2023-03-02 13:52:49-05:00
 
 Despite admiring Forth, and having written an Forth-like language in the dim past, I have to admit that using Forth to parse and translate text with a complicated structure would be difficult for me, and I am more productive using CHICKEN Scheme for that.  Forth's concrete nature and small size, which makes it very appropriate and helpful for some things, especially if you are building something from scratch and control the design of everything involved, but when working with existing complicated designs imposed from outside I find it helpful to use tools with more libraries.
 
@@ -15,7 +15,7 @@ If you look at the list of packages available in theForthNet's package manager (
 I know there are 564 because, instead of counting by hand, like I did for the Forth pages at theForthNet, I wrote a 12 line CHICKEN Scheme program using two built-in libraries and three eggs that downloaded the web page that lists the CHICKEN Scheme eggs, parsed it into a Scheme version of XML, selected the relevant parts of the web page, and counted them.  It took me about 10 or 15 minutes, most of which was looking at the API for the libraries and looking at the intermediate results to make sure I was looking at the right things.
 
 Here is the program:
-```
+``` parse-eggs-list.scm
 (import (chicken io))
 (import (chicken port))
 (import (html-parser))
