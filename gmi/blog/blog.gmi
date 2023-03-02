@@ -1,5 +1,6 @@
 # T. Kurt Bond's µBlog
 
+=> 2023/2023-03-01-now-available-via-gemini.gmi 2023-03-01 23:01:40-05:00 - Now available via gemini!
 => 2023/2023-02-21-finished-rereading-ova-the-anime-role-playing-game.gmi 2023-02-21 10:45:37-05:00 - Finished rereading OVA: the Anime Role-Playing Game
 => 2023/2023-02-19-using-the-emacs-web-wowser-to-open-urls-in-emacs.gmi 2023-02-19 23:56:08-05:00 - Using the Emacs Web Wowser to open URLs in Emacs
 => 2023/2023-02-19-mini-six-middle-sea-game-session-8.gmi 2023-02-19 22:21:10-05:00 - Mini Six Middle Sea Game, session 8
