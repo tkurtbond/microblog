@@ -1,3 +1,5 @@
 # Writing
 
 => 2023/2023-02-19-why-this-blog-site.gmi 2023-02-19 16:09:01-05:00 - Why this µBlog/Site?
+
+=> blog-writing-html.atom Atom Feed for HTML

@@ -11,5 +11,6 @@ gmi/blog/*.atom
 Tools/build
 Tools/*.import.scm
 Tools/*.link
-Tools/gmi-blog-atom
+Tools/gmi-html-atom
+Tools/gmi-gmi-atom
 Tools/tztable2scm

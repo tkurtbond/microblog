@@ -3,9 +3,9 @@ cd gmi/blog &&
     echo "Running in $(pwd)" &&
     find . -name blog\*.gmi | while read filename
     do
-        atomfilename=$(strip-extension $filename).atom
+        atomfilename=$(strip-extension $filename)-html.atom
         echo atom: converting $filename to $atomfilename
-        gmi-blog-atom \
+        gmi-html-atom \
             --author="T. Kurt Bond" --base="http://consp.org/blog/" \
             $filename >$atomfilename
     done

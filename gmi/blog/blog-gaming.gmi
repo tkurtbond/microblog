@@ -12,4 +12,4 @@
 => 2021/2021-06-11.gmi 2021-06-11 16:23:00-05:00 - Mini Six Middle Sea Game, session 2
 => 2021/2021-06-04.gmi 2021-06-04 16:15:00-05:00 - Mini Six Middle Sea Game, session 1
 
-=> blog-gaming.atom Atom Feed
+=> blog-gaming-html.atom Atom Feed for HTML
