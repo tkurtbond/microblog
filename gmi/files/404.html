@@ -8,6 +8,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>The page is not found</title>
+    <script>
+      const images = ["/files/cauldron.jpg",
+                      "/files/south-view.jpg",
+                     ];
+
+      document.addEventListener('DOMContentLoaded', _ => {
+          const randImageIndex = ~~(Math.random() * images.length);
+          const tag = document.querySelector('.randImg')
+          tag.src = images[randImageIndex];
+      });
+    </script>
     <style>
       p {
 	  -webkit-hyphens: auto;
@@ -162,7 +173,7 @@
     <main>
       <h1>What you were looking for cannot be found.</h1>
       <p>Have something else instead:</p>
-      <img src="/files/cauldron.jpg" />
+      <img class="randImg" src="/files/cauldron.jpg" />
       <p>You might start over:</p>
       <p><a href="http://consp.org/">here</a></p>
       <hr/>
