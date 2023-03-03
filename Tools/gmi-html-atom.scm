@@ -10,7 +10,7 @@
 ;;;     RFC 3987 Internationalized Resource Identifiers (IRIs) -- https://www.rfc-editor.org/info/rfc3987
 ;;;     RFC 8141 Uniform Resource Names (URNs) -- https://www.rfc-editor.org/info/rfc8141
 ;;;     W3C Feed Validation Service -- https://validator.w3.org/feed/
-(module gmi-blog-atom ()
+(module gmi-html-atom ()
 
 (import (scheme))
 
