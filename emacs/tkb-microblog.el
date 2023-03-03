@@ -1,6 +1,6 @@
 ;;;; tkb-microblog.el - Stuff to help edit my microblog.
 ;;;
-;;; This undoubtedly depends on things from my normal 
+;;; This probably depends on things from my normal emacs init files.
 
 (defun tkb-find-gmi-file-hook ()
   (when (and (stringp buffer-file-name)
@@ -77,7 +77,7 @@ entry instead."
                       (match-string 1 sublog)
                     nil)))
               (get-categories (sub-blogs)
-                (loop for sub-blog in sub-blogs
+                (cl-loop for sub-blog in sub-blogs
                       collect (get-category sub-blog)))
               (get-index-filenames (indexes lookup)
                 (mapcar (lambda (index)
@@ -115,7 +115,7 @@ entry instead."
            (already-exists-p          (f-exists-p gemtext-pathname))
            (sub-blogs                 (tkb-microblog-sub-blogs))
            (categories                (get-categories sub-blogs))
-           (lookup                    (loop for sub-blog in sub-blogs for category in categories
+           (lookup                    (cl-loop for sub-blog in sub-blogs for category in categories
                                             collect (cons category sub-blog)))
            (indexes                   (completing-read-multiple "Sub-Blogs? " categories))
            (sub-blog-filenames        (cons "blog.gmi"
