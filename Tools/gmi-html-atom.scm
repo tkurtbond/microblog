@@ -146,7 +146,7 @@
     (show #t "  <id>" atom-url "</id>" nl)
     (show #t "  <rights>Copyright © " (date->string (current-date) "~Y") " "
           *author-name* "</rights>" nl)
-    (show #t "  <generator uri=\"https://github.com/tkurtbond/microblog/blob/main/Tools/gmi-blog-atom.scm\">gmi-blog-atom</generator>" nl nl)
+    (show #t "  <generator uri=\"https://github.com/tkurtbond/microblog/blob/main/Tools/gmi-html-atom.scm\">gmi-html-atom</generator>" nl nl)
 
     (loop for link in links do (process-entry link))
 
