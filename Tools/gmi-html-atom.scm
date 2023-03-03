@@ -1,4 +1,4 @@
-;;;; gmi-blog-atom.scm - Convert gemtext .gmi file to an .atom file.
+;;;; gmi-html-atom.scm - Convert gemtext .gmi file to an .atom file for HTML version.
 ;;;
 ;;; This needs to run in the same directory as the blog indexes it is reading.
 ;;;
