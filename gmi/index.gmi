@@ -4,6 +4,13 @@
 
 Random musings about books, computers, tabletop role-playing games, and miscellaneous bits, in smaller bits.  A supplement to the original, not a replacement.
 
+=> https://tkurtbond.github.io/ Lacking Natural Simplicity, the original
+
+This is both a World Wide Web site and a Gemini capsule.
+
+=> http://consp.org On the Web
+=> gemini://consp.org In Geminispace
+
 => Colophon.gmi Colophon
 => random.gmi Random Things
 
