@@ -9,7 +9,6 @@ for src in $(find ../gmi -type f -name '*.gmi'); do
         [[ $src -nt $target ]] && {
                 echo Building $target
 	        cat $src | gforth render.fs -e 'stdin stdout lichen:render bye' > $target
-        } ||
-                echo Skipping $target
+        }
 
 done
