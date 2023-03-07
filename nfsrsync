@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-rsync -avvz --exclude=\*.gmi --exclude=\*~ --exclude=.~ --exclude='.#*' \
+rsync ${DO_RSYNC_OPTIONS} -avz --exclude=\*.gmi --exclude=\*~ --exclude=.~ --exclude='.#*' \
       --exclude='#*#' \
       --chmod=ugo=rwX --no-perms --no-group \
       gmi/ \
