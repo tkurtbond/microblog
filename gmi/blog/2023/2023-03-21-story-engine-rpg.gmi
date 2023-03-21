@@ -1,0 +1,18 @@
+# 2023-03-21 03:37:27-04:00 - Story Engine RPG
+
+The Story Engine RPG popped into my head the other day, for apparently no reason.   As I've mentioned elsewhere, I have long been interested in this game, original published by Hubris Games as Maelstrom Storytelling and then as Story Engine.  It is now published by Precis Intermedia Gaming, and in 2011 they published a revised version, Story Engine Plus.  They have in beta a further development of the system, Story Max, which I should really look at.  Anyway, I really enjoyed Story Engine, the few times I got to play it.
+
+=> http://www.pigames.net/ Precis Intermedia Gaming
+=> https://www.pigames.net/store/default.php?cPath=62 Story Engine
+=> https://www.pigames.net/store/default.php?cPath=118 Story Engine Plus
+
+It's a narrative game.  Characters are described with adjectives and phrases, which determine the size of a dice pool.  The odd numbers rolled are successes.  It uses scene resolution (rather than task or round resolution, as is more common) and has an interesting recursive scene within a scene mechanism called Quick Takes that can affect the outer scene.  There can easily be multiple sides in a scene, and even on one side there might be multiple goals.
+
+And the default setting, the world of the titular Maelstrom, described in the original book, Maelstom Storytelling, was also interesting.  To quote the introduction to that book:
+> In a different place, in another reality, there is a world that once knew the glory of an empire that is now only known in stories.  It’s a world that shifts and changes. A place where dreams are sometimes real. A reality where magic is science. Where alien cultures live next to humankind. A place for war, for mystery, for romance. And through it all rages a storm so strong it can change the world, a storm they call the Maelstrom.
+
+This was the Thousand Realms, and here were skyships and airships, and the marsupials the rossials, some of whom can speak, and intelligent ravens, and Newcomers plucked from other worlds.  Diodet is an old city, the inheritor of the Empire, the Queen's city, a city of theatre, opera, jazz, and swashbuckling.  Dacartha is its opposite, a city of a new industrial age, political ferment and populist movements, the middle class, churches and cults, philosophy, and their music is “the blue”, what we would call the blues.
+
+The setting as a whole was best described in Maelstrom Storytelling, but the rules were significantly cleaned up and explained much more clearly in Story Engine (now published as Story Engine Classic), as well as generalized to be useful in other settings.  Tales from the Empire describes the city of Diodet, while Dacartha Prime describes its rival, as different as night and day.  And I found the 5 issues of The Tempest, the zine from Hubris Games, worthwhile as well.  All of these, except for Tales from the Empire, are available as PDFs now.  While I prefer to read and understand RPGs by reading printed books, for reference I much prefer PDFs, so I can only hope that a PDF of Tales from the Empire is published at some point…
+
+Anyway, having reminisced about Maelstrom Storytelling and Story Engine, I definitely need to run some Story Engine games.  It would be perfect for the times when some of my regular gaming group can't make it: character creation is very quick: come up with a concept, choose species and gender, choose three Descriptors (adjectives or phrases describing the character) choose a Quirk (a negative descriptor), choose three Trait Affinities (which give you automatic successes in your dice pool in some situations, and a Prime Affinity (Cultures or Gifts — magic or stranger powers).  And improvising opponents is very easy as well.
