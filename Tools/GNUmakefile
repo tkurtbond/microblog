@@ -2,9 +2,11 @@ SHELL=bash
 ifndef CSC
 CSC=$(shell type -p csc || type -p chicken-csc || echo 'echo "CSC does not exist; "')
 endif
-ifndef NOSTATIC
-STATIC=-static
-endif
+
+# Stop using static because the executable is 13MiB!
+# ifndef NOSTATIC
+# STATIC=-static
+# endif
 
 BINDIR=$(HOME)/local/bin
 
