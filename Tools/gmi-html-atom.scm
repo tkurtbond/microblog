@@ -35,6 +35,8 @@
 (import (sxpath))
 (import (uri-generic))
 
+(import (tkurtbond))
+
 (define-syntax dbg
   (syntax-rules ()
     ((_ e1 e2 ...)
@@ -44,12 +46,6 @@
 
 (define (dfmt . args)
   (apply show (cons (current-error-port) args)))
-
-(define (die status . args)
-  (show (current-error-port) (program-name) ": ")
-  (apply show (cons (current-error-port) args))
-  (show (current-error-port) "\n")
-  (exit status))
 
 (define link-irx (string->irregex "^=> *(.+) +([0-9]{4}-[0-9]{2}-[0-9]{2}) ([0-9]{2}:[0-9]{2}:[0-9]{2})([-+][0-9]{2}:[0-9]{2}) +- *(.+)"))
 
@@ -109,7 +105,12 @@
          (_                  (loop for src in ((sxpath '(// main // img @ src))
                                                sxml)
                                    do (make-absolute blog-relative src)))
+         ;; This leaves BR tags as "<br></br>".  I could do
+         ;;     (string-join (string-split html "<br></br>") "<br/>")
+         ;; but I'm not sure it is worth the effort.  I wonder if that's what
+         ;; causes the extra blank lines...  Nope.
          (html               (sxml->html main))
+         (html               (string-join (string-split html "<br></br>") "<br/>"))
          (content            (html-escape html)))
 
     (show #t "  <entry>" nl)
@@ -117,21 +118,24 @@
     (show #t "    <link href=\"" href "\"/>" nl)
     (show #t "    <id>" href "</id>" nl)
     (show #t "    <updated>" updated "</updated>" nl)
-    (show #t "    <content type=\"text/html\">" nl)
+    (show #t "    <content type=\"html\">" nl)
     (show #t content nl)
     (show #t "    </content>" nl)
     (show #t "  </entry>" nl nl)))
 
-(define (process-feed update-date gmi-filename title links)
-  (let* ((relative-gmi-filename (drop-directories *directories-to-drop*
-                                                      gmi-filename))
+(define (process-feed update-date gmi-pathname  title links)
+  (let* ((relative-gmi-pathname (drop-directories *directories-to-drop*
+                                                      gmi-pathname))
          (relative-html-filename (pathname-replace-extension
-                                  relative-gmi-filename ".html"))
-         (relative-atom-filename (pathname-replace-extension
-                                  relative-gmi-filename ".atom"))
-
+                                  relative-gmi-pathname ".html"))
+         (relative-html-atom-filename
+          (pathname-replace-extension
+           (pathname-replace-file
+            gmi-pathname 
+            (string-append (pathname-file gmi-pathname) "-html"))
+           "atom"))
          (html-url (string-append *base-url* relative-html-filename))
-         (atom-url (string-append *base-url* relative-atom-filename))
+         (atom-url (string-append *base-url* relative-html-atom-filename))
          )
     (show #t "<?xml version=\"1.0\" encoding=\"utf-8\"?>" nl)
     (show #t "<feed xml:lang=\"en\" xmlns=\"http://www.w3.org/2005/Atom\">" nl)
@@ -152,8 +156,23 @@
 
     (show #t "</feed>" nl)))
 
-(define (generate-atom gmi-filename)
-  (let* ((input-port (open-input-file gmi-filename))
+(define (generate-atom gmi-pathname)
+  (let* ((input-port (open-input-file gmi-pathname))
+         ;; We need to generate atom feeds for both the blog version
+         ;; on the web and the glog version on geminispace.  (Right
+         ;; now we only do the atom feed for the HTML blog version.)
+         ;; So we add "-html" to the gmi pathname's filename for the
+         ;; atom output, to indicate that all the links in it point to
+         ;; the web version with the HTML files.  When we get output
+         ;; the glog version done we'll add "-gmi" to that version,
+         ;; indicating that all the links in it point to the
+         ;; geminispace version with gemtext files.
+         (atom-pathname (pathname-replace-file
+                         gmi-pathname 
+                         (string-append (pathname-file gmi-pathname) "-html")))
+         (atom-pathname (pathname-replace-extension atom-pathname "atom"))
+         (_ (info 1 "atom-pathname: ~s~%" atom-pathname))
+         (output-port (open-output-file atom-pathname))
          (title #f)
          (links '())
          (update-date #f))
@@ -174,7 +193,7 @@
                  (list line)))
               (else '()))))
     (parameterize ((current-input-port input-port)
-                   ;; (current-output-port output-port)
+                   (current-output-port output-port)
                    )
       (let ((links (loop for line = (read-line) then (read-line)
                          until (eof-object? line)
@@ -182,7 +201,11 @@
         (assert title 'generate-atom "Missing title")
         (assert update-date 'generate-atom "Never found the most recent update")
         
-        (process-feed update-date gmi-filename title links)))))
+        (process-feed update-date gmi-pathname title links)
+        (close-input-port input-port)
+        (close-output-port output-port)
+        ))))
+
 
 ;; Variables for command line options.
 (define *author-name* #f)
@@ -203,6 +226,9 @@
          (a author) #:required "Author name"
          (set! *author-name* arg))
         (args:make-option
+         (b base) #:required "Base URL for blog"
+         (set! *base-url* arg))
+        (args:make-option
          (D drop) #:required
          "Drop ARG directory names from the start of relative links."
          (set! *directories-to-drop* (string->number arg)))
@@ -213,8 +239,8 @@
          (P prefix) #:required "Prefix to make links absolute."
          (set! *prefix* arg))
         (args:make-option
-         (b base) #:required "Base URL for blog"
-         (set! *base-url* arg))
+         (v verbose) #:none "Increase the level of verbosity of information messages"
+         (increase-verbosity))
         ))
 
 
@@ -224,8 +250,8 @@
   (receive (options operands) (args:parse (command-line-arguments)
                                           +command-line-options+)
 
-    (unless *author-name* (die 127 "Author name was not specified"))
-    (unless *base-url*    (die 127 "Base url was not specified"))
+    (unless *author-name* (die 127 "Author name was not specified~%"))
+    (unless *base-url*    (die 127 "Base url was not specified~%"))
 
     (loop for filename in operands
           do (let-values (((directory filename extension)

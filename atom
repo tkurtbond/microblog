@@ -1,11 +1,11 @@
 #! /usr/bin/env bash
+# You can pass options to gmi-html-atom to this script.
 cd gmi/blog &&
     echo "Running in $(pwd)" &&
     find . -name blog\*.gmi | while read filename
     do
-        atomfilename=$(strip-extension $filename)-html.atom
-        echo atom: converting $filename to $atomfilename
-        gmi-html-atom \
+        echo atom: converting $filename
+        gmi-html-atom "$@" \
             --author="T. Kurt Bond" --base="http://consp.org/blog/" \
-            $filename >$atomfilename
+            $filename
     done
