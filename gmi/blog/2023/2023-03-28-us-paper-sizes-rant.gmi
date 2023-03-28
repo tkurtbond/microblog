@@ -1,0 +1,10 @@
+# 2023-03-28 11:53:26-04:00 - US Paper Sizes Rant
+
+Why don’t we US folks use paper sizes that are sensible, like the ISO 216 standard?
+=> https://en.wikipedia.org/wiki/ISO_216 ISO 216 International Standard for Paper Sizes
+
+Instead we use a weird mix of sizes that have no relation to any other.  The ISO sizes are consistent, so that, for instance, an A5 page is the same size as half an A4 page, but has the same aspect ratio, so if you reduce an A4 page down to A5 size, it fits perfectly.  Reduce an 8 ½ ×11 inch page to 5½ ×8 and you leave a large part of the page empty!  So stupid!
+
+I have a tendency to print stuff on 5½ ×8 size pages (that’s an almost standard US size, sometimes called Statement, Digest, Halfletter, etc.) as pamphlets, and resizing 8½×11 pages to do that just looks ugly.  It's maybe enough to make me pay the extra cost for A4 paper…
+
+Sigh.  We really should just switch over to metric in general.
