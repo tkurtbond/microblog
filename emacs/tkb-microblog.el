@@ -27,11 +27,6 @@
                 (read-string "Date? " default-date-string))))
     date))
 
-(defun tkb-dont-do-that ()
-  (interactive)
-  (message "Don't DO that!  It hurts!")
-  (beep))
-
 (defun tkb-gmi-insert-updated ()
   (interactive)
   (save-excursion
