@@ -1,0 +1,36 @@
+# 2023-05-23 15:16:25-04:00 - Into the Odd
+
+=> Into-the-Odd-Remastered-cover.png Into the Odd Remastered Front Cover
+
+Into the Odd Remastered  by Chris McDowall is horror dungeon- and hex- crawling with swords, guns, and strange magical artifacts, stripped down to the minimum of rules, set in an unmappably large weird world full of strangeness and inconsistent technology (an abandoned pier of amusement rides is mentioned, but weapons are single shot), and dominated by one huge city, Bastion.  It is a complete game full of weirdness and danger in 144 pages.
+
+=> https://freeleaguepublishing.com/en/store/?product_id=7749919539458 Into the Odd Remastered
+=> https://www.bastionland.com/ Chris McDowall's Bastionland
+
+Firstly, the physical quality of the hardbound book published by Free League Publishing (Fria Ligan) is very good.  The art by Johan Nohr has a consistent aesthetic suitable for the weird world it depicts.  The graphic design, also by Johan Nohr, is clear and easy to read, with reasonably sized text and margins, and good use of color.
+
+=> https://freeleaguepublishing.com/ Free League Publishing (Fria Ligan)
+
+Character creation takes four to five rolls: 3d6 for the three Ability Scores, 1d6 for Hit Points, and possibly a roll for Arcana (magic items) if the character's starting package (select by indexing their highest attribute and their Hit Points on a able) contains one.
+
+Most things except combat are done by rolling under the character's Ability Scores.  Nobody rolls to hit: the player characters act first and apply their damage rolls and then the opponents apply their damage.  Once a character has no HP left they save to avoid Critical Damage, which if take renders them unable to take action until treated.  If they are not treated they die after an hour.  Ability Scores can also be reduced. Characters advance to the next Experience Level after they have been on a specific number of expeditions.  Each time they advance they roll for Hit Points and have a chance to increase each Ability Score.
+
+There are also minimal rules for running businesses and military groups.
+
+There is a very specific but reasonably simple format used for monsters, which is explained on two pages, and followed by two pages containing seven example monsters.  You'll have to depend on your creativity to come up with monsters or adapt them from other games, but minimal stats required look to make this very easy.
+
+There is an example dungeon of three levels and 61 locations.  Each level has its own wandering encounters table, but the entrance area can change how it connects to the rest of the dungeon in 6 interesting ways.  I was very impressed by the simplicity, outstanding clarity, and minimalist completeness  of the format for locations — it is stripped down even further than the format used in Necrotic Gnome's Old School Essentials adventures.  The maps of the levels are hand drawn in a minimalist style with being shackled to a grid, but still provide relative size, connections, and additional useful information without the complicated stylized icons used on traditional dungeon maps.
+
+=> https://necroticgnome.com/ Necrotic Gnome
+=> https://necroticgnome.com/collections/adventures Necrotic Gnome OSE Adventures
+
+There is an example hex-crawl of 24 hexes with a random encounters table and four small dungeon locations.  The myths that people encountered in the hex-crawl tell the characters add significantly to backstory of the area.
+
+There is also a small town provided as an example with a few interesting places and people detailed, a wandering encounters table, and a random table of arrivals from the settings dominant city, Bastion, which includes the things that drive the arrivals.
+
+Following this are 20 pages of random tables that usefully demonstrate the oracular powers of dice, then several pages of alternate types of starting characters, and alternate starter package table, and a small but useful index.
+
+Into the Odd is definitely on the very light end of rules light games, being much lighter than Black Sword Hack, which I'm also reading at the moment. I think it makes a very attractive option for those who like rules light games and dungeon- and hex- crawling.
+
+=> https://www.themerrymushmen.com/product/black-sword-hack-ultimate-chaos-edition/ Black Sword Hack
+
