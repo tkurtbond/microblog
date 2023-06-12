@@ -1,0 +1,34 @@
+# 2023-06-11 22:36:57-04:00 - The Fantasy Trip
+
+I really wish I'd gotten a copy of Steve Jackson's Melee in 1977 and Wizard in 1978 when they came out, and Advanced Melee, Advanced Wizard, and In the Labyrinth when those came out in 1980.  Together those make up the game The Fantasy Trip (TFT).  Melee and Wizard are the basic combat and magic rules, published as board games.  Advanced Melee and Advanced Wizard are the full combat rules.  And In the Labyrinth adds all the other stuff necessary for a complete roleplaying game.
+
+=> Cover_of_Melee_board_game_1977.png Melee, 1977
+=> Cover_of_Wizard_Metagaming_1978.png Wizard, 1978
+
+But I never saw them in any store in my area.  I did meet one person who played The Fantasy Trip, probably in 1981 or so, but never got to talk to him about it; we were both quite busy with other things at the summer camp from hell.  Wish he'd brought his rulebooks…
+
+(I picked up my copies of the original Advanced Melee, Advanced Wizard, and In the Labyrinth much more recently.  Probably in 2018 or so.  Thank goodness for Internet game stores.)
+
+In 2018 Steve Jackson Games kickstarted The Fantasy Trip Legacy Edition, with new versions of Melee and Wizard and a new version of In the Labyrinth that contained everything from the original as well as the rules from Advanced Melee and Advanced Wizard, and I backed it, and got a LOT of stuff.  I liked the new edition of The Fantasy Trip a lot.  But I didn't have a good chance to play it for a while.
+
+=> https://en.wikipedia.org/wiki/Melee_(game) Melee
+=> https://en.wikipedia.org/wiki/Wizard_(board_game) Wizard
+=> https://en.wikipedia.org/wiki/The_Fantasy_Trip The Fantasy Trip at Wikipedia
+=> https://thefantasytrip.game/ The Fantasy Trip at Steve Jackson Games
+
+I recently got to play Melee online and had fun.  It took a while for everybody to get used to the way combat works — it's a hex-based tactical combat system that strives for verisimilitude, and is quite different from anything that the others were used to.  This group has been playing Mini Six mostly of late, with some of Deep7's 1PGs thrown in; previously we've played a lot of Labyrinth Lord and Savage Worlds, and while Savage Worlds is played on a square grid battle map, it's still not tactical in the same way as TFT, DragonQuest, or GURPS.  I played a lot of DragonQuest and GURPS (TFT's younger relative) in the 80s and 90s, which both have hex-grid based tactical combat, and enjoyed them a lot, so TFT's system wasn't such a shock to me.
+
+=> http://www.sjgames.com/gurps/ GURPS
+
+Anyway, I backed Steve Jackson Games' TFT kickstarters as well as Gaming Ballistic's kickstarters, so I've got a lot of the stuff published for The Fantasy Trip Legacy Edition.  It's a pity I'm not playing face to face these days, because most of those kickstarters were loaded with neat stuff for face to face play — megahex tiles, cards of all kinds, neoprene battle maps, and more.
+
+I plan to continue playing Melee online, add in Wizard, and eventually start running a TFT campaign using the many adventures released by Steve Jackson Games and Gaming Ballistic.  And they've released a number of solo adventures, so I plan on playing those as well.
+
+=> http://www.sjgames.com/ Steve Jackson Games
+=> https://gamingballistic.com/ Gaming Ballistic https://en.wikipedia.org/wiki/The_Fantasy_Trip#The_Fantasy_Trip_Legacy_Edition_2019 The Fantasy Trip Legacy Edition
+
+A Melee character has two stats, Strength (ST) and Dexterity (DX), and a secondary stat, Movement Allowance (MA).  ST determines what weapons you can use, DX determines how hard it is for you to hit your opponents, and MA determines how fast you can move on the hex grid battlemap.  Human characters start with 8 in ST and DX and have 8 more points to allocate how you want between the two.  MA depends on what armor you wear, with heavier armor making you slower.  There are NO dump stats, and every combination of stats, weapons, and armor results in quite differently performing characters, which interact with the combat system in interesting ways.  When you are familiar with the system you and one or more friends can create characters and fight a battle in an hour or so, but when you are first starting out it will take a while to internalize the system so it runs quickly.   Each 
+
+Wizard adds a third stat, Intelligence (IQ), and a lot of spells.  You've still only got 8 points to spend between the three stats.
+
+
