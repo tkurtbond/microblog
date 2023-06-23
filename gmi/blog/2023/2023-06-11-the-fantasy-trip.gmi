@@ -22,7 +22,14 @@ I picked up my copies of the original Advanced Melee, Advanced Wizard, and In th
 => Cover_of_Advanced_Wizard_1980.jpg Advanced Wizard
 => Cover_of_In_the_Labyrinth_1980.jpg In the Labyrinth
 
+## Legacy Edition
+
 In 2018 Steve Jackson Games kickstarted The Fantasy Trip Legacy Edition, with new versions of Melee and Wizard and a new version of In the Labyrinth that contained everything from the original as well as the rules from Advanced Melee and Advanced Wizard, and I backed it, and got a LOT of stuff.  I liked the new edition of The Fantasy Trip a lot.  But I didn't have a good chance to play it for a while.
+
+=> Cover_of_Melee_Legacy_Edition.jpg Melee, Legacy Edition
+=> Cover_of_Wizard_Legacy_Edition.jpg Wizard, Legacy Edition
+=> Cover_of_In_the_Labyrinth_Legacy_Edition.jpg In the Labyrinth, Legacy Edition
+=> Cover_of_Pocket_Box_Melee_and_Wizard.png Pocket Box edition of Melee & Wizard
 
 => http://www.sjgames.com/ Steve Jackson Games
 => https://en.wikipedia.org/wiki/The_Fantasy_Trip#The_Fantasy_Trip_Legacy_Edition_2 The Fantasy Trip Legacy Edition
@@ -69,7 +76,7 @@ Wizard adds a third stat, Intelligence (IQ), and a lot of spells.  You've still 
 
 In the Labyrinth (ITL) adds some elaborations to combat and magic, as well as all the things necessary to make The Fantasy Trip a complete roleplaying game.  In particular, they add talents, non-magical abilities.  Talents allow a character to try to do something, or makes something anybody can do easier.  Talents are rated by the IQ necessary to learn them, and by how many points IQ points they cost to get at character creation.  Talents cost twice as much (in IQ points at character creation and in XP after character creation) for wizards as they do regular “hero” characters.  Regular heroes can learn spells, but they cost triple (in IQ points at character creation and in XP after character creation) what they cost wizards.  ITL adds lots of spells, many of which have non-combat uses, as you'd expect from an RPG.
 
-Finding out if your character succeeds is a matter of roll dice equal to or lower than your stats.  Easy things that 2 dice or even 1 die, normal things take 3 dice, while difficult things take 4 or more dice.
+Finding out if your character succeeds is a matter of roll dice equal to or lower than your stats.  For easy things you roll  2 dice or even 1 die, normal things take 3 dice, while difficult things take 4 or more dice.
 
 ## Random things I like about TFT
 
