@@ -1,0 +1,5 @@
+# 2023-06-24 13:07:18-04:00 - Reducing Scope Creep
+
+One of the reasons I created this blog/capsule (other than the opportunity to work with the Gemini protocol, text format, and Geminispace) was to encourage me to write more often.  I started off well, but slowed down considerably three months or so ago.  While there are several reasons for that, I've decided to I concentrate on writing short articles for this blog/capsule and relegate the longer articles for my other blog.  I hope this will encourage me to write more.  We'll see.
+
+=> https://tkurtbond.github.io/ Lacking Natural Simplicity
