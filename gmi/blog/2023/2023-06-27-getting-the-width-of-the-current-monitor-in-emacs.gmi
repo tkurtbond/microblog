@@ -3,3 +3,22 @@
 If you have virtual workspaces on macOS and you use the emacs function display-pixel-width it will give the combined with of ALL the monitors you are using.  You are better off using (caddr (frame-monitor-attribute 'geometry)), since frame-monitor-attribute gets the specified attribute from the monitor which the current frame is actually on.  BTW: The function frame-monitor-attributes returns all the monitor attributes.  The function display-monitor-attributes-list returns the attributes for ALL the monitors you are using.
 
 I figured this out when I was debugging a couple of emacs functions to move the current frame left or right on the screen.
+```
+(defun tkb-move-frame-left ()
+  "Move the current frame left by 1/10th the width of the physical montor."
+  (interactive)
+  (let* ((left (frame-parameter nil 'left))
+         (monitor-display-width (caddr (frame-monitor-attribute 'geometry)))
+         (tenth-width (/ monitor-display-width 10))
+         (new-left (- left tenth-width)))
+    (set-frame-parameter nil 'left new-left)))
+
+(defun tkb-move-frame-right ()
+  "Move the current frame right by 1/10th the width of the physical montor."
+  (interactive)
+  (let* ((left (frame-parameter nil 'left))
+         (monitor-display-width (caddr (frame-monitor-attribute 'geometry)))
+         (tenth-width (/ monitor-display-width 10))
+         (new-left (+ left tenth-width)))
+    (set-frame-parameter nil 'left new-left)))
+```
