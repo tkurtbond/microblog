@@ -1,5 +1,5 @@
 # 2023-02-06 22:16:00-05:00 - How I Edit This Blog
-Updated: 2023-03-05 14:39:41-05:00
+Updated: 2023-06-27 10:00:24-04:00
 
 I use GNU Emacs, of course.
 => https://www.gnu.org/software/emacs/ GNU Emacs
@@ -7,7 +7,7 @@ The file tkb-microblog.el contains everything I wrote to support editing these b
 => https://github.com/tkurtbond/microblog/blob/main/emacs/tkb-microblog.el tkb-microblog.el 
 When I execute the tkb-microblog function it prompts me for the blog post title, then asks what sub-blogs I want to add it to, if any.  Then it adds a link to the new blog post file to the main blog index and each of the sub-blog indexes I specified, creating them if necessary.
 
-The function tkb-find-file-hook makes sure that I edit gemtext files (which end in .gmi) with visual-line-mode on and auto-fill-mode off, because gemini browsers wraps long lines, unless they are preformatted text, and paragraphs are indicated by blank lines.  I also have a minor mode that rebinds M-q (which is normally bound to fill-paragraph) to a function that tells the user not to do that, because the lines are not supposed to be filled.
+The function tkb-find-file-hook makes sure that I edit gemtext files (which end in .gmi) with visual-line-mode on and auto-fill-mode off, because gemini browsers wraps long lines, unless they are preformatted text, and paragraphs are indicated by newlines.  (Blank lines add space between paragrahs.)  I also have a minor mode that rebinds M-q (which is normally bound to fill-paragraph) to a function that tells the user not to do that, because the lines are not supposed to be filled.
 
 Anyway, I think it works well.
 
