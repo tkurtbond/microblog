@@ -1,5 +1,6 @@
 # T. Kurt Bond's µBlog
 
+=> 2023/2023-06-27-getting-the-width-of-the-current-monitor-in-emacs.gmi 2023-06-27 13:02:39-04:00 - Getting the width of the current monitor in Emacs
 => 2023/2023-06-25-old-school-stylish.gmi 2023-06-25 10:56:37-04:00 - Old School Stylish
 => 2023/2023-06-24-reducing-scope-creep.gmi 2023-06-24 13:07:18-04:00 - Reducing Scope Creep
 => 2023/2023-06-23-things-better-left-alone-and-the-adventurer-rpg-arrived.gmi 2023-06-23 10:47:45-04:00 - Things Better Left Alone and the Adventurer RPG arrived
