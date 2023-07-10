@@ -16,7 +16,9 @@ This is both a World Wide Web site and a Gemini capsule.
 
 ## µBlog
 
-Note that if you want to subscribe to the Atom feed for one of these blog pages for the HTML version of the blog, go to the bottom of the page and you'll find the Atom feed.  You probably will have to copy that link and use it to subscribe in whatever feed reader you use.
+Note that if you want to subscribe to the Atom feed for one of these blog pages for the HTML version of the blog on the WWW, go to the bottom of the page and you'll find the Atom feed.  If you are looking at this site on Gemini, it will be a Gemini link.  If you are looking at this site on the WWW, it will be an HTTP link.  The links in the actual feed are HTTP links.  You will probably have to copy that link and use it to subscribe in whatever feed reader you use.
+
+(Of course, Gemini folks don't NEED the Atom feed, because the blog and sub-blog pages follow the “Subscribing to Gemini pages” document.)
 
 The blog pages in the gemini version are created in a format that should allow you to subscribe from a gemini browser that supports subscribing to pages.
 

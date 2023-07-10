@@ -10,4 +10,4 @@
 => 2023/2023-02-07-fuzzy-recollections-of-a-neat-capability-of-unroff.gmi 2023-02-07 15:28:00-05:00 - Fuzzy Recollections of a Neat Capability of Unroff: file-insertions
 => 2023/2023-02-06-How-I-Edit-This-Blog.gmi 2023-02-06 22:16:00-05:00 - How I Edit This Blog
 
-=> blog-computing-html.atom Atom Feed for HTML
+=> blog-computing-html.atom Atom Feed for HTML on the WWW

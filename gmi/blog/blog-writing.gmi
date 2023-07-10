@@ -3,4 +3,4 @@
 => 2023/2023-06-24-reducing-scope-creep.gmi 2023-06-24 13:07:18-04:00 - Reducing Scope Creep
 => 2023/2023-02-19-why-this-blog-site.gmi 2023-02-19 16:09:01-05:00 - Why this µBlog/Site?
 
-=> blog-writing-html.atom Atom Feed for HTML
+=> blog-writing-html.atom Atom Feed for HTML on the WWW
