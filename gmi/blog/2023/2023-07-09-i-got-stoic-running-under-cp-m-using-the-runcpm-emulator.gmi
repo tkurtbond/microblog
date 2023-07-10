@@ -1,0 +1,47 @@
+# 2023-07-09 20:50:59-04:00 - I got STOIC running under CP/M using the RunCPM emulator!
+
+I'm using the RunCPM CP/M emulator.
+
+=> https://github.com/MockbaTheBorg/RunCPM RunCPM CP/M Emulator
+
+Ok, I've got STOIC.COM built with the basic and miscellaneous words loaded.  To do this, I assembled KERNEL.ASM to produce KERNEL.COM, ran KERNEL.COM, loaded the STOICBAS.STC and STOICMIS.STC files for the basic and miscellaneous words, used the SZSTOIC command to find out the number of 256 byte pages used by STOIC, exited STOIC with the RETCPM command, and then used the CP/M SAVE command to save the memory that STOIC was using to STOIC.COM, and then ran STOIC.COM to issue some STOIC commands.  The "[" and "]" words are from the miscellaneous words from STOICMIS.STC, and count the number of items that are pushed on the stack between them.
+
+It went something like this:
+
+```
+RunCPM Version 6.1 (CP/M 60K)
+
+A10>ASM KERNEL 
+CP/M ASSEMBLER - VER 2.0
+1A98
+00DH USE FACTOR
+END OF ASSEMBLY
+
+RunCPM Version 6.1 (CP/M 60K)
+
+A10> KERNEL
+0> 'STOICBAS CPMLD
+0> 'STOICMIS CPMLD
+0> SZSTOIC
+STOIC IS 53  DECIMAL PAGES LONG
+0> RETCPM
+
+
+RunCPM Version 6.1 (CP/M 60K)
+
+A10>SAVE 53 STOIC.COM
+..........................................................................................................
+A10>STOIC.COM
+0> [ 1 2 3 4 ] = = = = =
+4 4 3 2 1 
+0> 
+```
+It seems this version of STOIC was never fully adapted to CP/M: apparently the file I/O and the editor weren't ported completely.  I'll have to look into that.
+
+Whee!  Isn't retrocomputing archaeology fun!
+
+I started with Volume 23 of the CP/M User Group disk archives, “STOIC (STACK ORIENTED INTERACTIVE COMPILER)”.  Unfortunately, I could not find Volume 23B, which had other STOIC stuff.
+
+=> http://www.retroarchive.org/cpm/cdrom/SIMTEL/CPMUG/CPMUG023.ARK CPMUG023.ARK
+
+I'm interested in STOIC because I used the VAX/VMS version back in the day.
