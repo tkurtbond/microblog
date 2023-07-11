@@ -1,5 +1,6 @@
 # T. Kurt Bond's µBlog
 
+=> 2023/2023-07-10-besm-multiverse-and-uresia-grave-of-heavan-arrived.gmi 2023-07-10 20:10:31-04:00 - BESM Multiverse and Uresia: Grave of Heavan arrived!
 => 2023/2023-07-09-i-got-stoic-running-under-cp-m-using-the-runcpm-emulator.gmi 2023-07-09 20:50:59-04:00 - I got STOIC running under CP/M using the RunCPM emulator!
 => 2023/2023-06-27-getting-the-width-of-the-current-monitor-in-emacs.gmi 2023-06-27 13:02:39-04:00 - Getting the width of the current monitor in Emacs
 => 2023/2023-06-25-old-school-stylish.gmi 2023-06-25 10:56:37-04:00 - Old School Stylish
