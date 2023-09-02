@@ -1,0 +1,17 @@
+# 2023-09-02 14:50:17-04:00 - Monks in Swords & Wizardry Complete Revised
+
+I got my print copy of the Swords & Wizardry Complete Revised Rulebook from the recent Kickstarter a little while ago, and I was reading it and  noticed that they made some of the most unbalancing monk abilities available only if the monk has has 15+ DEX or 15+ WIS, depending on which ability is in question.  I was amused, because the Original D&D monk had to have a 15 in DEX and WIS just to be a monk.  And the AD&D 1E monk had to have a 15 in STR, DEX, and WIS!
+
+The result is that in S&WCR you don't have attribute requirements to be a monk, but you DO have attribute requirements for Weapon Damage Bonus, Multiple Attacks, Alertness, Deflect Missles, and Slow Falling; in other words, the fun stuff.  So if your DEX and WIS are less than 15 you can still play a monk, but you're nowhere near as powerful as the classic monk.
+
+I'll note in passing that none of the other classes in S&WCR has attribute requirements.
+
+I'm not really sure I like putting the fun monk abilities behind at attribute level requirement, but I also recognize the original monk in OD&D and AD&D 1E can be pretty overpowering.
+
+Old School Essentials Advanced Fantasy, which takes almost all the races and classes from AD&D1E and adapts them to the rules and scales of B/X D&D, doesn't include a monk class.
+
+Advanced Edition Companion for Labyrinth Lord, on the other hand, which adapts AD&D1E's classes and races to Revised Labyrinth Lord (which is also based on B/X D&D), DOES provide the monk class.   It has the attribute requirements, though more closely matching OD&D rather than AD&D1E.
+
+I'll note in passing that OSRIC, the AD&D 1E retro-clone, does not have monks either, much to my dismay.  I think people that are cloning AD&D 1E should include monks, despite the cries of some folks that they are not genre appropriate for the mishmash of European medieval culture and legends that D&D started with, because D&D is essentially it's OWN genre, and monks were a big part of that.
+
+=> https://www.kickstarter.com/projects/adventuredesigntome/swords-and-wizardry-complete-revised-rulebook Swords & Wizardry Complete Revised Rulebook Kickstarter
