@@ -4,4 +4,4 @@ rsync ${DO_RSYNC_OPTIONS} -az --exclude=\*.gmi --exclude=\*~ --exclude=.~ --excl
       --exclude='#*#' \
       --chmod=ugo=rwX --no-perms --no-group \
       gmi/ \
-      tkb_consp@ssh.phx.nearlyfreespeech.net:/home/public
+      nfs.net:/home/public
