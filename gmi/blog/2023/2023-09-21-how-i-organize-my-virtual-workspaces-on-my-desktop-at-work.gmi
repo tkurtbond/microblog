@@ -1,0 +1,32 @@
+# 2023-09-21 10:57:07-04:00 - How I Organize My Virtual Workspaces On My Desktop At Work
+
+My primary virtual workspace on my desktop box at work running Fedora with the KDE Plasma desktop:
+=> oone-virtual-workspace-1.png Virtual Workspace 1: Work
+I have to overlap things a lot to fit everything on one screen.
+
+So, starting at the left top,  (1) the first titlebar is  gtimer, my tea timer program, and below that (2) is the titlebar of a  150x60 telnet logged into the VAX as user TKB running emacs.  Below that (3) is my emacs on the Linux box, with a wheat background.  Below that (2 again) is the bottom of that 150x60 telnet  with user TKB running emacs, which is white on black, and actually has 3 frames open. Moving to the right (4)  the white text on black window is an obsolete 150x60 telnet session to the VAX.  (I just closed that one before sending this message).  Next to the right (5) is a 150x60 telnet session to the VAX logged in as user TKBTEST and running emacs, which is black on white.  (The TKBTEST account is used for developing and testing WEBMAIL_COMMUNICATOR, which is the system I'm currently trying to figure out.)   Finally, moving to the right top, the window whose titlebar is showing (6) is a telnet session to the VAX for user TKB for running commands.  Under that (7) is a black on white telnet session to the VAX as TKBTEST for running commands.  Below that  (6 again) is the white on black telnet session for TKB, then another (8) telnet for TKBTEST in black on white for running commands, then below that  (9) is another white on black telnet session for TKB.
+
+I've got my telnet login sessions mirrored for TKB and TKBTEST because there are things I can't do in TKB that I can in TKBTEST and vice-versa: the application that I'm working on can only be edited and built using TKBTEST, but can only be installed to production using  TKB.  This particular set of windows is so I can work on that particular application.  Normally, I'd just have the three windows for TKB.
+
+And yes, the VAX is an emulated VAX running in Charon-VAX and running VMS 5.5-2 (for hysterical raisins).  I work with it almost every day, doing systems administration, software development, and providing support for customers.
+
+Usually I also have some terminal windows for working on the local machine, usually each with a couple of tabs.  It was just chance that I didn't have any open today.   And there is a hidden Virt Manager window along with a hidden window for the virtual machine console of the MS Windows 10 virtual machine it is running.  I do most of my non VAX work using Unix machines, either macOS or Linux (though I've used and liked each of FreeBSD, NetBSD, and OpenBSD in the past, and have a couple of 32 bit NetBSD machines still), with the occasional unavoidable MS Windows work done in virtual machines.
+
+Then, if you look at the taskbar at the bottom, I've got 5 virtual workspaces.  The first is the primary one for which I've shown the screenshot above, where I do most of my work.
+
+The second has Discord, Spotify, and some monitoring programs.
+=> oone-virtual-workspace-2.png Virtual Workspace 2: Instant Communications, Monitoring, Music
+
+The third is where I have my Google Workspace windows in Chrome for work and in Firefox for my personal email.
+=> oone-virtual-workspace-3.png Virtual Workspace 3: Work and Personal Email
+Chrome has four tabs: (1) my HTML page of the links I commonly use, (2) Gmail, (3) Chat, and (4) Google Contacts.  Firefox has six tabs: (1) my HTML page of links again, (2) Gmail, (3) Chat, (4) Google Contacts, (5) Google Calendar, and (6) Google Voice.
+
+The fourth is for transitory stuff and it doesn't have a standard list of windows, so I haven't taken a screenshot.
+
+The fifth has zuluCrypt, a couple of Dolphin (KDE's file manager) windows, and a Konsole (KDE's terminal app) window where I mount a directory from our NAS over SMB3, all used for copying the VAX backup tape files from the NAS to my external encrypted traveling drive.
+=> oone-virtual-workspace-5.png Virtual Workspace 5: Working with External Disks
+KeePassXC gets moved to this virtual workspace when I am mounting the external disk, because its password is stored in KeePassXC.
+I do this every Monday through Friday, and then when I am at home I copy the tape files from the external traveling drive to another external encrypted drive on my desktop Fedora KDE Plasma machine there.  The traveling external drive is encrypted with zuluCrypt, while the one at one is encrypted with LUKS.  I use zuluCrypt on Linux because VeraCrypt on my macOS work laptop was not reliable for me; it crashed macOS a couple of times so I stopped using it.
+
+Anyhow, that's how I organize my virtual workspaces on oone, my Fedora KDE Plasma box at work.  My setup on my Fedora KDE Plasma box at home is different because the screen is so much larger, but is similar. On my work macOS laptop I've got 21 virtual workspaces spread out over three monitors, and that's too much to go over right now.
+

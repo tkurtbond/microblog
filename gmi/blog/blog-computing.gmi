@@ -1,5 +1,6 @@
 # T. Kurt Bond's µBlog, Computing Sub-Blog
 
+=> 2023/2023-09-21-how-i-organize-my-virtual-workspaces-on-my-desktop-at-work.gmi 2023-09-21 10:57:07-04:00 - How I Organize My Virtual Workspaces On My Desktop At Work
 => 2023/2023-07-09-i-got-stoic-running-under-cp-m-using-the-runcpm-emulator.gmi 2023-07-09 20:50:59-04:00 - I got STOIC running under CP/M using the RunCPM emulator!
 => 2023/2023-06-27-getting-the-width-of-the-current-monitor-in-emacs.gmi 2023-06-27 13:02:39-04:00 - Getting the width of the current monitor in Emacs
 => 2023/2023-03-01-now-available-via-gemini.gmi 2023-03-01 23:01:40-05:00 - Now available via gemini!
