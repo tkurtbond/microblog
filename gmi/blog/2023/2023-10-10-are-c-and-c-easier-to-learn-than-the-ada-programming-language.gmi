@@ -1,0 +1,21 @@
+# 2023-10-10 22:02:22-04:00 - Are C and C++ easier to learn than the Ada programming language?
+
+I often read people on the Internet opining that the Ada programming language is harder to learn that C and C++.  I do not think that is true.  I think learning to write incorrect programs in C and C++ is easier than learning Ada in general, but it is much easier to learn to write a correct program in Ada than in C and C++!
+
+Ada is a much more carefully designed and specified language and its design makes it a much safer programming language to learn to use correctly.  An Ada programming writing a program will encounter more compile time errors, and need to think more about types, but in return will end up with a safer and easier to understand program.
+
+C and C++, on the other hand, have so many ways that the programming can shoot themselves in the foot, that it is very, very hard to ensure that all of a program is written correctly.  Many things that would be caught at compile time in Ada are missed in C and C++.  Easy to write an incorrect program, but incredibly difficult to ensure that a program is correct.
+
+I suspect that essentially all C and C++ are essentially incorrect.  Certainly the prevalence of security problems and other bugs in C and C++ seems to support that.
+
+I think Ada is one programming language that more people should be exposed to.  It is very well suited as a general purpose programming langauge, and a number of properties that also make it very well suited to mission critical and safety critical programs, with interesting features for formal definition and analysis, concurrent programming, real-time programming, and embedded programming.
+
+=> https://en.wikipedia.org/wiki/Ada_(programming_language) Ada at Wikipedia
+=> https://en.wikipedia.org/wiki/GNAT GNAT, a free software Ada compiler
+=> https://www.adacore.com/gnatpro  GNAT Pro, a commercially supported version of GNAT, from Adacore
+=> https://alire.ada.dev/ Alire Ada source package manager
+=> https://learn.adacore.com/ Adacore's resources for learning Ada
+=> https://en.wikipedia.org/wiki/SPARK_(programming_language) SPARK, the formally defined subset of Ada
+=> https://learn.adacore.com/courses/Ada_For_The_Embedded_C_Developer/chapters/05_SPARK.html Adacore learning resource on Enhancing Verification with SPARK and Ada
+=> https://learn.adacore.com/courses/Ada_For_The_Embedded_C_Developer/chapters/03_Concurrency.html Adacore learning resource on Concurrency and Real-Time
+=> https://learn.adacore.com/courses/Ada_For_The_Embedded_C_Developer/chapters/04_Embedded.html Adacore learning resource for Embedded Programming
