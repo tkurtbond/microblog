@@ -1,0 +1,51 @@
+# 2023-10-20 19:14:41-04:00 - The Lords of Underearth & Dragons of Underearth
+
+I'm running an intermittent game with Steve Jackson Games'  Melee and Wizard to get my players used to the TFT rules, and have plans to run a TFT campaign using Steve Jackson Games' In the Labyrinth, hopefully in the near future.
+
+Someone on the Internet mentioned these games from Metagaming as relevant to TFT, so of course I wanted to read them.  They are remarkably expensive now, for games that sold for $3.95 and $6.95 in 1980 and 1981.  I wouldn't suggest buying them unless you have a really good reason, or you find them at a reasonable price.  I found them interesting, and possibly useful, but not essential.
+
+I've read a few board war games, but haven't really played any, alas.
+
+## The Lords of Underearth
+
+The Lords of Underearth (TLoU) is a Microgame from Metagaming.  Its designer is Keith Gross.  It comes in a box containing a 4 inch by 7 inch pamphlet of 24 pages, 22 pages of which are the rules to the game and the other 2 pages are advertising for other Metagaming games, three geomorph map strips (mine are separate, but I gather that they were originally part of one sheet) which make up a 12 inch by 14 inch battle map, and a bunch of ½ inch square counters.  (Half of the counters in the copy I got had already been punched, and I haven't tried to check if they are all there. So fiddly.)
+
+This board/hex&chits war game is about warfare in a subterranean environment.  Underearth is the human translation for Chalasi, the name of a dwarven city located underneath Mount Iskabad in the Red Mountains of Cidri.  (Cidri is the default setting of The Fantasy Trip.)  Unfortunately, Underearth is declining and is plagued by humans, orcs, goblins, and — eventually — a dragon.  I found the rules quite understandable, and simple enough so that I'm likely to use them.  The rules have a section on combining TLoU with In The Labyrinth, which I would like to do, as well.
+
+I think, for me, this is probably going to be the most useful of the two.
+
+The Board Game Geek page for this game (listed below) links to some supplements for TLoU and some recreations of the counters, if you need a set.
+
+=> https://en.wikipedia.org/wiki/The_Lords_of_Underearth Lords of Underearth at Wikipedia
+=> https://boardgamegeek.com/boardgame/5199/lords-underearth The Lords of Underearth at BoardGameGeek
+=> https://www.blackgate.com/2013/09/04/vintage-treasures-the-lords-of-underearth/ Vintage Treasures: The Lords of Underearth by John ONeill
+=> https://en.wikipedia.org/wiki/Metagaming_Concepts Metagaming at Wikipedia
+
+## Dragons of Underearth
+
+Dragons of Underearth (DoU) is a Metagame from Metagaming.   (So not a Microgame?)  Its designer is Keith Gross, but most of its mechanics come from Metagaming's earlier game series, The Fantasy Trip.   DoU  comes in a box containing a 5½ inch by 8½ inch pamphlet of 16 pages, along with a 12 inch by 16½ inch battle map, and a 5½ inch by 8½ inch sheet of counters.  The human sized counters are ¾ of an inch square.  (I presume this is the same size as the original TFT Melee/Wizard counters, which I've never seen in physical form.)
+
+It seems that Howard Thompson was unhappy with how Steve Jackson had completed The Fantasy Trip: it was too long and too complicated.  He wrote about in a letter that has ended up on the Internet:
+=> howard-thompson-letter.jpg Howard Thompson on The Fantasy Trip
+=> https://web.archive.org/web/20210909175948/https://micro.brainiac.com/htletter.jpg Howard Thompson on The Fantasy Trip at Archive.org
+I found that via a blog interview with George Dew.
+=>  https://jeffro.wordpress.com/2012/05/15/exclusive-interview-with-george-dew-of-dark-city-games/ George Dew interview at Jeffro's Space Gaming Blog
+
+DoU appears to be an attempt to produce a game with the same basic mechanics as TFT, but simpler.  It is separated into to parts: The Character Generation Module and the Combat Module.  It says it's a complete roleplaying game, but unfortunately to fit it into 16 pages they had to leave a lot out, like the explanations of most Talents, and many non-Combat spells.  It also refers to Conquerors of Underearth for other parts of the game, but unfortunately that was never released.  This also adds some quirks to organization.  So, for instance and as far as I can tell, the few talents that are explained are not explained in the list of talents, but inline in other text in the Combat Module.  The spells that are explained are not in the list of spells, but in another list in the Combat Module, also.  And there is no equivalent to the campaign advice from In the Labyrinth.
+
+Now, there are several interesting things about it, primarily how it simplifies combat.
+
+=> https://en.wikipedia.org/wiki/Dragons_of_Underearth Dragons of Underearth at Wikipedia
+=> https://boardgamegeek.com/boardgame/5610/dragons-underearth Dragons of Underearth at BoardGameGeek
+=> http://swordandshieldrpg.blogspot.com/2011/04/tft-basic-set-that-never-was-and-wasnt.html TFT Basic Set that was and wasn't: Dragons of Underearth at Sword & Shield
+=> http://whiteboxandbeyond.blogspot.com/2017/07/dragons-of-underearth.html Dragons of Underearth at White Box and Beyond
+=> http://thoulsparadise.blogspot.com/2018/08/dragons-of-underearth.html 
+Dragons of Underearth at Thoul's Paradise
+
+## General References
+
+=> https://en.wikipedia.org/wiki/Metagaming_Concepts Metagaming Concepts at Wikipedia
+=> https://tft.brainiac.com/metagameindex.html Metagaming Game Index And Descriptions
+=> http://swordandshieldrpg.blogspot.com/2010/12/strange-fascination-melee-wizard-and.html Strange Fascination: Melee, Wizard, and TFT at Sword & Shield
+=> https://en.wikipedia.org/wiki/The_Fantasy_Trip The Fantasy Trip at Wikipedia
+=> https://thefantasytrip.game/ The Fantasy Trip at Steve Jackson Games
