@@ -1,16 +1,17 @@
 # 2023-10-20 19:14:41-04:00 - The Lords of Underearth & Dragons of Underearth
+Updated: 2023-11-26 14:52:07-05:00
 
 I'm running an intermittent game with Steve Jackson Games'  Melee and Wizard to get my players used to the TFT rules, and have plans to run a TFT campaign using Steve Jackson Games' In the Labyrinth, hopefully in the near future.
 
 Someone on the Internet mentioned these games from Metagaming as relevant to TFT, so of course I wanted to read them.  They are remarkably expensive now, for games that sold for $3.95 and $6.95 in 1980 and 1981.  I wouldn't suggest buying them unless you have a really good reason, or you find them at a reasonable price.  I found them interesting, and possibly useful, but not essential.
 
-I've read a few board war games, but haven't really played any, alas.
+I've read a few board war games, and own a few, but haven't really played any, alas.  (I really should do something about that.)
 
 ## The Lords of Underearth
 
 The Lords of Underearth (TLoU) is a Microgame from Metagaming.  Its designer is Keith Gross.  It comes in a box containing a 4 inch by 7 inch pamphlet of 24 pages, 22 pages of which are the rules to the game and the other 2 pages are advertising for other Metagaming games, three geomorph map strips (mine are separate, but I gather that they were originally part of one sheet) which make up a 12 inch by 14 inch battle map, and a bunch of ½ inch square counters.  Half of the counters in the copy I got had already been punched, so I wasn't sure if there were counters missing, but when it came time to photograph the counters I put them back in the piece of cardboard from which they were cut, so I could tell that there was only one counter missing.  No idea which.  (So fiddly.)
 
-This board/hex&chits war game is about warfare in a subterranean environment.  Underearth is the human translation for Chalasi, the name of a dwarven city located underneath Mount Iskabad in the Red Mountains of Cidri.  (Cidri is the default setting of The Fantasy Trip.)  Unfortunately, Underearth is declining and is plagued by humans, orcs, goblins, and — eventually — a dragon.  I found the rules quite understandable, and simple enough so that I'm likely to use them.  The rules have a section on combining TLoU with In The Labyrinth, which I would like to do, as well.
+This board/hex & chits war game is about warfare in a subterranean environment.  Underearth is the human translation for Chalasi, the name of a dwarven city located underneath Mount Iskabad in the Red Mountains of Cidri.  (Cidri is the default setting of The Fantasy Trip.)  Unfortunately, Underearth is declining and is plagued by humans, orcs, goblins, and — eventually — a dragon.  I found the rules quite understandable, and simple enough so that I'm likely to use them.  The rules have a section on combining TLoU with In The Labyrinth, which might be interesting, as well.
 
 => TLoU-cover-front.jpeg The Lords of Underearth, front cover
 => TLoU-cover-back.jpeg The Lords of Underearth, back cover
@@ -19,7 +20,7 @@ This board/hex&chits war game is about warfare in a subterranean environment.  U
 
 I think, for me, this is probably going to be the most useful of these two.
 
-The Board Game Geek page for this game (listed below) links to some supplements for TLoU and some recreations of the counters, if you need a set.
+The Board Game Geek page for this game links to some supplements for TLoU and some recreations of the counters, if you need a set.
 
 => https://en.wikipedia.org/wiki/The_Lords_of_Underearth Lords of Underearth at Wikipedia
 => https://boardgamegeek.com/boardgame/5199/lords-underearth The Lords of Underearth at BoardGameGeek
