@@ -1,5 +1,5 @@
 # 2023-10-20 19:14:41-04:00 - The Lords of Underearth & Dragons of Underearth
-Updated: 2023-11-26 14:52:07-05:00
+Updated: 2023-11-27 00:06:06-05:00
 
 I'm running an intermittent game with Steve Jackson Games'  Melee and Wizard to get my players used to the TFT rules, and have plans to run a TFT campaign using Steve Jackson Games' In the Labyrinth, hopefully in the near future.
 
@@ -9,37 +9,56 @@ I've read a few board war games, and own a few, but haven't really played any, a
 
 ## The Lords of Underearth
 
-The Lords of Underearth (TLoU) is a Microgame from Metagaming.  Its designer is Keith Gross.  It comes in a box containing a 4 inch by 7 inch pamphlet of 24 pages, 22 pages of which are the rules to the game and the other 2 pages are advertising for other Metagaming games, three geomorph map strips (mine are separate, but I gather that they were originally part of one sheet) which make up a 12 inch by 14 inch battle map, and a bunch of ½ inch square counters.  Half of the counters in the copy I got had already been punched, so I wasn't sure if there were counters missing, but when it came time to photograph the counters I put them back in the piece of cardboard from which they were cut, so I could tell that there was only one counter missing.  No idea which.  (So fiddly.)
-
-This board/hex & chits war game is about warfare in a subterranean environment.  Underearth is the human translation for Chalasi, the name of a dwarven city located underneath Mount Iskabad in the Red Mountains of Cidri.  (Cidri is the default setting of The Fantasy Trip.)  Unfortunately, Underearth is declining and is plagued by humans, orcs, goblins, and — eventually — a dragon.  I found the rules quite understandable, and simple enough so that I'm likely to use them.  The rules have a section on combining TLoU with In The Labyrinth, which might be interesting, as well.
+The Lords of Underearth (TLoU) is a Microgame from Metagaming and is copyright 1980.  Its designer is Keith Gross.  It comes in a box containing a 4 inch by 7 inch pamphlet of 24 pages, 22 pages of which are the rules to the game and the other 2 pages are advertising for other Metagaming games, three geomorph map strips (mine are separate, but I gather that they were originally one sheet with perforations for separating them) which make up a 12 inch by 14 inch battle map with ⁹/₁₆ inch hexes, and a bunch of ½ inch square counters.  It includes 5 scenarios.  Since the map is made of three strips that are geomorphs you can increase variety by arranging the strips in a different configuration.
 
 => TLoU-cover-front.jpeg The Lords of Underearth, front cover
 => TLoU-cover-back.jpeg The Lords of Underearth, back cover
 => TLoU-counters.jpeg The Lords of Underearth, counters
 => TLoU-map.jpeg The Lords of Underearth, map
 
-I think, for me, this is probably going to be the most useful of these two.
-
-The Board Game Geek page for this game links to some supplements for TLoU and some recreations of the counters, if you need a set.
+This board war game (also called a hex & chits war game) is about warfare in a subterranean environment, a dwarven city.  Underearth is the human translation for Chalasi, the name of a dwarven city located underneath Mount Iskabad in the Red Mountains of Cidri.  (Cidri is the default setting of The Fantasy Trip.)  Unfortunately, Underearth is declining and is plagued by humans, orcs, goblins, and — eventually — a dragon.
 
 => https://en.wikipedia.org/wiki/The_Lords_of_Underearth Lords of Underearth at Wikipedia
 => https://boardgamegeek.com/boardgame/5199/lords-underearth The Lords of Underearth at BoardGameGeek
 => https://www.blackgate.com/2013/09/04/vintage-treasures-the-lords-of-underearth/ Vintage Treasures: The Lords of Underearth by John ONeill
 => https://en.wikipedia.org/wiki/Metagaming_Concepts Metagaming at Wikipedia
 
-## Dragons of Underearth
+I found the rules quite understandable, and simple enough so that I'm likely to try a game.  The rules have a section on combining TLoU with In The Labyrinth, which might be interesting.
 
-Dragons of Underearth (DoU) is a Metagame from Metagaming.   (So not a Microgame?)  Its designer is Keith Gross, but most of its mechanics come from Metagaming's earlier game series, The Fantasy Trip.   DoU  comes in a box containing a 5½ inch by 8½ inch pamphlet of 16 pages, along with a 12 inch by 16½ inch battle map, and a 5½ inch by 8½ inch sheet of counters.  The human sized counters are ¾ of an inch square.  (I presume this is the same size as the original TFT Melee/Wizard counters, which I've never seen in physical form.)
+Half of the counters in the copy I got had already been punched, so I wasn't sure if there were counters missing, but when it came time to photograph the counters I put them back in the piece of cardboard from which they were cut, so I could tell that there was only one counter missing.  No idea which.  (So fiddly.)  
 
-It seems that Howard Thompson was unhappy with how Steve Jackson had completed The Fantasy Trip: it was too long and too complicated.  He wrote about in a letter that has ended up on the Internet:
+I think, for me, this is probably going to be the most useful of these two. (Although what I REALLY want is for TFT battle to be finished and come out.)
+
+=> https://forums.sjgames.com/showthread.php?t=167609 TFT: Battle - Playtesters Sought 
+
+The Board Game Geek page for this game links to some supplements for TLoU and some recreations of the counters, if you need a set.  They're all in color.    Rather than risk loosing the original chits or damaging the original map, I printed these revised versions in black and white (because I was out of color ink for my printer), with the map on regular paper and the counters on cardstock.  I taped each map strip's pieces together.
+
+=> TLoU-revised-maps-and-counters.jpeg TLoU Picture of Revised Maps and Counters by cowpercoles, printed in black and white.
+For this picture I put all the counters on the board so they call can be seen, but it is not set up in the correct organization for starting a game.
+
+I'll probably print these out in color and glue them to some sort of backing — foam board?  chipboard? — which will make playing it a lot nicer.  
+
+=> https://boardgamegeek.com/filepage/86157/lords-underearth-revised-maps-and-counters-v10  Lords of Underearth Revised Maps and Counters v1.0 by cowpercoles
+
+
+## Dragons of Underearth 
+
+Dragons of Underearth (DoU) is a Metagame from Metagaming.   (So not a Microgame?)  Its designer is Keith Gross, but most of its mechanics come from Metagaming's earlier game series, The Fantasy Trip.   DoU  comes in a box containing a 5½ inch by 8½ inch pamphlet of 32 pages (NOT 16, as some online source indicate — the pamphlet actually contains two parts, each with page numbers from 1 to 16), along with a 12 inch by 16½ inch battle map with ¹⁵/₁₆ hexes, and a 5½ inch by 8½ inch sheet of counters.  The human sized counters are ¾ of an inch square.  (Is this is the same size as the original TFT Melee/Wizard counters?  I've never seen them.)
+
+=> DoU-cover-front.jpeg Dragons of Underearth, front cover
+=> DoU-cover-back.jpeg Dragons of Underearth, back cover
+=> DoU-counters.jpeg Dragons of Underearth, counters
+=> DoU-map.jpeg Dragons of Underearth, map
+
+It seems that Howard Thompson was unhappy with how Steve Jackson had completed The Fantasy Trip: it was too long and too complicated.  He wrote about it in a letter that has ended up on the Internet:
 => howard-thompson-letter.jpg Howard Thompson on The Fantasy Trip
 => https://web.archive.org/web/20210909175948/https://micro.brainiac.com/htletter.jpg Howard Thompson on The Fantasy Trip at Archive.org
 I found that via a blog interview with George Dew.
 =>  https://jeffro.wordpress.com/2012/05/15/exclusive-interview-with-george-dew-of-dark-city-games/ George Dew interview at Jeffro's Space Gaming Blog
 
-DoU appears to be an attempt to produce a game with the same basic mechanics as TFT, but simpler.  It is separated into to parts: The Character Generation Module and the Combat Module.  It says it's a complete roleplaying game, but unfortunately to fit it into 16 pages they had to leave a lot out, like the explanations of most Talents, and many non-Combat spells.  It also refers to Conquerors of Underearth for other parts of the game, but unfortunately that was never released.  This also adds some quirks to organization.  So, for instance and as far as I can tell, the few talents that are explained are not explained in the list of talents, but inline in other text in the Combat Module.  The spells that are explained are not in the list of spells, but in another list in the Combat Module, also.  And there is no equivalent to the campaign advice from In the Labyrinth.
+DoU appears to be an attempt to produce a game with the same basic mechanics as TFT, but simpler.  It is separated into two parts: The Character Generation Module and the Combat Module.  It says it's a complete roleplaying game, but unfortunately to fit it into 32 pages they had to leave a lot out, like the explanations of most Talents, and many non-Combat spells.  It also refers to Conquerors of Underearth for other parts of the game, but unfortunately that was never released.  This also adds some quirks to organization.  So, for instance and as far as I can tell, the few talents that are explained are not explained in the list of talents, but inline in other text in the Combat Module.  The spells that are explained are not in the list of spells, but in another list in the Combat Module, also.  And there is no equivalent to the campaign advice from In the Labyrinth; one presumes it was meant for Conquerors of Underearth.
 
-Now, there are several interesting things about it, primarily how it simplifies combat.
+Now, there are a few interesting things about it, primarily how it simplifies and speeds up combat.  It reduces Melee's list of 22 combat options, which each character must be select from at the beginning of each combat round, to 9 combat options.  It simplifies TFT's “rolling to miss”, where if you roll to see if you miss any friendly figures in hexes that a missile or thrown weapon passes through before and after the hex the target occupies, replacing it by saying you can fire around a friendly figure in an adjacent hex, but no others.  It drops the rule that a figure taking 5+ hits in a round has a −2 to DX for its next attack.  There is no equivalent of the Brawling and Unarmed Combat I–V.
 
 => https://en.wikipedia.org/wiki/Dragons_of_Underearth Dragons of Underearth at Wikipedia
 => https://boardgamegeek.com/boardgame/5610/dragons-underearth Dragons of Underearth at BoardGameGeek
@@ -56,4 +75,7 @@ Dragons of Underearth at Thoul's Paradise
 => https://tft.brainiac.com/metagameindex.html Metagaming Game Index And Descriptions
 => http://swordandshieldrpg.blogspot.com/2010/12/strange-fascination-melee-wizard-and.html Strange Fascination: Melee, Wizard, and TFT at Sword & Shield
 => https://en.wikipedia.org/wiki/The_Fantasy_Trip The Fantasy Trip at Wikipedia
+=> https://en.wikipedia.org/wiki/Melee_(game) Melee/Advanced Melee at Wikipedia
+=> https://en.wikipedia.org/wiki/Wizard_(board_game) Wizard/Advanced Wizard at Wikipedia
+=> https://en.wikipedia.org/wiki/In_the_Labyrinth_(supplement) In the Labyrinth at Wikipedia
 => https://thefantasytrip.game/ The Fantasy Trip at Steve Jackson Games
