@@ -1,7 +1,9 @@
 # 2023-10-20 19:14:41-04:00 - The Lords of Underearth & Dragons of Underearth
-Updated: 2023-11-27 00:06:06-05:00
+Updated: 2023-11-27 00:18:08-05:00
 
-I'm running an intermittent game with Steve Jackson Games'  Melee and Wizard to get my players used to the TFT rules, and have plans to run a TFT campaign using Steve Jackson Games' In the Labyrinth, hopefully in the near future.
+Warning: this post is still being revised.  Come back later to see if it has been finished.
+
+I'm running an intermittent game with Steve Jackson Games' Melee and Wizard to get my players used to the TFT rules, and have plans to run a TFT campaign using Steve Jackson Games' In the Labyrinth, hopefully in the near future.
 
 Someone on the Internet mentioned these games from Metagaming as relevant to TFT, so of course I wanted to read them.  They are remarkably expensive now, for games that sold for $3.95 and $6.95 in 1980 and 1981.  I wouldn't suggest buying them unless you have a really good reason, or you find them at a reasonable price.  I found them interesting, and possibly useful, but not essential.
 
@@ -43,7 +45,7 @@ I'll probably print these out in color and glue them to some sort of backing —
 
 ## Dragons of Underearth 
 
-Dragons of Underearth (DoU) is a Metagame from Metagaming.   (So not a Microgame?)  Its designer is Keith Gross, but most of its mechanics come from Metagaming's earlier game series, The Fantasy Trip.   DoU  comes in a box containing a 5½ inch by 8½ inch pamphlet of 32 pages (NOT 16, as some online source indicate — the pamphlet actually contains two parts, each with page numbers from 1 to 16), along with a 12 inch by 16½ inch battle map with ¹⁵/₁₆ hexes, and a 5½ inch by 8½ inch sheet of counters.  The human sized counters are ¾ of an inch square.  (Is this is the same size as the original TFT Melee/Wizard counters?  I've never seen them.)
+Dragons of Underearth (DoU) is a Metagame from Metagaming.   (So not a Microgame?)  Its designer is Keith Gross, but most of its mechanics come from Metagaming's earlier game series, The Fantasy Trip.   DoU  comes in a box containing a 5½ inch by 8½ inch pamphlet of 32 pages (NOT 16, as some online source indicate — the pamphlet actually contains two parts, the Character Generate Module and the Combat Module, each with page numbers from 1 to 16), along with a 12 inch by 16½ inch battle map with ¹⁵/₁₆ hexes, and a 5½ inch by 8½ inch sheet of counters.  The human sized counters are ¾ of an inch square.  (Is this is the same size as the original TFT Melee/Wizard counters?  I've never seen them.)
 
 => DoU-cover-front.jpeg Dragons of Underearth, front cover
 => DoU-cover-back.jpeg Dragons of Underearth, back cover
@@ -59,6 +61,10 @@ I found that via a blog interview with George Dew.
 DoU appears to be an attempt to produce a game with the same basic mechanics as TFT, but simpler.  It is separated into two parts: The Character Generation Module and the Combat Module.  It says it's a complete roleplaying game, but unfortunately to fit it into 32 pages they had to leave a lot out, like the explanations of most Talents, and many non-Combat spells.  It also refers to Conquerors of Underearth for other parts of the game, but unfortunately that was never released.  This also adds some quirks to organization.  So, for instance and as far as I can tell, the few talents that are explained are not explained in the list of talents, but inline in other text in the Combat Module.  The spells that are explained are not in the list of spells, but in another list in the Combat Module, also.  And there is no equivalent to the campaign advice from In the Labyrinth; one presumes it was meant for Conquerors of Underearth.
 
 Now, there are a few interesting things about it, primarily how it simplifies and speeds up combat.  It reduces Melee's list of 22 combat options, which each character must be select from at the beginning of each combat round, to 9 combat options.  It simplifies TFT's “rolling to miss”, where if you roll to see if you miss any friendly figures in hexes that a missile or thrown weapon passes through before and after the hex the target occupies, replacing it by saying you can fire around a friendly figure in an adjacent hex, but no others.  It drops the rule that a figure taking 5+ hits in a round has a −2 to DX for its next attack.  There is no equivalent of the Brawling and Unarmed Combat I–V.
+
+While combat in DoU is simpler than Melee/Wizard, much less Advanced Melee/Advance Wizard, I don't think it is as satisfying.  DoU is much terser, but to my mind it is not explained anywhere as clearly as in Melee/Wizard.  It also feels like it just needed some more development, and some more proofreading.  There is at least one place where something in the Character Generation module says “See Character Generation Module”.
+
+It would have been interesting to see what Metagaming would have come up with if DoU had been further developed and the missing Conquerors of Underearth had been released.
 
 => https://en.wikipedia.org/wiki/Dragons_of_Underearth Dragons of Underearth at Wikipedia
 => https://boardgamegeek.com/boardgame/5610/dragons-underearth Dragons of Underearth at BoardGameGeek
