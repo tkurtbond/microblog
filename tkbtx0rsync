@@ -1,0 +1,16 @@
+#! /usr/bin/env bash
+cat <<EOF
+This doesn't work.  tx0.org doens't support rsync, and scp doesn't work for me!
+
+xymodem
+
+EOF
+
+exit 1
+
+rsync ${DO_RSYNC_OPTIONS} -az --exclude=\*.gmi --exclude=\*~ --exclude=.~ --exclude='.#*' \
+      --exclude='#*#' \
+      --chmod=ugo=rwX --no-perms --no-group \
+      --chown=tkb:nginx \
+      gmi/ \
+      tkb@sdf.org:html
