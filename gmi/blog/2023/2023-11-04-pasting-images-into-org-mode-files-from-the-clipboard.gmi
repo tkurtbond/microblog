@@ -5,7 +5,9 @@ I've long wanted to paste images into org-mode files as easy as one does with WY
 => https://github.com/abo-abo/org-download org-download
 => https://zzamboni.org/post/how-to-insert-screenshots-in-org-documents-on-macos/ How to insert screenshots in Org documents on macOS 
 
-Install org-download and then use this config:
+If you are using Wayland, install the wl-clipboard package.  If you are using X, install the xclip page.
+
+Then Install org-download and then use this config:
 
 ```
 (use-package org-download
