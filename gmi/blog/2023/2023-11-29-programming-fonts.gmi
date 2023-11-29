@@ -1,0 +1,11 @@
+# 2023-11-29 10:29:56-05:00 - Programming Fonts
+
+This is Emacs, displaying an enriched text file with text that I find useful for comparing fonts.
+=> emacs-ibm-plex-mono.png Emacs using the IBM Plex Mono font
+=> https://en.wikipedia.org/wiki/Enriched_text Enriched text
+
+There are just an AMAZING way that fonts can be illegible or ugly.  You owe it to yourself to go to the Programming Fonts website, put the characters that you care about in the second line of the code sample, which is empty, and work through the list until you find a font that delights and pleases the inner you!  Download from there, unpack them, and put them in ~/.fonts/ on Linux, or some crazy place on macOS (~/Library/Fonts/? /Library/Fonts/?), and your life will improve too!  Oh, you MS Windows users should do the appropriate thing on your … OS, as well.
+
+=> https://www.programmingfonts.org/ Programming Fonts
+=> https://programmingfonts.tumblr.com/ Programming Fonts on Tumblr
+=> https://github.com/braver/programmingfonts  Programming Fonts on GitHub
