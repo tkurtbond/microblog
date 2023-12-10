@@ -1,0 +1,27 @@
+# 2023-12-09 18:42:57-05:00 - Getting Emacs to Beep/Ding/Ring-the-Bell Again!
+
+Here's what I had to do to get Emacs to ring the bell again, under Fedora 39 and KDE:
+```
+(defvar tkb-beep-sound "/usr/share/sounds/freedesktop/stereo/bell.oga")
+(defvar tkb-beep-program "ogg123")
+
+(defun tkb-bell ()
+  (interactive)
+  (start-process "Beep" nil tkb-beep-program
+                 tkb-beep-sound))
+
+(setq ring-bell-function #'tkb-bell)
+
+(unless (file-exists-p tkb-beep-sound)
+  (yes-or-no-p (format "Error: tkb-beep-sound is set to \"%s\", which does \
+not  exist!\nUnderstand? "
+           tkb-beep-sound)))
+(let ((path (split-string (getenv "PATH") ":")))
+  (unless (file-installed-p tkb-beep-program path)
+    (yes-or-no-p (format "Error: tkb-beep-sound is set to \"%s\", which does \
+not exist!\nUnderstand? "
+             tkb-beep-program))))
+```
+
+=> https://gist.github.com/tkurtbond/a79580b1a8a94e2f1f2c407efa1b0777 Here's a gist, where you can comment on it.
+
