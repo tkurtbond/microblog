@@ -1,0 +1,27 @@
+#! /usr/bin/env bash
+
+{
+    sed -n -e '1,/const images = \[/p' \
+        <~/Repos/microblog/gmi/files/404-template.html
+
+    find ~/Repos/microblog/gmi/files/random/ -maxdepth 1 \
+         -type f ! -name \*.text -print | sort |
+        while read filename
+        do
+            dirname=$(dirname $filename)
+            basename=$(basename $filename)
+            extension=$(extension $filename)
+            sansextension=$(strip-extension $filename)
+            notefile=$(strip-extension $filename).text
+            notebase=$(basename $notefile)
+
+            if [[ -r $notefile ]]; then
+                echo "        ['/files/random/$basename', '$(cat $notefile)'],"
+            else
+                echo "        ['/files/random/$basename', null],"
+            fi
+        done
+
+    sed -n -e '\#\] // end of images#,$p'  \
+        <~/Repos/microblog/gmi/files/404-template.html
+} | tee ~/Repos/microblog/gmi/files/404.html
