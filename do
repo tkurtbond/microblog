@@ -6,7 +6,7 @@ PUBUNWIND=1
 
 errors=0
 
-while getopts "hp" opt
+while getopts "ghpuw" opt
 do
     case "$opt" in
         (\?) ((errors++)) ;;
