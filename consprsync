@@ -4,5 +4,6 @@ rsync ${DO_RSYNC_OPTIONS} -az --exclude=\*.gmi --exclude=\*~ --exclude=.~ --excl
       --exclude='#*#' \
       --chmod=ugo=rwX --no-perms --no-group \
       --chown=tkb:nginx \
+      --stats \
       gmi/ \
       tkb@consp.org:/var/www/consp.org/html

@@ -3,5 +3,6 @@
 rsync ${DO_RSYNC_OPTIONS} -az --exclude=\*.gmi --exclude=\*~ --exclude=.~ --exclude='.#*' \
       --exclude='#*#' \
       --chmod=ugo=rwX --no-perms --no-group \
+      --stats \
       gmi/ \
       nfs.net:/home/public
