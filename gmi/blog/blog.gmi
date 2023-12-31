@@ -1,5 +1,6 @@
 # T. Kurt Bond's µBlog
 
+=> 2023/2023-12-31-l.sprague-de-camp-vs.lin-carter.gmi 2023-12-31 17:42:16-05:00 - L. Sprague de Camp vs. Lin Carter
 => 2023/2023-12-13-adept-press-adept-play-ron-edwards-in-2023.gmi 2023-12-13 23:16:28-05:00 - Adept Press, Adept Play, Ron Edwards in 2023
 => 2023/2023-12-09-getting-emacs-to-beep-ding-ring-the-bell-again.gmi 2023-12-09 18:42:57-05:00 - Getting Emacs to Beep/Ding/Ring-the-Bell Again!
 => 2023/2023-11-29-programming-fonts.gmi 2023-11-29 10:29:56-05:00 - Programming Fonts
