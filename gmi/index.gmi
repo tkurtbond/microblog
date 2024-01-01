@@ -14,6 +14,8 @@ This is both a World Wide Web site and a Gemini capsule.
 => Colophon.gmi Colophon
 => random.gmi Random Things
 
+=> gemini://kennedy.gemi.dev/site-search/s/consp.org/ Search this capsule
+
 ## µBlog
 
 Note that if you want to subscribe to the Atom feed for one of these blog pages for the HTML version of the blog on the WWW, go to the bottom of the page and you'll find the Atom feed.  If you are looking at this site on Gemini, it will be a Gemini link.  If you are looking at this site on the WWW, it will be an HTTP link.  The links in the actual feed are HTTP links.  You will probably have to copy that link and use it to subscribe in whatever feed reader you use.
