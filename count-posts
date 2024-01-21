@@ -1,0 +1,4 @@
+#! /usr/bin/env bash
+
+printf "Blog posts since mid 2021: %d\n" $(grep "^=>[    ]*[0-9]" gmi/blog/blog.gmi  | wc -l)
+printf "Blog index size: %s\n" "$(find gmi/blog/blog.gmi -printf "%s\n" | tounits)"
