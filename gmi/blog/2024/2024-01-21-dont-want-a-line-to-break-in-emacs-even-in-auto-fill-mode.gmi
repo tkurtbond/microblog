@@ -1,0 +1,25 @@
+# 2024-01-21 15:03:08-05:00 - Don't want a line to break in emacs even in auto-fill-mode?
+
+Have you ever been editing a file in emacs where there a specific lines that should not be wrapped, but you are using auto-fill-mode and they accidently get wrapped?  The emacs variable fill-nobreak-predicate is your friend!
+```
+;; Nikola metadata lines start like this:
+;; .. keyword:
+;; They shouldn't tbe wrapped.
+(defvar tkb-nikola-metadata-regexp "\\.\\. [a-z]+:")
+
+(defun tkb-nikola-rest-fill-nobreak-p ()
+  "Don't fill on metadata lines in nikola reST posts."
+  (save-excursion
+    (beginning-of-line)
+    (looking-at tkb-nikola-metadata-regexp)))
+
+(defun tkb-nikola-rest-hook ()
+  (interactive)
+  (when (and (string-match "\\.rst\\'" (buffer-file-name))
+             (looking-at tkb-nikola-metadata-regexp))
+    (make-local-variable 'fill-nobreak-predicate)
+    (setq fill-nobreak-predicate (list #'tkb-nikola-rest-fill-nobreak-p))))
+
+(add-to-list 'find-file-hook #'tkb-nikola-rest-hook)
+```
+=> https://gist.github.com/tkurtbond/c4aa39ee5649688a34b10dc400cc858c Here's a gist where you can comment on it.
