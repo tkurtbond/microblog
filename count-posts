@@ -1,4 +1,32 @@
 #! /usr/bin/env bash
 
-printf "Blog posts since mid 2021: %d\n" $(grep "^=>[    ]*[0-9]" gmi/blog/blog.gmi  | wc -l)
+YEAR="[0-9]+"
+SINCE="since mid 2021"
+
+errors=0
+while getopts "hy:" opt
+do
+    case "$opt" in
+        (\?) ((errors++)) ;;
+        (h) DO_HELP=1 ;;
+        (y) YEAR=$OPTARG; SINCE="in $YEAR" ;;
+    esac
+done
+
+((DO_HELP)) && HELPOUT=/dev/stdout || HELPOUT=/dev/stderr
+((DO_HELP || errors)) && {
+    cat >$HELPOUT <<EOF
+usage: $0 [-ln]
+
+Options
+-y YYYY Counts just the specified year.
+-h	Displays this message.
+EOF
+    exit
+}
+
+shift $((OPTIND-1))
+
+
+printf "Blog posts %s: %d\n" "$SINCE" $(grep -E "^=>[    ]*$YEAR" gmi/blog/blog.gmi | wc -l)
 printf "Blog index size: %s\n" "$(find gmi/blog/blog.gmi -printf "%s\n" | tounits)"
