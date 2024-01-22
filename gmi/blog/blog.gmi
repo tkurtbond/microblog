@@ -1,5 +1,6 @@
 # T. Kurt Bond's µBlog
 
+=> 2024/2024-01-21-putting-all-your-emacs-backups-and-autosaves-in-two-directories-has-security-implications.gmi 2024-01-21 18:53:41-05:00 - Putting all your emacs backups and autosaves in two directories has security implications
 => 2024/2024-01-21-dont-want-a-line-to-break-in-emacs-even-in-auto-fill-mode.gmi 2024-01-21 15:03:08-05:00 - Don't want a line to break in emacs even in auto-fill-mode?
 => 2024/2024-01-19-finished-reading-the-hero-system-basic-rulebook-for-hero-system-sixth-edition.gmi 2024-01-19 16:00:31-05:00 - Finished Reading The Hero System Basic Rulebook for Hero System Sixth Edition
 => 2023/2023-12-31-l.sprague-de-camp-vs.lin-carter.gmi 2023-12-31 17:42:16-05:00 - L. Sprague de Camp vs. Lin Carter

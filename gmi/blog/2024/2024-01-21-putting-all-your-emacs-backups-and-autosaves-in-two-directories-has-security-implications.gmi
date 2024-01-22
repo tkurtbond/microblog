@@ -1,0 +1,28 @@
+# 2024-01-21 18:53:41-05:00 - Putting all your emacs backups and autosaves in two directories has security implications
+
+Recently, I noticed someone talking about putting all their emacs backups and autosaves in two directories, no matter where the file they are editing is located.
+
+==> gemini://idiomdrottning.org/bad-emacs-defaults Bad Emacs defaults
+
+Their solution was:
+```
+(setq auto-save-file-name-transforms '((".*" "~/.emacs_autosave/" t)))
+(setq backup-directory-alist '(("." . "~/.emacs_backups/")))
+```
+
+This has security implications when you are working with some filesystems that are encrypted and some that are not.  If you are editing a file on a filesystem that is encrypted or removable (the secured filesystem), but the the autosave and backup directories are NOT on the secured filesystem, you've suddenly leaked information.  Anybody who is working with their financial information or with their own or other folks' Personal Identifiable Information needs to consider this issue.
+
+If it IS a problem for you, I suggest something like this
+```
+(setq backup-directory-alist '(("." . ".~/")))
+(setq auto-save-file-name-transforms `((".*" ".~/" t)))
+```
+which collects those files for one directory into one sub-directory.  This does mean you'll have multiple directories for those all over your drive, but its better than having then end up on unsecured media.
+
+If that doesn't work for your situation, and you REALLY need only one backup directory for the secured filesystem, you can use something like the following.  Assume that the secured filesystem in mounted on /d1, and you have write permissions for the whole drive.  (If you don't have write permissions for the whole drive, choose a directory that you do have write permissions for.)  Then do the following:
+```
+(setq backup-directory-alist '(("/d1/.*/." . "/d1/.~/")
+                               ("." . "~/.~/")))
+```
+The first item in backup-directory-alist makes all the backup files for files on /d1 end up in /d1/.~/, and the second item in that list the makes the backup files for other files end up in ~/.~/.
+
