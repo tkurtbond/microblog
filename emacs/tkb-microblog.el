@@ -8,6 +8,7 @@
     (visual-line-mode 1)
     (flyspell-mode 1)
     (auto-fill-mode -1)
+    (whitespace-newline-mode)
     (setq-local time-stamp-format "%Y-%02m-%02d %02H:%02M:%02S%:z"
                 time-stamp-start "^Updated:[ \t]+\\\\?"
                 time-stamp-end "\\\\?\n")))
