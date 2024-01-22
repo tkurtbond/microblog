@@ -1,0 +1,13 @@
+# 2024-01-21 20:28:24-05:00 - Why Is Gnome So Annoyingly Useless?
+
+The Gnome desktop seems to be removing more and more functionality, apparently in the name of “aesthetics” and simplicity.  Unfortunately, they constantly make choices that are completely WRONG for the way I use computers.  It's gotten so bad that in 2023 I switched to using KDE Plasma for my desktop on all my computers, after having gotten used to it on my Pinebook Pro, which comes with Manjaro ARM Linux with KDE Plasma.  This improved my aggravation factor tremendously.
+
+But why is Gnome moving away from the functionality that computer developers want, a group that you'd think would be their prime target group?
+
+Well, I have heard it speculated that it's because Gnome is primarily developed by Redhat developers, and THEIR target group is not computer developers, but rather the users on government contracts where Gnome runs on machines that are used basically as specialized applications with some access to a few other minor applications.  That target group, which may not use Gnome for anything else, would certainly benefit from simplicity.
+
+I don't think that Gnome should be the captive of a specific subset of users; it is, or should be, a general purpose desktop.  If this isn't why Gnome has gone in this direction, I'll note that if they ARE doing it for some sort of aesthetic minimalism, similar to that which Apple vainly struggles for sometimes in macOS, it's still doing the wrong thing.  I switched from an Apple laptop to a Linux laptop at work in 2023 as well, and find KDE Plasma and Linux a more pleasant environment in most ways.  (If only the NVIDIA drivers were less flaky with multiple monitors.  Sigh.)
+
+=> https://kde.org/plasma-desktop/ KDE Plasma Desktop
+=> https://pine64.org/devices/pinebook_pro/ Pinebook Pro
+=> https://manjaro.org/ Manjaro Linux
