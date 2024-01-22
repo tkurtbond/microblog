@@ -2,7 +2,7 @@
 
 Recently, I noticed someone talking about putting all their emacs backups and autosaves in two directories, no matter where the file they are editing is located.
 
-==> gemini://idiomdrottning.org/bad-emacs-defaults Bad Emacs defaults
+=> gemini://idiomdrottning.org/bad-emacs-defaults Bad Emacs defaults
 
 Their solution was:
 ```
