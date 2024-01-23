@@ -24,7 +24,7 @@ Note that if you want to subscribe to the Atom feed for one of these blog pages 
 
 The blog pages in the gemini version are created in a format that should allow you to subscribe from a gemini browser that supports subscribing to pages.
 
-=> blog/blog.gmi T. Kurt Bond's µBlog
+=> blog/blog.gmi T. Kurt Bond's µBlog — this has all the posts, including sub-blogs
 => blog/blog-computing.gmi T. Kurt Bond's µBlog, Computing Sub-Blog
 => blog/blog-gaming.gmi T. Kurt Bond's µBlog, Gaming Sub-Blog
 => blog/blog-middle-sea.gmi T. Kurt Bond's µBlog, Mini Six Middle Sea Sub-Blog
