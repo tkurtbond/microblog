@@ -56,7 +56,7 @@
   (let* ((microblog-directory (f-join tkb-microblog-repo "gmi" "blog"))
          (subblogs (directory-files microblog-directory nil "blog-.*.gmi")))
     subblogs))
-  
+
 (defun tkb-microblog (specify-date-p)
   "Create a Gemtext document for the current day in my microblog.  A prefix
 argument of - just opens the blog entry for the currrent day without adding
@@ -82,7 +82,7 @@ entry instead."
                                 filename
                               (concat "blog-" index ".gmi"))))
                         indexes)))
-                                          
+
     (let* ((title-sep " - ")
            (date                      (if specify-date-p
                                           (encode-time
