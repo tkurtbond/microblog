@@ -1,5 +1,6 @@
 # T. Kurt Bond's µBlog
 
+=> 2024/2024-02-02-dyskami-owns-tri-stat-besm-outright.gmi 2024-02-02 09:00:42-05:00 - Dyskami Owns Tri-Stat/BESM Outright
 => 2024/2024-01-29-openquest-dungeons.gmi 2024-01-29 18:53:20-05:00 - OpenQuest Dungeons
 => 2024/2024-01-26-folstavia-anime-5e-rpg-world-setting-and-monster-expansions.gmi 2024-01-26 17:37:26-05:00 - Folstavia - Anime 5E RPG World Setting & Monster Expansions
 => 2024/2024-01-21-why-is-gnome-so-annoyingly-useless.gmi 2024-01-21 20:28:24-05:00 - Why Is Gnome So Annoyingly Useless?
