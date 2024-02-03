@@ -1,0 +1,12 @@
+# 2024-02-03 13:22:18-05:00 - Sandbox Generator by Atelier Clandestin 
+
+=> images/Sandbox-Generator.png Sandbox Generator front cover
+
+I really like this hexcrawl sandbox generator.  It's very approachable, clearly written, and straight forward — something that will be easy to use.  It describes a complete procedure for generating a sandbox, using lots of dice rolling and tables.  It is system neutral, having no stats for anything, expecting you to get that from your specific system's lists of opponents.  It also assumes that you want dungeons (and megadungeons) in your hexcrawl.  It includes several examples showing how it works, including an example of generating a megadungeon that shows how multiple levels are constructed and linked together and how to generate an individual level.
+
+I have two very minor quibbles.  First, I'd have liked to see a little more discussion of hexes and hex sizes.  It uses 2-mile hexes as the smallest unit and a collection of hexes 5 hexes wide as the largest.  (Gygax in his article “HOW TO SET UP YOUR DUNGEONS & DRAGONS CAMPAIGN — AND BE STUCK REFEREEING IT SEVEN DAYS PER WEEK UNTIL THE WEE HOURS OF THE MORNING!”  in Europa 6-8 uses 1-mile hexes.)  Although you could just use 1-mile or 5-mile hexes as the smallest unit and go from there, it would have been useful to see what the author of this generator thought would need adjusted for the smaller or larger size hexes.  (Perhaps nothing.) Secondly, a few of the tables seem like they'd be enhanced by having a few more entries, like the biome table.
+
+In any case, I'm planning on using this to generate a hexcrawl for The Fantasy Trip (TFT).  There are a few things I'll have to change, mostly a few items dealing with gods, since TFT's default setting doesn't have any active gods, but that will take very little effort.
+
+=> https://preview.drivethrurpg.com/en/product/430675/sandbox-generator Sandbox Generator at DriveThruRPG
+=> https://thefantasytrip.game/ The Fantasy Trip from Steve Jackson Games
