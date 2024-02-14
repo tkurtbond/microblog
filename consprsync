@@ -1,6 +1,8 @@
 #! /usr/bin/env bash
 
-rsync ${DO_RSYNC_OPTIONS} -az --exclude=\*.gmi --exclude=\*~ --exclude=.~ --exclude='.#*' \
+rsync ${DO_RSYNC_OPTIONS} -az \
+      --exclude=\*.gmi \
+      --exclude=\*~ --exclude=.~ --exclude='.#*' \
       --exclude='#*#' \
       --chmod=ugo=rwX --no-perms --no-group \
       --chown=tkb:nginx \
