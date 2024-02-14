@@ -1,5 +1,6 @@
 # T. Kurt Bond's µBlog, Computing Sub-Blog
 
+=> 2024/2024-02-14-dont-want-the-first-line-of-a-git-commit-commit-editmsg-buffer-in-emacs-to-wrap.gmi 2024-02-14 13:10:38-05:00 - Don't want the first line of a git commit COMMIT_EDITMSG buffer in Emacs to wrap?
 => 2024/2024-01-21-why-is-gnome-so-annoyingly-useless.gmi 2024-01-21 20:28:24-05:00 - Why Is Gnome So Annoyingly Useless?
 => 2024/2024-01-21-putting-all-your-emacs-backups-and-autosaves-in-two-directories-has-security-implications.gmi 2024-01-21 18:53:41-05:00 - Putting all your emacs backups and autosaves in two directories has security implications
 => 2024/2024-01-21-dont-want-a-line-to-break-in-emacs-even-in-auto-fill-mode.gmi 2024-01-21 15:03:08-05:00 - Don't want a line to break in emacs even in auto-fill-mode?

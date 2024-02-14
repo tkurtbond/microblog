@@ -1,0 +1,30 @@
+# 2024-02-14 13:10:38-05:00 - Don't want the first line of a git commit COMMIT_EDITMSG buffer in emacs to wrap?
+
+Again, the trick is to use the Emacs variable fill-nobreak-predicate, but it's a bit trickier than my earlier example.
+
+=> 2024-01-21-dont-want-a-line-to-break-in-emacs-even-in-auto-fill-mode.gmi Don't want a line to break in emacs even in auto-fill-mode?
+
+The code is very similar to the earlier code:
+```
+(defun tkb-magit-commit-fill-nobreak-p ()
+  "Don't fill on the first line of a magit commit message."
+  (= 1 (line-number-at-pos)))
+
+(defun tkb-magit-commit-find-file-hook ()
+  (interactive)
+  (when (string-match "COMMIT_EDITMSG\\'" (buffer-file-name))
+    (make-local-variable 'fill-nobreak-predicate)
+    (add-to-list 'fill-nobreak-predicate #'tkb-magit-commit-fill-nobreak-p)))
+(add-to-list 'find-file-hook #'tkb-magit-commit-find-file-hook t)
+```
+
+The problem is that, depending on where the new hook ends up in the list find-file-hook, it may run after the git-commit-setup-check-buffer find file hook.  This is a problem because git-commit-setup-check-buffer runs git-commit-setup which runs normal-mode which runs kill-all-local-variables, which wipes out what our code was trying to do.  Sigh.
+
+Instead, just specify the APPEND parameter to add-to-list as t:
+```
+(add-to-list 'find-file-hook #'tkb-magit-commit-find-file-hook t)
+```
+This adds our hook function at the end of the list, hopefully after git-commit-setup-check-buffer.
+
+I've put this in a gist:
+=> https://gist.github.com/tkurtbond/bf8c1b3dff4a1c56aeb43271726d276b git-commit-fill-nobreak-predicate.el 
