@@ -33,6 +33,11 @@
   (save-excursion
     (goto-char (point-min))
     (forward-line)
+    ;; This isn't necessary since the gemini find file hook sets the
+    ;; time-stamp variables so the Updated: line is automatically
+    ;; updated.
+    ;; (when (looking-at "Updated: [0-9]\\{4\\}-[0-9]\\{2\\}-[0-9]\\{2\\}")
+    ;;   (delete-line))
     (insert "Updated: " (format-time-string "%F %H:%M:%S%:z")
             "\n")))
 
