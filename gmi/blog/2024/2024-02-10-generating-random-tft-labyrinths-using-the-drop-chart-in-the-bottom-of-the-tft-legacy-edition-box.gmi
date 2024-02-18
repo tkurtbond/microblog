@@ -1,4 +1,5 @@
 # 2024-02-10 18:06:31-05:00 - Generating random TFT labyrinths using the drop chart in the bottom of the TFT Legacy Edition box
+Updated: 2024-02-17 21:42:50-05:00
 
 So, today I spent part of my day generating (part of) a labyrinth for The Fantasy Trip using the die drop chart in the bottom of the TFT Legacy Edition Box.  Here's a picture:
 => images/TFT-Legacy-Edition-Box-Bottom.jpeg TFT Legacy Edition Box Bottom Drop Chart
@@ -35,3 +36,20 @@ This time I got a lot more done in a shorter time.  It was easier and faster usi
 I tend to roll a d6 to tell how long a corridor to put between the rooms, rather than put the rooms always together.  And I sometime move things around a little to fit the paper better.
 
 Fun, and a little easier now.  Still want that program, though.
+
+Here's what the map looks like once I've finally finished it:
+=> images/Random-Labyrinth-map-finished.jpeg Finished Map
+
+As I worked on this, I found myself doing a mixture of random selection of shapes using the box bottom and non-random placement of shapes that would fit into areas I wanted to fill up.  I often added short passages between rooms when that make things fit better, and generally randomly determined if there was going to be a corridor (on an odd roll there was a corridor) and how long it was going to be (1d3).  And I added hexagons of natural stairs when I decided I didn't want it all to be on the same level.
+
+I think the map turned out pretty good.
+
+I think the next time I try this, I'll just use the hex map tool Shamat at ShadeKeep.com and enter the maps directly into Shamat as I roll them up, and see if that's easier.
+
+=> https://shadekeep.com/ ShadeKeep.com
+=> https://shadekeep.com/shamat.html Shamat
+
+Here's how it looks after I've entered it using Shamat:
+=> images/Random-Labyrinth-in-shamat.png Shamat Version
+
+I'll probably use the Random Stocking section on page 48 of In the Labyrinth to stock this map.
