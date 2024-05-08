@@ -1,0 +1,20 @@
+# 2024-05-08 11:15:55-04:00 - System76 serval: Pop!_OS vs. Fedora and NVIDIA drivers
+
+Ugh.
+
+So, I got a System 76 Serval WS 17" for work a while ago.  It came with Pop!_OS installed, which was ok, except it is based on Ubuntu 22.04 LTS with a GNOME based desktop with System 76's own alterations.  But the System 76 folks have been working on their own NEW desktop written in Rust, and haven't updated the operating system to a newer version.  (Ubuntu 22.04 LTS is out now.)  And so Pop!_OS is not up to date when it comes to some software I use.
+
+=> https://system76.com/ System76
+=> https://pop.system76.com/ Pop!_OS
+=> https://system76.com/laptops/serval Serval WS
+
+Now, at home I use Fedora KDE Plasma.  Fedora is more up to date, and when it comes to full desktop environments I like KDE Plasma so much better than GNOME (the desktop environment for people who are afraid of computers).  So I installed Fedora in the other drive on my Serval WS and switched over to it.  
+
+Alas, after several months I've switched back to Pop!_OS.  I could never get a stable installation with the NVIDIA drivers.  I had all sorts of painful problems: windows becoming transparent or not updating properly, occasional crashes, external monitors only being recognized haphazardly, the desktop environment crashing when resuming from sleep, and so forth.   And as far as I could tell the built-in Intel GPU did not support external monitors, and I'm accustomed to using two external monitors.  The final straw was when I needed to attend an online meeting with video, and the built-in camera couldn't be found.
+
+The NVIDA drivers that Pop!_OS installs are much more stable: no more occasional crashes, and my external monitors are recognized much more often.  But I can't get KDE Plasma to work on Pop!_OS (neither in X11 or Wayland) : if I change to it on the the login screen I just get a black screen, and have to switch to a console login to using loginctl to kill that login session.  Sigh.  I really hate GNOME, but I just want to get some work done, so I'll stick with Pop!_OS's GNOME for now.
+
+On my personal machines I'm still using KDE Plasma, but I'm also experimenting with sway.
+
+=> https://kde.org/plasma-desktop/ KDE Plasma
+=> https://swaywm.org/ Sway window manager

@@ -1,5 +1,6 @@
 # T. Kurt Bond's µBlog
 
+=> 2024/2024-05-08-system76-serval-pop-os-vs.fedora-and-nvidia-drivers.gmi 2024-05-08 11:15:55-04:00 - System76 serval: Pop!_OS vs. Fedora and NVIDIA drivers
 => 2024/2024-02-28-the-fantasy-trip-bestiary.gmi 2024-02-28 12:11:51-05:00 - The Fantasy Trip Bestiary
 => 2024/2024-02-14-dont-want-the-first-line-of-a-git-commit-commit-editmsg-buffer-in-emacs-to-wrap.gmi 2024-02-14 13:10:38-05:00 - Don't want the first line of a git commit COMMIT_EDITMSG buffer in Emacs to wrap?
 => 2024/2024-02-12-absolute-power-superhero-rpg-seasons-one-and-two-anthology-arrived.gmi 2024-02-12 22:35:16-05:00 - Absolute Power Superhero RPG: Seasons One and Two + Anthology arrived
