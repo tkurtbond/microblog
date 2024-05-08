@@ -31,3 +31,4 @@ The blog pages in the gemini version are created in a format that should allow y
 => blog/blog-gaming.gmi T. Kurt Bond's µBlog, Gaming Sub-Blog
 => blog/blog-middle-sea.gmi T. Kurt Bond's µBlog, Mini Six Middle Sea Sub-Blog
 => blog/blog-writing.gmi T. Kurt Bond's µBlog, Writing Sub-Blog
+=> blog/blog-books.gmi T. Kurt Bond's µBlog, Books Sub-Blog
