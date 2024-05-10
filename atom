@@ -1,11 +1,17 @@
 #! /usr/bin/env bash
+# You have to have built the HTML files to run this.
 # You can pass options to gmi-html-atom to this script.
 cd gmi/blog &&
     echo "Running in $(pwd)" &&
     find . -name blog\*.gmi | while read filename
     do
-        echo atom: converting $filename
-        gmi-html-atom "$@" \
-            --author="T. Kurt Bond" --base="http://consp.org/blog/" \
-            $filename
+        atomname=$(basename $filename .gmi)-html.atom
+        if [[ ! -e $atomname || $filename -nt $atomname ]];  then
+            echo "atom: converting $filename to $atomname"
+            gmi-html-atom "$@" \
+                --author="T. Kurt Bond" --base="http://consp.org/blog/" \
+                $filename
+        else
+            echo "atom: no need to convert $filename to $atomname"
+        fi
     done
