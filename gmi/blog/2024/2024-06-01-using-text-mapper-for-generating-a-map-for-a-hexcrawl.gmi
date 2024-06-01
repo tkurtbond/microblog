@@ -40,7 +40,7 @@ Here's a picture of the 18x24 poster I got printed at Staples with the original 
 => images/text-mapper-40x40-orig-poster.jpg Poster
 I’ve  edited the map definition with emacs to tweak it a bit:
 => text-mapper-40x40-tweaked.jpg Tweaked map
-I wanted a big forest in the north west, so I changed a bunch of hexes to forest.  I turned the yellow desert south of that forest into an organge magically blasted wasteland, and tweaked the central mountains a bit, and got rid of the rest of the desert, what little there was, because I see this as being in a temperate 
+I wanted a big forest in the north west, so I changed a bunch of hexes to forest.  I turned the yellow desert south of that forest into an organge magically blasted wasteland, and tweaked the central mountains a bit, and got rid of the rest of the desert, what little there was, because I see this as being in a temperate zone.
 
 Now I need to stock it: for each hex, come up with what is in the hex, write descriptions of the towns, etc.  There are only 1600 hexes, so that shouldn't take long, right?  😏
 
