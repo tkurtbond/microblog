@@ -1,0 +1,141 @@
+# 2024-06-01 15:21:17-04:00 - Using Text Mapper for generating a map for a hexcrawl
+
+I'm working with a neat application to generate random terrain called Text Mapper.  
+=> https://campaignwiki.org/text-mapper/ Text Mapper
+I used the Alpine map generator to generate a 40x40 map.
+=> images/text-mapper-40x40-orig.jpg Original 40x40 hex map
+It is called "Text" Mapper because it uses a text map format.
+```
+0101 mountain "mountain"
+0102 swamp "swamp"
+0103 hill "hill"
+0104 forest "forest"
+0201 empty pyramid "pyramid"
+0202 tundra "tundra"
+0203 coast "coast"
+0204 empty house "house"
+0301 woodland "woodland"
+0302 wetland "wetland"
+0303 plain "plain"
+0304 sea "sea"
+0401 hill tower "tower"
+0402 sand house "house"
+0403 jungle "jungle"
+0501 mountain cave "cave"
+0502 sand "sand"
+0503 hill castle "castle"
+0205-0103-0202-0303-0402 road
+0101-0203 river
+0401-0303-0403 border
+include default.txt
+license <text>Public Domain</text>
+```
+That map description produces the following map:
+=> images/text-mapper-output-example.png Text Mapper Example Output
+That map is in the default style.  The map I'm using is actually in the gnomeyland style:
+=> images/gnomeyland-example.png Gnomeyland Map Style
+Text Mapper produces a SVG file, which is easily converted to PNG or PDF with Inkscape.
+=> https://inkscape.org/ Inkscape
+Here's a picture of the 18x24 poster I got printed at Staples with the original map:
+=> images/text-mapper-40x40-orig-poster.jpg Poster
+I’ve  edited the map definition with emacs to tweak it a bit:
+=> text-mapper-40x40-tweaked.jpg Tweaked map
+I wanted a big forest in the north west, so I changed a bunch of hexes to forest.  I turned the yellow desert south of that forest into an organge magically blasted wasteland, and tweaked the central mountains a bit, and got rid of the rest of the desert, what little there was, because I see this as being in a temperate 
+
+Now I need to stock it: for each hex, come up with what is in the hex, write descriptions of the towns, etc.  There are only 1600 hexes, so that shouldn't take long, right?  😏
+
+There is actually a random generator for that, Hex Describe.
+=> https://campaignwiki.org/hex-describe/ Hex Describe
+
+It produces descriptions of the hexes for old school D&D, like this:
+=> images/hex-describe-output.jpg Hex HTML Describe output
+It can produce either HTML or markdown, but you don't get the images in markdown output.
+
+Here's an example:
+```
+**0101**: This is the ｢Whispering Copse｣. The lack of branches and
+  trees lying on the forest floor is a sign of regular wood gatherers.
+
+The camp of 6 **bugbears** led by *Piercing Eyes* belonging to the
+*Lynx Eyes* band is hard to find (HD 3+1 AC 5 1d10 F3 MV 9 ML 9 XP
+300; surprise on 1–5 in 6). They hunt these woods at night and like to
+kill anybody that didn’t make it back to the village during daytime.
+
+This is *Aberhampton*, a village of 200 **humans** (HD 1 AC 9 1d6 F1
+MV 12 ML 7 XP 100). The grass covered longhouses are protected by 3
+**war dogs** (HD 2+1 AC 7 1d6 F1 MV 18 ML 6 XP 200) and a palisade.
+There is a small *manor house*. The manor house is a two story
+building made of stone, with no windows on the ground floor and small,
+arrow slits above, and a terrace up on the roof from which the
+surrounding land can be surveyed. ｢1000 silver coins. 2000 gold coins.
+A map to 10 jewels hidden in a secret compartment in the dwarven forge
+*Sky* (0804).｣
+
+The **wizard** *Damián* (level 10) lives in the manor house. The
+spells known are based on *The Book of the Dead* by Agrimach the
+Necromancer: 1. *locate corpse*, *aura of fear*, *read magic*, 2.
+*summon ghoul*, *hold person*, *converse with corpse*, 3. *limited
+shape shift*, *immunity to fire*, *animate dead*, 4. *poison*,
+*grafting*, *death ray*, 5. *raise dead*, *cloud kill*. *Damián* also
+happens to own a book: ｢*Understanding Dwarves*｣. *Damián* is missing
+a book. “*Baraa* (0907) absconded with it. Bring me back the book and
+their head, and I’ll reward you with 500gp.”
+
+Their second in command is the **knight** *Ammar* (level 8). ｢An
+orcish *mace* +1 marked with the runes of *Nergal*. A helmet with the
+gilded face mask of **Tariq the Terrible* of *Erlechai** emanating an
+aura of fear, reducing enemy morale by 1.｣
+
+They are served by two stewards. One is the **knight** *Fiorenza*
+(level 5). ｢The *amulet of the luck stealer* allows you to borrow luck
+from a willing person near you: when rolling a d20, roll 2d20 and take
+the higher result, but the next time they need to roll a d20 in a
+similar situation, they roll 2d20 and take the lower result.｣ The
+other is the **magic user** *Aliénor* (level 4). The spells known are
+based on *The Book of the Water Dragon* by Chana the Aquamancer: 1.
+*charm person*, *water walking*, 2. *speak with skulls*, *speed*. ｢A
+map to the 4 silver lockets worth 3000gp in the barrow of *Daileth*
+(0304). A goblin assassin’s *dagger* +1 with grip covered by rats’
+teeth and lizard skin.｣
+
+The local contact for the secret society of the *Grey Swarm of the
+Tombs* is the **wizard** *Sitharthan* (level 4). The spells known are
+based on *The Book of the Sea Hag* by Narga the Pirate Queen of the
+South Seas: 1. *siren song*, *water walking*, 2. *long kiss*,
+*beauty*. *Sitharthan* also happens to own a book: ｢*Exposing the Grey
+Swarm of the Tombs*｣. They believe that true happiness means
+renouncing the world, leaving your job, your family, your obligations.
+Cultivated carelessness.
+
+*Damián* is willing to pay 500gp to whoever brings back the outlaw
+ *Wild Bear* (0203), dead or alive.
+
+There is a temple dedicated to *Nergal*. The temple used to be a
+hospice but now most of the building is abandoned and sealed. Should
+the seal be broken, sickness and death awaits any trespassers.
+Poisonous molds. Deadly gases. Rotting diseases and blindness. The
+plague will return.
+
+There are some tents outside the settlement and you can spot the
+*white* flag of *Lady Mevina the Vice-Agent* (blazon: *｢Argent｣ a
+hound ｢Sable｣*). 20 **mercenaries** (HD 1 AC 4 1d6 F1 MV 12 ML 7 XP
+100; chain, shield, short sword) are camped here, waiting for orders.
+They are led by the mercenary captain **knight** *Züleyha* (level 3).
+｢An elven *long sword* +1 with elven runes naming its maker:
+*Silefiel*.｣ > Already the mercenaries are drinking far too much. The
+locals grind their teeth and clench their fists when they hear the
+insults and sneers of the drunken mercenaries but they know all too
+well that now is not the time to fight back.
+
+｢Battle Runnel｣ flows through here. A rickety bridge has been built by
+the locals.
+
+｢Old Gravel Road｣ goes through here.
+```
+Unfortunately, I want to use this map with The Fantasy Trip, so I can't use Hex Describe directly.  I did run it on my map just to see what it did, and it produced an HTML file that would have printed to a PDF file of 500 pages.
+
+I guess I ought to look at the Hex Describe table definitions and see if I can adapt them to The Fantasy Trip.
+
+=> https://thefantasytrip.game/ The Fantasy Trip
+
+Anyway, next I need to divide the map up into various areas, figure out what is in them in general, and then start stocking.  I'll work out from around the town in 10.33, on the south west.  I wonder if that should be a large town instead?
