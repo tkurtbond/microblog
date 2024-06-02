@@ -1,9 +1,12 @@
 # 2024-06-01 15:21:17-04:00 - Using Text Mapper for generating a map for a hexcrawl
+Updated: 2024-06-02 09:18:18-04:00
 
 I'm working with a neat application to generate random terrain called Text Mapper.  
 => https://campaignwiki.org/text-mapper/ Text Mapper
 I used the Alpine map generator to generate a 40x40 map.
 => images/text-mapper-40x40-orig.jpg Original 40x40 hex map
+Here is a more zoomed in view:
+=> images/text-mapper-high-res.png Zoomed in view
 It is called "Text" Mapper because it uses a text map format.
 ```
 0101 mountain "mountain"
@@ -138,4 +141,4 @@ I guess I ought to look at the Hex Describe table definitions and see if I can a
 
 => https://thefantasytrip.game/ The Fantasy Trip
 
-Anyway, next I need to divide the map up into various areas, figure out what is in them in general, and then start stocking.  I'll work out from around the town in 10.33, on the south west.  I wonder if that should be a large town instead?
+Anyway, next I need to divide the map up into various areas, figure out what is in them in general, and then start stocking.  I'll work out from around the large town near the shore on the south west portion of the map.
