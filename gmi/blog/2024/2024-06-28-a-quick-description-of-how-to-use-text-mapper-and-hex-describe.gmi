@@ -1,0 +1,11 @@
+# 2024-06-28 15:01:06-04:00 - A quick description of how to use Text Mapper and Hex Describe
+=> https://campaignwiki.org/text-mapper/ Text Mapper
+=> https://campaignwiki.org/hex-describe/ Hex Describe
+
+Text Mapper and Hex Describe are very useful.  Start with Text Mapper.  Choose either the second section (starts with "Random generates map data based on Erin D. Smale's Hex-Based Campaign Design") or the third section (starts with "Alpine generates map data based on Alex Schroeder's algorithm that's trying to recreate a medieval Swiss landscape").  Click on the "Generate Map Data" button of the chosen section.  That will result in a new page displaying, and although it is hard to tell, the text description of the map in the text entry box in the first section (starts with "Submit your text description of the map.")  has been replaced with a new random map.  Click into the text entry box and select all the text (Ctrl-A or Command-A, depending on your operating system) and copy it.  Save it in a text file somewhere.  This is your map's text definnition.   Click the button "Generate Map" in Text Mapper's first section.  This displays a new  page with a nice SVG map of your random hexes.  Save the .svg file with your map's text definition.
+
+Now go to Hex Describe and clear the text in that page's text entry box and paste your text in.  Choose either the Alex Schroeder radio button or one of the buttons marked "Best for Smale maps" depending on your choice on Text mapper, then click on the "Submit" button at the bottom of the page.  That displays a new page with a your map at the top and below it the fully populated descriptions of every hex on your map.  Right click and save the page, which should give you a .HTML file and the associated images in a folder alongside the .HTML file.
+
+Go back and play with Text Mapper and Hex Describe.  If you plan to do this often you may want to install Text Mapper and Hex Describe on your computer, where it will be faster, but will take some technical expertise on your part.
+
+Advanced usage of Text Mapper by editing the generated text map data lets you customize the map to a large degree.  Advanced usage of Hex Describe lets you modify the tables used to randomly create the contents of the hexes or supply completely new tables.
