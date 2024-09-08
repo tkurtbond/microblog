@@ -1,0 +1,3 @@
+C's Syntax: WTF?!?!?!?
+
+C++ and Rust have just made the syntax even worse.
