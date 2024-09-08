@@ -1,0 +1,3 @@
+I learned C in college,and Ada at about the same time.  Previously I was familiar with Applesoft BASIC, VAX BASIC, USCD Pascal, OMSI Pascal, VAX Assembly Language, Forth, and perhaps some other languages, but I was most proficient in Pascal and BASIC.  I was probably just starting to learn about Lisp.
+
+I remember how learning C seemed to open up my world to endless possibilities.  At the time, learning Ada was not as notable.  Writing C programs a flexible process of imagination and discovery.  
