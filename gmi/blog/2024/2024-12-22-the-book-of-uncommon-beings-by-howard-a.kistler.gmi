@@ -1,5 +1,7 @@
 # 2024-12-22 17:01:25-05:00 - The Book of Uncommon Beings, by Howard A. Kistler
 
+=> images/the-book-of-uncommon-beings.jpeg
+
 I finished this being book for TFT today.  Though short, it was definitely worthwhile for me.  It is divided into a list of intelligent beings and a bestiary.  Both the intelligent beings and the beasts inspire scenario ideas.
 
 Because beings in TFT fundamentally come down to four scores, ST (Strength), DX (Dexterity), IQ (Intelligence), and MA (Movement Allowance), the write-ups are almost completely devoid of mechanics, but most are still a page or so in length, with plentiful details on appearance, ecology, habitat, and psychology.
