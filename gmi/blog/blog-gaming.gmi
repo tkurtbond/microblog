@@ -1,5 +1,6 @@
 # T. Kurt Bond's µBlog, Gaming Sub-Blog
 
+=> 2024/2024-12-22-the-book-of-uncommon-beings-by-howard-a.kistler.gmi 2024-12-22 17:01:25-05:00 - The Book of Uncommon Beings, by Howard A. Kistler
 => 2024/2024-06-28-a-quick-description-of-how-to-use-text-mapper-and-hex-describe.gmi 2024-06-28 15:01:06-04:00 - A quick description of how to use Text Mapper and Hex Describe
 => 2024/2024-06-13-the-fantasy-trip-bestiary-finished.gmi 2024-06-13 20:05:05-04:00 - The Fantasy Trip Bestiary Finished
 => 2024/2024-06-01-using-text-mapper-for-generating-a-map-for-a-hexcrawl.gmi 2024-06-01 15:21:17-04:00 - Using Text Mapper for generating a map for a hexcrawl
