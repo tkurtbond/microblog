@@ -2,6 +2,8 @@
 tags: ada
 category: computer/languages/ada
 
+I should note that all my experience with Ada, save for one course in college in the 1980s, has been with the open source GNAT Ada compiler and the open source Ada ecosystem.  I suspect that the situation for commercial Ada users has generally been better than the situation of the open source ecosystem.
+
 This article expands on my previous article from this year, "Did I mention that I like the Ada programming Language?"
 => gemini://consp.org/blog/2024/2024-09-08-did-i-mention-that-i-like-the-ada-programming-language.gmi Did I mention that I like the Ada programming Language?
 Previously in 2019 (on my other blog) I wrote about failing to use Ada in my current programming environment, alas.
