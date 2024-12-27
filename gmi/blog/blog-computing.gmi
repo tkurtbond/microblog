@@ -1,5 +1,6 @@
 # T. Kurt Bond's µBlog, Computing Sub-Blog
 
+=> 2024/2024-12-27-re-failing-at-ada-again-things-are-looking-better.gmi 2024-12-27 12:02:00-05:00 - RE: Failing at Ada Again: Things Are Looking Better! 
 => 2024/2024-09-08-did-i-mention-that-i-like-the-ada-programming-language.gmi 2024-09-08 10:52:05-04:00 - Did I mention that I like the Ada programming language?
 => 2024/2024-05-08-system76-serval-pop-os-vs.fedora-and-nvidia-drivers.gmi 2024-05-08 11:15:55-04:00 - System76 serval: Pop!_OS vs. Fedora and NVIDIA drivers
 => 2024/2024-02-14-dont-want-the-first-line-of-a-git-commit-commit-editmsg-buffer-in-emacs-to-wrap.gmi 2024-02-14 13:10:38-05:00 - Don't want the first line of a git commit COMMIT_EDITMSG buffer in Emacs to wrap?

@@ -1,0 +1,29 @@
+# 2024-12-27 12:02:00-05:00 - RE: Failing at Ada Again: Things Are Looking Better!
+tags: ada
+category: computer/languages/ada
+
+This article expands on my previous article from this year, "Did I mention that I like the Ada programming Language?"
+=> gemini://consp.org/blog/2024/2024-09-08-did-i-mention-that-i-like-the-ada-programming-language.gmi Did I mention that I like the Ada programming Language?
+Previously in 2019 (on my other blog) I wrote about failing to use Ada in my current programming environment, alas.
+=> https://tkurtbond.github.io/posts/2019/11/10/failing-at-ada-again/ Failing At Ada Again
+But prompted by the upcoming release of Ada 2022, I got a copy of Programming in Ada 2012 with a Preview of Ada 2022 by John Barnes on July 22, 2022, and began reading it.
+=> https://www.amazon.com/gp/product/1009181343 Programming in Ada 2012 with a Preview of Ada 2022
+
+I remembered all the things I liked about the language, and went looking at the current state of the open source ecosystem for Ada, and happily, things have changed.  Notably, in 2020 there was the first beta release of Alire, a package manager for Ada/SPARK!
+=> https://blog.adacore.com/first-beta-release-of-alire-the-package-manager-for-ada-spark First beta relase of Alire
+Since then Alire has reached version 2.0.2 and a number of packages (called crates) for it have been created.
+=> https://alire.ada.dev/ Alire
+Alire also lets you manage your Ada toolchain, which is good since since AdaCore doesn't provide a GNAT Community Edition any more (I think having retired it in favor of Alire).
+=> https://www.adacore.com/ AdaCore
+In addition, an Ada toolchain installer, GetAda, has been created, which downloads and installs Alire and through it a full Ada toolchain. 
+=> https://www.getada.dev/ GetAda
+
+Alire and GetAda obviates the first criticism I had in 2019, since Alire does includes GtkAda as one of its many packages.  And, of course, Alire fixes my second criticism, making it much easier to download and use Ada packages.   Alire takes care of my third criticism as well.
+
+Although Alire still has some rough spots, it has made considerable progress, and is quite useful.
+
+I'm no longer using a Macintosh, having switched my main machine to Fedora Linux (which most of my other machines have been running for years), but for those who are, Alire supports macOS x86-64 directly, and with the recent work on porting GNAT to Apple silicon Macs, one can probably compile alrie there and use it.  And although I haven't seen any sign of Alire on ARM based machines yet, I will note that at least Fedora Linux for ARM does include GNAT and several Ada libraries in its standard repositories, which I have used on the Raspberry Pi 400.
+
+I'll also note, that since there is a new edition of John Barnes book, Programming in Ada 2022, it seems that Amazon has reduced the price on the his previous book that previewed Ada 2022 to not quite half the price of the current edition, which might still be useful for those with lower budgets.
+=> https://www.amazon.com/Programming-Ada-2022-John-Barnes/dp/1009564773 Programming in Ada 2022
+
