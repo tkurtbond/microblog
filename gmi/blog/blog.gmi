@@ -1,5 +1,6 @@
 # T. Kurt Bond's µBlog
 
+=> 2025/2025-01-11-my-typical-setup-in-fantasy-grounds-dandd-5e.gmi 2025-01-11 23:36:11-05:00 - My typical setup in Fantasy Grounds D&D 5E
 => 2024/2024-12-27-re-failing-at-ada-again-things-are-looking-better.gmi 2024-12-27 12:02:00-05:00 - RE: Failing at Ada Again: Things Are Looking Better! 
 => 2024/2024-12-22-the-book-of-uncommon-beings-by-howard-a.kistler.gmi 2024-12-22 17:01:25-05:00 - The Book of Uncommon Beings, by Howard A. Kistler
 => 2024/2024-09-08-did-i-mention-that-i-like-the-ada-programming-language.gmi 2024-09-08 10:52:05-04:00 - Did I mention that I like the Ada programming language?
