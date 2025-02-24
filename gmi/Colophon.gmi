@@ -1,5 +1,5 @@
 # Colophon
-Updated: 2023-03-03 09:32:49-05:00
+Updated: 2025-02-24 15:36:36-05:00
 
 I use the Emacs text editor and its visual-line-mode to edit the Gemtext of this site, and the Lichen Content Management System to render it to static HTML files, using a Forth program run using Gforth, GNU Forth 0.7.3 (NOT the bleeding edge version), and a couple of bash scripts to run the Forth program.
 
@@ -28,6 +28,12 @@ And even more recently I've finally made this available as a capsule in geminisp
 => https://git.carcosa.net/jmcbray/germinal Germinal
 => https://lisp-lang.org/ Common Lisp
 => https://tildegit.org/solderpunk/gemcert gemcert
+
+On 2025-02-24 I updated the server running this to Fedora 41 and when I tried to rebuild Germinal, it failed while building package osicat-posix with an error about CFFI failing with a gcc command failing looking for spec file /usr/lib/rpm/redhat/redhat-hardened-cc1, which doesn't exist.  Sigh.
+
+So for now it's running a gemini server written in Go, called just gemini, which was trivial to set up and run.
+
+=> https://github.com/a-h/gemini A server called just "gemini"
 
 ## Why?
 
