@@ -1,0 +1,5 @@
+# 2025-03-07 12:44:50-05:00 - Modern Unix terminal emulators and VMS 5.5-2, emacs, and EDIT/TPU
+
+I maintain a VMS computer for work that for hysterical raisins is running VMS 5.5-2.
+
+Many modern terminal emulators  don't really emulate the VT series above VT100 correctly, even when the terminal emulator reports itself as a VT200 or better.  Xterm seems to emulate the later DEC terminals the best, with SET TERM/INQ setting the terminal type to VT400_Series.  That works fine with EDIT/TPU, but unfortunately emacs 18.55 doesn't know what a VT400 is.  KDE's Konsole reports as a VT200_Series, but EDIT/TPU shows a lot of garbage  (uninterpreted escape codes), so you should explicitly set it to VT100.  Foot, a terminal emulator many people use with Sway, a Wayland compositor, has the same problem.  Gnome-terminal reports as a VT102, which works with both emacs and EDIT/TPU.  And, unfortunately, VMS 5.5-2 doesn't know what a VT525 is, so you can't get color.  Not that current Unix terminfo/termcap know what a VT525 is either.
