@@ -1,0 +1,19 @@
+# The Structure of a Programming Language Revolution by Richard P. Gabriel
+
+This is here so that I can actually listen to that episode after I read the papers involved.
+
+On Thursday, 9 January 2025 (2025-01-09) CPB said:
+> Cleaning up stuff and meetings. I have not had time to write code since before the new year. :-( On a different subject I found this podcast a while back and started listings to some in the middle:  I am listening this this one now https://omny.fm/shows/future-of-coding/structure-of-a-programming-language-revolution-by-richard-p-gabriel and I have found them fun. I would be interested to hear what you think.
+
+This episode talks about the so-called “incommensurability” paper, Structure of a Programming Language Revolution by Richard P. Gabriel.  The direct link to the episode at the Future of Coding website is immediately below
+
+=> https://futureofcoding.org/episodes/058 Future of Coding episode  58 • Structure of a Programming Language Revolution by Richard P. Gabriel
+=> https://omny.fm/shows/future-of-coding/structure-of-a-programming-language-revolution-by-richard-p-gabriel Future of Coding on Structure of a Programming Language Revolution on Omny
+
+These are the papers directly involved:
+=> https://dreamsongs.com/Files/Incommensurability.pdf The Structure of a Programming Language Revolution by Richard P. Gabriel
+=> https://www.bracha.org/oopsla90.pdf Mixin-based Inheritance - Gilad Bracha and William Cook
+And these are background reading:
+=> https://dreamsongs.com/RiseOfWorseIsBetter.html The Rise of Worse is Better by Richard P. Gabriel
+=> https://www.dreamsongs.com/Files/worse-is-worse.pdf Worse is Better is Worse definitely not by Richard P. Gabriel
+=> https://www.dreamsongs.com/Files/IsWorseReallyBetter.pdf Is Worse Really Better? by Richard P. Gabriel
