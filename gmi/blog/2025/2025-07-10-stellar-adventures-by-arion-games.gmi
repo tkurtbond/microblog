@@ -1,0 +1,42 @@
+# 2025-07-10 19:58:17-04:00 - Stellar Adventures by Arion Games
+
+This was a post I made on Reddit, saved here for posterity, and to put it on the Wwb and Geminispace where it may be easier to find.
+
+=> https://www.reddit.com/r/rpg/comments/1lwfa36/comment/n2gegck/ My Reddit post recommending Stellar Adventures
+
+# Reddit Post contents
+
+I have to second the recommendation for Arion Games's Stellar Adventures. While I have not had a chance to play it yet, I have played/run Advanced Fighing Fantasy 2E, which has the basic rules chassis, and found it works well for me.
+
+In 126 pages (excluding 2 pages of of Kickstarter Backers) Stellar Adventures is a complete SF rpg, with simple rules based on the Advanced Fighting Fantasy 2e rules, but customized for SF. Stats for most characters are SKILL (general competence), STAMINA (ability to take damage), and LUCK (just that), and then there are Special Skills, which are added to SKILL for specific situations. If you don't have a Special Skill, and it's something you can attempt without it, you default to SKILL. If you are playing a psionic character, you have PSIONICS stat; if you are playing a robot, you have a TECH stat. Characters also start with one Talent, which are things like Ambidextrous, Combat Reactions, Mutant (1D3 mutations rolled on a table), Linguist, Sidekick, etc., which the player can pick.
+
+Tests of SKILL or SKILL + Special Skill are roll 2d6 equal to or under the Skill total, while on opposed rolls you roll 2d6 + Skill total and compare the two rolls and the higher wins; ties roll again until not tied. LUCK is a finite resource; when you roll against it to get out of a tight spot (either at the Director's request or the player's request) you always lose a point of LUCK. LUCK does not return automatically, but you can get it back by actions in the game: basically, doing brave things and accomplishing significant goals, or compleating an adventure.
+
+Combat is basically opposed tests of Skill totals, with critical hits on double sixes fumbles on double ones. There are four 2d6 critical hit tables and four 2d6 fumble tables for the different broad types of weapons: hand to hand, projectile weapons, explosions, and energy weapons. For damage, you roll a d6 (some things give you a plus to this roll) and look at the damage track for your weapon (which is a one line chart that show results for values 1 through 7+), and your opponent subtracts that much damage from STAMINA. Armour has a Protection track that works the same way: roll a d6, look up the result, and subtract that much from the damage.
+
+The game easily accomodates play mixing various tech levels, from Basic (Bows & Swords, etc.) to Low (pistols, shotguns, rifles, etc.), to Medium (Laser pistols and rifles, Force Swords, Stun Rods) to High (Plasma rifles, Fusion Pistols, Freeze Beam, etc.) There is a small section of Cyberware. PC Robots (which are AIs) have a character generation sequence, while normal robots are just assigned stats, skills, and talents. There are simple design sequences for Vehicles and Starships, and a system for vehicle combat. There a a number of examples of robots, vehicles, and starships.
+
+There is a whole chapter on Psionics, detailing varioius psionci traditions, one of which is dark psionicist, who has a choke ability... You may recognize other psienic traditions inspired by other SF universes.
+
+The chapter on aliens has a character generation sequence for PC and NPC aliens, and a Random Alien Creation system for oppoents.
+
+There is a chapter on Places, Trade, and Crew. Places have stats (measured on a 2d6 scale, although not recorded in hexadecimal...). There is a system for ships making a living through trade, and the crew part of the chapter covers situations where the characters are officiers of a large vessel with NPC crew members.
+
+The final chapter, the Director Advice, includes a Galactic Sector generator and a Star System generator.
+
+In summary, I find it simpler and easier than Traveller, at the cost of some detail. It is very approachable.
+
+I was a backer of the Kickstarter for Stellar Adventures, and am pleased by the result.  I have no association with Arion Games.
+
+# Additional Links
+
+=> https://www.drivethrurpg.com/en/product/214183/stellar-adventures Stellar Adventures
+=> https://www.drivethrurpg.com/en/product/244290/the-kaladarian-response The Kaladarian Response (a 42 page adventure)
+=> https://www.drivethrurpg.com/en/product/279394/world-of-war World of War (a 12 page adventure)
+=> https://www.drivethrurpg.com/en/product/421852/doom-of-the-ice-planet Doom of the Ice Planet (a 14 page adventure)
+=> https://www.drivethrurpg.com/en/product/214184/stellar-adventures-starship-catalogue Stellar Adventures Starship Catalogue
+=> https://www.drivethrurpg.com/en/product/279483/stellar-adventures-weapons-and-armour-catalogue Stellar Adventures Weapons and Armour Catalogue
+
+=> https://www.drivethrurpg.com/en/browse?keyword=stellar%20adventures General search at DrivethruRPG.com for Stellar Adventures
+
+There is additional support for Stellar Adventures in Arion Games/White Hare Games fanzine, The Warlock Returns, and Arion Games also has a number of paper minis for Stellar Adventures, which ought to show up in the above search link. 
