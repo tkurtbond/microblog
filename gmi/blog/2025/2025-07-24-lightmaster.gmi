@@ -1,8 +1,8 @@
 # 2025-07-24 13:10:37-04:00 - Lightmaster
 
-I'm investigating games related to Rolemaster right now, and one of the ones I'm reading right now is Lightmaster, which is a retro-clone from Gurbintroll Games of Rolemaster, adapting it from D100 roles to D20 rolls, but keeping the table driven combat with extensive critical strike tables, but simplifying it.
+I'm investigating games related to Rolemaster right now, and one of the ones I'm reading  is Lightmaster, which is a retro-clone from Blacky the Blackball of Gurbintroll Games of Rolemaster, adapting it from D100 roles to D20 rolls and from Rolemaster's 10 stats to the 6 familiar abilties from D&D, keeping the table driven combat with extensive critical strike tables, but simplifying it.
 
-I finally finished the Lightmaster Core Rulebook from Gurbintroll Games.  It's the first half of the Lightmaster RPG, containing all the rules, while the second part, Lightmaster Book of Tables,  is all the tables listing Crafting Recipes, Spell Paths, Attack Tables, and Critical Strike Tables.  You have to have both books to play.  These are both available for Pay What You Want at DriveThruRPG.com, with softcover print on demand books available there for reasonable prices.
+I finally finished the Lightmaster Core Rulebook from Gurbintroll Games.  It's the first half of the Lightmaster RPG, containing all the rules, while the second part, Lightmaster Book of Tables,  is all the tables listing Crafting Recipes, Spell Paths, Attack Tables, and Critical Strike Tables.  You have to have both books to play.  These are both available for Pay What You Want at DriveThruRPG.com, with softcover print on demand books available there for very reasonable prices.
 
 => https://www.drivethrurpg.com/en/product/279034/lightmaster-core-rulebook Lightmaster Core Rulebook
 => https://www.drivethrurpg.com/en/product/279035/lightmaster-book-of-tables Lightmaster Book of Tables
@@ -11,7 +11,7 @@ I finally finished the Lightmaster Core Rulebook from Gurbintroll Games.  It's t
 
 The Lightmaster Core Rulebook is laid out with two columns on each page, one a wide column, which contains the main text and has a white background, and one a narrow column with a light blue background, which contains marginal notes: supplementary information, clarifications, designer notes, definitions of terms, options, and references to other parts of the book.  It uses blue text for headings and to indicate terms that have specific meanings in Lightmaster, and red text to indicate you can find more information in the marginal notes.  I was somewhat skeptical of the use of color at first, but it IS useful, and I got used to it eventually.  Other than that the layout is very clean and spare, and easy to read.
 
-Unfortunately, there is no PDF outline/table of contents, and no internal PDF links.
+Unfortunately, there is no PDF outline/table of contents, and no internal PDF links.  Since I do most of my RPGing online these days I anticipate I'll create a version that includes a PDF outline/table of contents if possible.
 
 The book starts out with a chapter on the setting of Lightmaster, which is an alternate fantasy Earth and Solar System with different laws of physics.  The game is named after Lightmaster sails, which allow ships to sail through the air, through the Void surrounding planets (provided they have a sufficient air supply), and through the Luminiferous Aether outside the Celestial Spheres that surrounds star systems.  The many of the planets of the Solar System (or their moons) are inhabited, with regular travel between them, and there are other star systems outside the Celestial Sphere that are also inhabited, with some travel between them as well.  The humans of Earth were taught to sail the air, the Void, and the Luminifeous Aether by the Selenites, graceful insectoids from the Moon.  Lightmaster sails are made from the membranes of dragon wings, with all that implies.  The setting chapter talks about the game's feel and inspiration, which  more the pulp adventures of Edgar Rice Burroughs, Clark Ashton Smith, Robert E. Howard, H. G. Wells, H. P. Lovecraft, Jules Verne, and Arthur Conan Doyle than the pseudo medieval fantasy of D&D.  The chapter also explains the Cosmology and Metaphysics of the setting, which is NOT according to the scientific principles of our universe, how Souls and the Afterlife work in the the setting, the various religions (some introduced from other planets), the different types of magic and how they are taught, and the impact of magic.  Then it talks about the inhabitants of the setting.  There are humans, but almost none of the non-human species familiar from D&D: only goblins share the Earth with humans.  But there are also Selenites on the Moon, plant people on Mercury, insectoid beings from Jupiter's moon Io, Plutonian crustaceans, undead Martians, and dragons.  Finally, the chapter ends with a discussion of levels and demographics, setting expectations about how powerful various level ranges are and how common they are.  Levels, by the way, go up to 50.
 
@@ -27,10 +27,18 @@ There is a saving throw for each ability score which uses the ability score bonu
 
 Now I have to read the Lightmaster Book of Tables.
 
-## <sido date> Well, I've finally finished the Lightmaster Book of Tables.
+## 2025-09-21 Well, I've finally finished the Lightmaster Book of Tables.
 
 The magic recipes didn't take that long.
 
-Reading all the spell paths, on the other hand, took forever.  I finally finished them on 2025-09-21, Sunday, 21 September 2025.  It wasn't a problem with the spell paths or the individual spells; they were clearly written.  It was just my problem with reading 20 or so spells to a page.
+Reading all the spell paths, on the other hand, took forever.  I finally finished them today,  2025-09-21, Sunday, 21 September 2025.  It wasn't a problem with the spell paths or the individual spells; they were clearly written.  It was just my problem with reading 20 or so spells to a page.  So I had to rest my brain after reading a few pages, and the further I got in the more I had to rest between readings.
 
 Happily, reading the spells always made me want to see them used in an actual campaign.
+
+After a quick rest from the Spell Paths I moved on.  There really isn't anything to read on the Attack Tables.  I finished reading the Critical Tables quickly, as the descriptive text is short and the rest of the tables are well defined mechanical effects. 
+
+## Conclusions
+
+I really like Lightmaster.  I think it is well organized and well written.  If found the use of color for signaling defined terms and cross referencing to nearby explanations effective, although the use of red and blue would give probably slow folks with color blindness down a little, the cross references are all to items on the page, and the colored text is also bolded, giving another indication the words importance.
+
+Reading Lightmaster definitely makes me want to play in or run a Lightmaster campaign.
