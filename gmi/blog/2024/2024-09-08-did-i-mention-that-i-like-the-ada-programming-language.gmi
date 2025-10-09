@@ -1,6 +1,5 @@
 # 2024-09-08 10:52:05-04:00 - Did I mention that I like the Ada programming language?
-Keywords: Ada,Data Structures,Ada Standards, Ada Rationale, Ada
-Reference Manual
+Keywords: Ada,Data Structures,Ada Standards, Ada Rationale, Ada Reference Manual
 
 Well, I do.  I think that Ada is very well designed language, and reading the Rationales for the various editions of the Ada Standards is enlightening.
 => https://www.adaic.org/ada-resources/standards/ Ada Standards, including Rationales
