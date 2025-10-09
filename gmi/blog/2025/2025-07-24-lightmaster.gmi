@@ -1,8 +1,11 @@
 # 2025-07-24 13:10:37-04:00 - Lightmaster
+Keywords: RPG, Lightmaster, Rolemaster, Gurbintroll Games, in progress
+
+[This still in the progress of revising this post, but since I'm two months and change from when I wrote the first version I thought I should put what I have out there: the perfect is the enemy of the good enough, something I definitely have a problem with.]
 
 I'm investigating games related to Rolemaster right now, and one of the ones I'm reading  is Lightmaster, which is a retro-clone from Blacky the Blackball of Gurbintroll Games of Rolemaster, adapting it from D100 roles to D20 rolls and from Rolemaster's 10 stats to the 6 familiar abilties from D&D, keeping the table driven combat with extensive critical strike tables, but simplifying it.
 
-I finally finished the Lightmaster Core Rulebook from Gurbintroll Games.  It's the first half of the Lightmaster RPG, containing all the rules, while the second part, Lightmaster Book of Tables,  is all the tables listing Crafting Recipes, Spell Paths, Attack Tables, and Critical Strike Tables.  You have to have both books to play.  These are both available for Pay What You Want at DriveThruRPG.com, with softcover print on demand books available there for very reasonable prices.
+I finally finished the Lightmaster Core Rulebook by Blacky the Blackball the Blackball, from Gurbintroll Games.  It's the first half of the Lightmaster RPG, containing all the rules, while the second part, Lightmaster Book of Tables,  is all the tables listing Crafting Recipes, Spell Paths, Attack Tables, and Critical Strike Tables.  You have to have both books to play.  These are both available for Pay What You Want at DriveThruRPG.com, with softcover print on demand books available there for very reasonable prices.
 
 => https://www.drivethrurpg.com/en/product/279034/lightmaster-core-rulebook Lightmaster Core Rulebook
 => https://www.drivethrurpg.com/en/product/279035/lightmaster-book-of-tables Lightmaster Book of Tables
@@ -47,6 +50,6 @@ After a quick rest from the Spell Paths I moved on.  There really isn't anything
 
 ## Conclusions
 
-I really like Lightmaster.  I think it is well organized and well written.  If found the use of color for signaling defined terms and cross referencing to nearby explanations effective, although the use of red and blue would give probably slow folks with color blindness down a little, the cross references are all to items on the page, and the colored text is also bolded, giving another indication the words importance.
+I really like Lightmaster.  I think it is well organized and well written.  I found the use of color for signaling defined terms and cross referencing to nearby explanations effective.  Although the use of red and blue would give probably slow folks with color blindness down a little, the cross references are all to items on the page, and the colored text is also bolded, giving another indication of the words' importance.
 
 Reading Lightmaster definitely makes me want to play in or run a Lightmaster campaign.
