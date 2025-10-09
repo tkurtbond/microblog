@@ -1,5 +1,6 @@
 # T. Kurt Bond's µBlog
 
+=> 2025/2025-10-09-c-and-ada.gmi 2025-10-09 14:07:04-04:00 - C and Ada
 => 2025/2025-07-24-lightmaster.gmi 2025-07-24 13:10:37-04:00 - Lightmaster
 => 2025/2025-07-10-stellar-adventures-by-arion-games.gmi 2025-07-10 19:58:17-04:00 - Stellar Adventures by Arion Games
 => 2025/2025-06-27-still-putting-along.gmi 2025-06-27 14:54:20-04:00 - Still putting along

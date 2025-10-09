@@ -1,0 +1,10 @@
+# 2025-10-09 14:07:04-04:00 - C and Ada
+Keywords: Ada, C, safety, foot guns
+
+I learned C in college,and Ada at about the same time.  Previously I was familiar with Applesoft BASIC, some 6502 machine language and assembly, VAX BASIC, USCD Pascal, OMSI Pascal, VAX Assembly Language, Forth, and perhaps some other languages, but I was most proficient in Pascal and BASIC.  I was probably just starting to learn about Lisp.
+
+I remember how learning C seemed to open up my world to endless possibilities.  At the time, learning Ada was not as notable.  Writing C programs was a flexible process of imagination, discovery, and crashing code.  Writing Ada programs was a lot more thinking up front, and seemed like more work.  Unfortunately, I was too naive to see that the additional work caused by Ada's type system was cutting out even more work debugging that was exacerbated by C's weak type system.
+
+Now, after decades of software development, I really appreciate the design of Ada, and see C's weaknesses.  C doesn't stop you from doing anything, which was a real draw after BASIC, but that means it lets you shoot yourself in the foot in a tremendous variety of ways, and even the features modern C has don't reduce that to a significant degree.  Lots of things that C programmers do as a matter of course turn out to be errors even in C, with unpredictable behavior, and C doesn't warn about it, even with modern C compilers.  Ada was designed to be a safe, readable, performant programming language from the beginning, and while you can do anything in it, it will warn you when you working in dangerous territory.  And Ada's facilities for working at a low level are in many ways superior to C's, and much more readable.
+
+I've only been able to use Ada very infrequently in my professional work, unfortunately, but I enjoy using for personal projects.

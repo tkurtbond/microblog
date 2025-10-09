@@ -1,5 +1,6 @@
 # T. Kurt Bond's µBlog, Computing Sub-Blog
 
+=> 2025/2025-10-09-c-and-ada.gmi 2025-10-09 14:07:04-04:00 - C and Ada
 => 2025/2025-03-07-modern-unix-terminal-emulators-and-vms-5.5-2-emacs-and-edit-tpu.gmi 2025-03-07 12:44:50-05:00 - Modern Unix terminal emulators and VMS 5.5-2, emacs, and EDIT/TPU
 => 2024/2024-12-27-re-failing-at-ada-again-things-are-looking-better.gmi 2024-12-27 12:02:00-05:00 - RE: Failing at Ada Again: Things Are Looking Better! 
 => 2024/2024-09-08-did-i-mention-that-i-like-the-ada-programming-language.gmi 2024-09-08 10:52:05-04:00 - Did I mention that I like the Ada programming language?
