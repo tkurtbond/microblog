@@ -1,0 +1,3 @@
+# Notation
+
+I use a familiar inline notation for *italic*, **bold**, and ***bold italic***, because that makes sense to me, seems useful, and most people should understand the convention.  I think there is no need for Gemini viewers to bother to render them differently, but don't mind if they do.
