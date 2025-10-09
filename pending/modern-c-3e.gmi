@@ -1,0 +1,3 @@
+This looks, on a first glance, to be a really good book on C23.  I'll have to see if reading this changes my mind about K&R2E being the best place to start with C.
+
+=> https://www.amazon.com/dp/1633437779 Modern C, Third Edition: 3rd Edition by Jens Gustedt
