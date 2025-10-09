@@ -1,5 +1,8 @@
 # Notation
 
 I write this site using Gemtext and although Gemtext has no native support for it I use a familiar inline notation for *italic*, **bold**, and ***bold italic***, because that makes sense to me, seems useful, and most people should understand the convention.  I think there is no need for Gemtext viewers to bother to render them differently, but don't mind if they do.  The tool I use to convert the Gemtext into HTML for the Web version of this doesn't bother with it and that doesn't displease me.
-
+——————————————————————————————
+Less common, but still useful is ```fixed/preformatted``` inline text and the use of horizontal rules and a dinkus, but those are easy enough to do as well.
+*****
 => https://gemini.circumlunar.space/docs/gemtext.gmi Gemtext
+=> https://en.wikipedia.org/wiki/Dinkus Dinkus
