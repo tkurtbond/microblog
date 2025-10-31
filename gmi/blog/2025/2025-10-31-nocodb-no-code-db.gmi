@@ -1,4 +1,5 @@
 # 2025-10-31 14:21:30-04:00 - NocoDB — No Code DB
+Keywords: NocoDB, no code database
 
 So, I'm always looking for things that could be the modern POISE.  I still haven't found one, but I have found something interesting:  NocoDB, the No Code Database.  It's open source.
 
