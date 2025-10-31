@@ -1,0 +1,20 @@
+# 2025-10-31 14:21:30-04:00 - NocoDB — No Code DB
+
+So, I'm always looking for things that could be the modern POISE.  I still haven't found one, but I have found something interesting:  NocoDB, the No Code Database.  It's open source.
+
+=> https://nocodb.com/ Homepage
+=> https://github.com/nocodb/nocodb Github
+
+It lets you build databases and enter data into them interactively, including many to many, many to one, and one to one relationships!
+
+If you go to their github and scroll down to Installation and then to Other Methods, you can get an executable that contains everything and uses an SQLite database, which is very convenient for playing around with, which is something I've been doing on and off for a couple of days.
+
+My impression at this point is that it makes it easy to build a database and enter data into it, but does not have tools for easily querying and working with the data: no way to select data and make reports from them.  So, for instance, if you have a many to one or many to many relationship it is easy to specify the relationships in data, since there is a tool in data entry that allows one to add one or more (as appropriate) links to rows in another table.  However, the data displayed in the data entry mode for a row with many to many or many to one relationships actually just says something like “N items”, where “N” is the number of linked items and “items” is the name of the related table.  And there is no easy way to build a query/filter that involves those relationships.
+
+You CAN work with the underlying SQLite/PostgreSQL/MySQL database directly, but that's not as straightforward as I'd like, since the table, view, and index names are complicated by NocoDB needing to use naming patterns that help them map from the user's names to the more complicated names that are used to keep individual “bases” separate but in the same underlying databases.  For instance, if I have two bases in NocoDB that both have “creatures” tables, one might be named “nc_bd_k___creatures” while the other might be named “nc_6b6p___creatures”, and all the indexes and relationships related to those will used names derived from those.
+
+Anyway, I think NocoDB still needs a lot of functionality added before it is the new POISE.
+
+----------------------------------------
+
+What's POISE?  That was a data management system (a DMS, a pre-relational, pre-database paradigm) that let users define files, enter data into them (including links between them),  and allow the user to select, transform, and print the data out of those files.  The important thing about POISE was it let USERS do this, not programmers or database designers.  If the user decided later that they needed a new field in one of their files they could use standard tools to add them and move the data round.  All of this was done by interactive programs that lead the user through the process by prompted them for each step.
