@@ -1,12 +1,12 @@
 # 2025-10-19 21:39:15-04:00 - Middle-Earth Roleplaying
 Keywords: Middle Earth Role Playing, MERP, Tolkien, RPG, ICE, MERP2E
 
-I finished reading *Middle-Earth Roleplaying*, Second Edition (or *MERP* as it is commonly known) from Iron Crown Enterprises (I.C.E., the original company).
+I finished reading *Middle-Earth Roleplaying*, Second Edition (or *MERP* as it is commonly known, or *MERP2E* as I'll call it to distinguish the edition) from Iron Crown Enterprises (I.C.E., the original company).
 
-I found the organization a little confusing, although once I settled down to read from the beginning to the end (rather than flipping about as I did at first) I could see why they organized that way.  Let me quote from Section 2.0, “How to Play: the Rules & Guidelines”, on page 16, which describes the parts of the book::
+I found the organization a little confusing when I started flipping through it, although once I settled down to read from the beginning to the end  I could see why they organized that way.  Let me quote from Section 2.0, “How to Play: the Rules & Guidelines”, on page 16, which describes the parts of the book, which describes what *MERP2E* contains:
 
-* *Part I* provides a general overview of fantasy role playing, Middle-earth, J.R.R. Tolkien's books, and the *MERP* rules and guidelines (Sections 1.0–2.0, pages 2–19).
-* *Part II* presents a set of completely developed and ready-to-play characters (the Basic Character Templates) *and* discusses the various factors and traits that define a FRP character in *MERP* (Sections 3.0–6.0, pages 20–41).
+* *Part I* provides a general overview of fantasy role playing, Middle-earth, J.R.R. Tolkien's books, and the *MERP2E* rules and guidelines (Sections 1.0–2.0, pages 2–19).
+* *Part II* presents a set of completely developed and ready-to-play characters (the Basic Character Templates) *and* discusses the various factors and traits that define a FRP character in *MERP2E* (Sections 3.0–6.0, pages 20–41).
 * *Part III* outlines how to resolve commonly occurring actions and activities during during the players' adventures (Sections 7.0–10.0, pages 42–57).
 * *Part IV* details most of the rules that affect the Gamemaster's task of setting up and managing a world system (Sections 11.0–18.0, pages 58–77).
 * *Part V* describes how to create and develop your own characters (Section 19.0–27.0, pages 78–97).
@@ -14,7 +14,7 @@ I found the organization a little confusing, although once I settled down to rea
 * *Part VII* is the Appendices—including the Basic Character Templates, the culture/race descriptions, the creature descriptions, the spell lists, the secondary skills, optional material, conversion notes, selected readings, and all of the tables and record sheets that provide mechanisms for adding flavor and details to a game without decreasing playability (Appendices A-1 to A-10, pages 113–265).
 * *Part VIII* is an index (pages 266–270).
 
-Basically, they really wanted the players to be able to begin relatively quickly, but *MERP* has a fairly detailed character creation system covering several primary skills and some additional secondary skills and having a plethora of culture/race descriptions with a great deal of detail.  So, rather than forcing the players to work through all the choices needed for creating a character first, they provided sixteen pregenerated characters which have had all their level developments worked out up to level 10.  *Part II* starts off by listing the different pregenerated characters (and providing the page numbers in the appendices where their sheets are), and provides one of the pregenerated characters as an example for players reading through the explanation of how a MERP character works.  It's an interesting idea the obviates the up front work of actually generating a character.
+Basically, they really wanted the players to be able to begin relatively quickly, but *MERP2E* has a fairly detailed character creation system covering several primary skills and some additional secondary skills and having a plethora of culture/race descriptions with a great deal of detail.  So, rather than forcing the players to work through all the choices needed for creating a character first, they provided sixteen pregenerated characters which have had all their level developments worked out up to level 10.  *Part II* starts off by listing the different pregenerated characters (and providing the page numbers in the appendices where their sheets are), and provides one of the pregenerated characters as an example for players reading through the explanation of how a *MERP2E* character works.  The player can take a photocopy of the two pages of the pregenerated character they chose, copy the Level 1 bonus column of the first page directly to the Level Bonus column on the second page and be ready to play.  To level up, all they need to do is copy the Level 2 Bonus column from the first page to the Level Bonus column on the second page.  (Experienced players can still create their own characters.)
 
 Here are descriptions of the pregenerated characters, from *Part II*, “Your Character”, page 20:
 
@@ -37,4 +37,10 @@ Here are descriptions of the pregenerated characters, from *Part II*, “Your Ch
 
 Galadhil is the example character sheet in Section 3.0, “Keeping Track of Your  Character”, page 21.
 
-Anyway, *MERP* is another game that wished I had played or run back in the day, and I would happy to do sow now.
+Here's what the second paragraph of Section 2.1, “Learning to use MERP”, has to say about what each player should read of the book to prepare themselves:
+
+> Each player should first read Parts I and II.  Then each player should choose one of the ready-to-play characters from Appendix A-1.  A more experienced role player may want to read Part V immediately and create his own character.  Finally, the characters should read Part III so that they will understand what their options are in a tactical (combat) situation.  It is not necessary for the players to read parts IV & VI, since it is concerned with how the Gamemaster may handle the setting of the game, the plot elements, and other factors.  Part VII can be referred to as needed for specific information and situations.
+
+Anyway, *MERP2* is another game that wished I had played or run back in the day, and I would happy to do either now.
+
+There were two versions of *MERP2E*: one, the Collector's Edition (stock #2000), had a hard cover, and the other (stock #2001) had a soft cover. Otherwise they seem identical, with a wonderful Angus McBride cover.  The interiors are black and white, mostly line drawings, much of which was from Liz Danforth (which I quite like).  I bought both my copies used in 2025, and both have stood up well. 
