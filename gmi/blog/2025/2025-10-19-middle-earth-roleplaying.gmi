@@ -20,7 +20,7 @@ Basically, they really wanted the players to be able to begin relatively quickly
 
 Here are descriptions of the pregenerated characters, from *Part II*, “Your Character”, page 20:
 
-1) *Black Númenórean Warrior (p. 114–115) — Indrâzor is a male warrior, a haughty, mercenary outcast from Umbar.
+1) *Black Númenórean Warrior* (p. 114–115) — Indrâzor is a male warrior, a haughty, mercenary outcast from Umbar.
 2) *Rohir Warrior* (p. 116–117) — A cool, but deeply passionate, female warrior, Léowyn is an aspiring shieldmaiden.
 3) *Dwarf Warrior* (p. 118-119) – Bali Redhelm is a pugnacious Dwarven male, a warrior from the Iron Hills.
 4) *Sinda Elf Warrior* (p. 120–121) — Camthalion is a calm, nature-loving Elf-warrior.
@@ -33,7 +33,7 @@ Here are descriptions of the pregenerated characters, from *Part II*, “Your Ch
 11) *Dorwinadan Bard* (p. 134–135) — A woman of Raivod, a port on the sea of Rhûn, Widonu is a hardy, wily, and friendly adventurer.
 12) *Noldo Elf Bard* (p. 136–137) — Lólindir is a proud, creative male who makes his home in Lórien.
 13) *Silvan Elf Mage* (p. 138–139) — Lamalas is a guarded, but fun-loving male Avar who hails from the Elf-kingdom in northern Mirkwood.
-14) *Dúnadan Mage (p. 140–141) — Mirwen is a serious, but inquisitive female who is enamored of jewel-craft.
+14) *Dúnadan Mage* (p. 140–141) — Mirwen is a serious, but inquisitive female who is enamored of jewel-craft.
 15) *Half-elf Animist* (p. 142–143) — Elbragol is a thoughtful and reserved Peredhil male who was raised by the Noldor of Forlindon.
 16) *Beorning Animist* (p. 144–145) — Beraláth is a rugged, jovial Beijabar male who lives in the western part of the Anduin Vale.
 
