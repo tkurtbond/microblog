@@ -7,35 +7,35 @@ I finished reading *Middle-Earth Roleplaying*, Second Edition (or *MERP* as it i
 
 I found the organization a little confusing when I started flipping through it, although once I settled down to read from the beginning to the end  I could see why they organized that way.  Let me quote from Section 2.0, “How to Play: the Rules & Guidelines”, on page 16, which describes the parts of the book, which describes what *MERP2E* contains:
 
-* *Part I* provides a general overview of fantasy role playing, Middle-earth, J.R.R. Tolkien's books, and the *MERP2E* rules and guidelines (Sections 1.0–2.0, pages 2–19).
-* *Part II* presents a set of completely developed and ready-to-play characters (the Basic Character Templates) *and* discusses the various factors and traits that define a FRP character in *MERP2E* (Sections 3.0–6.0, pages 20–41).
-* *Part III* outlines how to resolve commonly occurring actions and activities during during the players' adventures (Sections 7.0–10.0, pages 42–57).
-* *Part IV* details most of the rules that affect the Gamemaster's task of setting up and managing a world system (Sections 11.0–18.0, pages 58–77).
-* *Part V* describes how to create and develop your own characters (Section 19.0–27.0, pages 78–97).
-* *Part VI* provides a sample of the game environment (pages 98–112).
-* *Part VII* is the Appendices—including the Basic Character Templates, the culture/race descriptions, the creature descriptions, the spell lists, the secondary skills, optional material, conversion notes, selected readings, and all of the tables and record sheets that provide mechanisms for adding flavor and details to a game without decreasing playability (Appendices A-1 to A-10, pages 113–265).
-* *Part VIII* is an index (pages 266–270).
+* **Part I** provides a general overview of fantasy role playing, Middle-earth, J.R.R. Tolkien's books, and the *MERP2E* rules and guidelines (Sections 1.0–2.0, pages 2–19).
+* **Part II** presents a set of completely developed and ready-to-play characters (the Basic Character Templates) **and** discusses the various factors and traits that define a FRP character in *MERP2E* (Sections 3.0–6.0, pages 20–41).
+* **Part III** outlines how to resolve commonly occurring actions and activities during during the players' adventures (Sections 7.0–10.0, pages 42–57).
+* **Part IV** details most of the rules that affect the Gamemaster's task of setting up and managing a world system (Sections 11.0–18.0, pages 58–77).
+* **Part V** describes how to create and develop your own characters (Section 19.0–27.0, pages 78–97).
+* **Part VI** provides a sample of the game environment (pages 98–112).
+* **Part VII** is the Appendices—including the Basic Character Templates, the culture/race descriptions, the creature descriptions, the spell lists, the secondary skills, optional material, conversion notes, selected readings, and all of the tables and record sheets that provide mechanisms for adding flavor and details to a game without decreasing playability (Appendices A-1 to A-10, pages 113–265).
+* **Part VIII** is an index (pages 266–270).
 
 Basically, they really wanted the players to be able to begin relatively quickly, but *MERP2E* has a fairly detailed character creation system covering several primary skills and some additional secondary skills and having a plethora of culture/race descriptions with a great deal of detail.  So, rather than forcing the players to work through all the choices needed for creating a character first, they provided sixteen pregenerated characters which have had all their level developments worked out up to level 10.  *Part II* starts off by listing the different pregenerated characters (and providing the page numbers in the appendices where their sheets are), and provides one of the pregenerated characters as an example for players reading through the explanation of how a *MERP2E* character works.  The player can take a photocopy of the two pages of the pregenerated character they chose, copy the Level 1 bonus column of the first page directly to the Level Bonus column on the second page and be ready to play.  To level up, all they need to do is copy the Level 2 Bonus column from the first page to the Level Bonus column on the second page.  (Experienced players can still create their own characters.)
 
 Here are descriptions of the pregenerated characters, from *Part II*, “Your Character”, page 20:
 
-1) *Black Númenórean Warrior* (p. 114–115) — Indrâzor is a male warrior, a haughty, mercenary outcast from Umbar.
-2) *Rohir Warrior* (p. 116–117) — A cool, but deeply passionate, female warrior, Léowyn is an aspiring shieldmaiden.
-3) *Dwarf Warrior* (p. 118-119) – Bali Redhelm is a pugnacious Dwarven male, a warrior from the Iron Hills.
-4) *Sinda Elf Warrior* (p. 120–121) — Camthalion is a calm, nature-loving Elf-warrior.
-5) *Dunlending Scout* (p. 122–123) — Belefleca is a fiery and gregarious male Dunlending.  He fancies himself as an author and poet.
-6) *Hobbit Scout* (p. 124–125) – Boffo Northtook is an adventuresome Fallohide male who hails from the Northfarthing.
-7) *Dwarf Scount* (p. 126–127) – Dwalin is a sober and suspicious male who makes his home in the Blue Mountains.
-8) *Silvan Elf Scout* (p. 128–129) — Lóthiniel is a cheerful, fun-loving Elf-maiden from northern Mirkwood.
-9) *Dúnadan Ranger* (p. 130–131) — Galadhil is a stern, quiet man from the frontier of Arthedain.
-10 *Woodman Ranger* (p. 132-133) — Skutilla is a reserved but perceptive male who lives at Woodman-town in southern Mirkwood.
-11) *Dorwinadan Bard* (p. 134–135) — A woman of Raivod, a port on the sea of Rhûn, Widonu is a hardy, wily, and friendly adventurer.
-12) *Noldo Elf Bard* (p. 136–137) — Lólindir is a proud, creative male who makes his home in Lórien.
-13) *Silvan Elf Mage* (p. 138–139) — Lamalas is a guarded, but fun-loving male Avar who hails from the Elf-kingdom in northern Mirkwood.
-14) *Dúnadan Mage* (p. 140–141) — Mirwen is a serious, but inquisitive female who is enamored of jewel-craft.
-15) *Half-elf Animist* (p. 142–143) — Elbragol is a thoughtful and reserved Peredhil male who was raised by the Noldor of Forlindon.
-16) *Beorning Animist* (p. 144–145) — Beraláth is a rugged, jovial Beijabar male who lives in the western part of the Anduin Vale.
+1) **Black Númenórean Warrior** (p. 114–115) — Indrâzor is a male warrior, a haughty, mercenary outcast from Umbar.
+2) **Rohir Warrior** (p. 116–117) — A cool, but deeply passionate, female warrior, Léowyn is an aspiring shieldmaiden.
+3) **Dwarf Warrior** (p. 118-119) – Bali Redhelm is a pugnacious Dwarven male, a warrior from the Iron Hills.
+4) **Sinda Elf Warrior** (p. 120–121) — Camthalion is a calm, nature-loving Elf-warrior.
+5) **Dunlending Scout** (p. 122–123) — Belefleca is a fiery and gregarious male Dunlending.  He fancies himself as an author and poet.
+6) **Hobbit Scout** (p. 124–125) – Boffo Northtook is an adventuresome Fallohide male who hails from the Northfarthing.
+7) **Dwarf Scount** (p. 126–127) – Dwalin is a sober and suspicious male who makes his home in the Blue Mountains.
+8) **Silvan Elf Scout** (p. 128–129) — Lóthiniel is a cheerful, fun-loving Elf-maiden from northern Mirkwood.
+9) **Dúnadan Ranger** (p. 130–131) — Galadhil is a stern, quiet man from the frontier of Arthedain.
+10 **Woodman Ranger** (p. 132-133) — Skutilla is a reserved but perceptive male who lives at Woodman-town in southern Mirkwood.
+11) **Dorwinadan Bard** (p. 134–135) — A woman of Raivod, a port on the sea of Rhûn, Widonu is a hardy, wily, and friendly adventurer.
+12) **Noldo Elf Bard** (p. 136–137) — Lólindir is a proud, creative male who makes his home in Lórien.
+13) **Silvan Elf Mage** (p. 138–139) — Lamalas is a guarded, but fun-loving male Avar who hails from the Elf-kingdom in northern Mirkwood.
+14) **Dúnadan Mage** (p. 140–141) — Mirwen is a serious, but inquisitive female who is enamored of jewel-craft.
+15) **Half-elf Animist** (p. 142–143) — Elbragol is a thoughtful and reserved Peredhil male who was raised by the Noldor of Forlindon.
+16) **Beorning Animist** (p. 144–145) — Beraláth is a rugged, jovial Beijabar male who lives in the western part of the Anduin Vale.
 
 Galadhil is the example character sheet in Section 3.0, “Keeping Track of Your  Character”, page 21.
 
