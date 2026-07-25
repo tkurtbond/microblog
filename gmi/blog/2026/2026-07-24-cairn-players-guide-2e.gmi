@@ -1,0 +1,36 @@
+# 2026-07-24 21:59:56-04:00 - Cairn Player's Guide - 2E
+Keywords: RPG, Ciarn, Cairn 2E, Into the Odd, Electric Bastionland, Chris McDowall, Knave
+I'm reading the Cairn 2E Player's Guide today.
+=> https://cairnrpg.com/ Cairn Website
+
+I'm sure there are lots of comments about it in various places, but these are the things that came immediately to mind for me.
+
+I see that the basic mechanics similar to Into the Odd.  I've seen comments that it's halfway between Into the Odd and Knave.  I can see that.  (I really need to find my copy of Knave to compare them all.)
+
+The rules explained clearly.  There are lots of setting details in the tables in each character background.  I found them very evocative, but full of things that are ambiguous and will inevitably be interpreted uniquely every time a character background is used.  I see this as an advantage.  It is interesting to see how different the tables in the character backgrounds of Cairn are from the tables in the Failed Careers of Electric Bastionland (another game by Chris McDowall of Into the Odd).
+
+This is definitely a game that requires a lot of improvisation and many rulings.  That is not a criticism.
+
+I found the Downtime Actions interesting, including the Training Action, which lets the character improve their abilities with an item or skill.  As far as I can see, this is the only way characters can improve (except for HP), and each improvement will require unique circumstances.  There is not an automatic path to follow to improve your character: no Zero to Hero rise in power like D&D here!  And as for improving your hit points, I think it is amusing that the only way to increase a character's HP is for the character to be reduced to exactly zero HP, and then index how many HP of damage they took on the Scars table, where if the character survives, they're offered a roll on 1d6, 2d6, or 3d6 and if the result is higher than their current HP they take the role as their new HP.
+
+It looks like a rules light, easy to learn, but fairly complete dangerous adventure game of wilderness and dungeon exploring.  This looks like an excellent system for when I want something rules light.  I like the dangerous nature of combat, and that HP do not steadily inflate. I'm looking forward to seeing what the Cairn 2E Warden's Guide adds.
+
+I think that Cairn 2E would be an excellent game for introducing new players to RPGs.
+
+I very much like the openness of Cairn.  The first page on the web page points out that the source code for the books is available in a Git repo, which I especially appreciate!  
+=> https://github.com/yochaigal/cairn Cairn Git Repo
+The web page also has the complete Player's Guide and Warden's Guide available as web pages, and on the Game Files page under Second Edition has links to free PDF downloads at itch.io and and PDFs and
+POD at DriveThruRPG, which I also find compelling.
+=> https://cairnrpg.com/second-edition/game-files/ Game Files at CairnRPG.com
+There were also nice printed versions at their store, which is where I got my printed copies.
+=> https://store.cairnrpg.com/ Cairn Store
+They seem to have quite a few adventures at the store as well.
+
+For those of you interested in Chris McDowell's RPGs, which I also like, here are some links:
+=> https://www.bastionland.com/ BASTIONLAND  A BASTION OF ODDITY
+
+=> https://www.drivethrurpg.com/en/product/399483/into-the-odd-remastered Into the Odd – Remastered at DriveThruRPG
+=> https://freeleaguepublishing.com/games/into-the-odd/ Into the Odd at Free League
+
+=> https://chrismcdee.itch.io/electric-bastionland Electric Bastionland at itch.io
+=> https://modiphius.us/products/electric-bastionland Electric Bastionland at Modiphius US
