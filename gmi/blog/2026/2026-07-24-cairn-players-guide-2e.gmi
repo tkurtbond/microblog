@@ -7,7 +7,7 @@ I'm sure there are lots of comments about it in various places, but these are th
 
 I see that the basic mechanics similar to Into the Odd.  I've seen comments that it's halfway between Into the Odd and Knave.  I can see that.  (I really need to find my copy of Knave to compare them all.)
 
-The rules explained clearly.  There are lots of setting details in the tables in each character background.  I found them very evocative, but full of things that are ambiguous and will inevitably be interpreted uniquely every time a character background is used.  I see this as an advantage.  It is interesting to see how different the tables in the character backgrounds of Cairn are from the tables in the Failed Careers of Electric Bastionland (another game by Chris McDowall of Into the Odd).
+The rules explained clearly.  There are lots of setting details in the tables in each character background.  I found them very evocative, but full of things that are ambiguous and will inevitably be interpreted uniquely every time a character background is used.  I see this as an advantage.  It is interesting to see how different the tables in the character backgrounds of Cairn are from the tables in the Failed Careers of Electric Bastionland (another game by Chris McDowall of Into the Odd).  Both are very evocative, but I found the tables for the Failed Careers much grimmer, somehow.  And I thought McDowell's reuse of the rolls for Money and HP a good idea, and I liked how on the table indexed by HP, the lower HP numbers tend to have entries that result in something more useful.  Into the Odd Remastered doesn't have separate backgrounds or careers, but the Starter Package Table is its equivalent, where you cross index your highest ability score against your HP, and the lower the both of those are the more powerful the Starting Package is.  I think this sort of thing is a good way to compensate people who roll poorly on abilities with something useful.
 
 This is definitely a game that requires a lot of improvisation and many rulings.  That is not a criticism.
 
@@ -17,7 +17,7 @@ It looks like a rules light, easy to learn, but fairly complete dangerous advent
 
 I think that Cairn 2E would be an excellent game for introducing new players to RPGs.
 
-I very much like the openness of Cairn.  The first page on the web page points out that the source code for the books is available in a Git repo, which I especially appreciate!  
+I very much like the open nature of Cairn.  The first page on the web page points out that the source code for the books is available in a Git repo, which I especially appreciate!  
 => https://github.com/yochaigal/cairn Cairn Git Repo
 The web page also has the complete Player's Guide and Warden's Guide available as web pages, and on the Game Files page under Second Edition has links to free PDF downloads at itch.io and and PDFs and
 POD at DriveThruRPG, which I also find compelling.
