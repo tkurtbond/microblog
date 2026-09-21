@@ -1,0 +1,8 @@
+# 2026-09-21 15:43:25-04:00 - If you don't want your GitHub repos full of Oberon code to show up as Modula-2 code...
+
+... add this to a .gitattributes file:
+```
+*.mod linguist-language=Oberon
+*.Mod linguist-language=Oberon
+```
+If you make any changes to this file, you need to push a change to your GitHub repo to make sure GitHub notices and re-indexes your repo so that the percentage of code by language totals are updated.
