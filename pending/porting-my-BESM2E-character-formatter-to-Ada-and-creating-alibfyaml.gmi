@@ -1,0 +1,19 @@
+Part of the reason that I ran up against my usage limits (is it proper to say I ran out of tokens in this situation?) is because in addition to working on stuff for work with Claude I was also working on personal projects as well.  I'd get Claude started on something, then go do actual work, then check on personal Claude briefly, and so forth.  This worked pretty well, I think.  I spent most of my time on doing actual work for MPL, and just had to give Claude a little guidance occasionally.
+
+Anyway, I ported my besm2-rst.scm program, which reads Big Eyes, Small Mouth, 2nd Edition characters expressed as YAML files and outputs them in various formats (mostly variants of reStructuredText, differing in whether I used reST tables or troff TBL tables in raw ms blocks for pandoc conversion to PDF via pandoc's ms output) but also h-m-m's format, to Ada.  Along the way I created an Ada binding to libfyaml, the canonical C library for parsing YAML 1.2, fixed a few small bugs in besm2-rst.scm that Claude noticed ,and prepared three reports, one on how much code was written today, one on how the Ada implementatoin compared in source code size to the Chicken Scheme implementation, and one on the performance differences between the two implementation.
+
+I'll send you the reports in an email.
+
+There wasn't a good YAML solution in Ada when I started this morning.  There was a alire crate, AdaYAML, which was a pure Ada parser for YAML 1.3, but that version of the standard was never finished and seems abandoned, and the AdaYAML library doesn't compile with current versions of GNAT, has seemed abandoned for quite some time, and was archived by its author in the spring of this year.  And apparently there is an Ada bindinging to YAMLStar.  YAMLStar is a YAML load/dump framework  written in Clojure (!?!) which has a bunch of bindings to other languages.  But that was really weird and didn't seem to be what I wanted at all.  So I created an Ada libfyaml binding instead, and I'm really happy with the result.
+
+Anway, I have several things I want to do in Ada using YAML, so I thought making an Ada binding for  libfyaml would be useful and porting my BESM2E character formatter to Ada using that binding would make an idea test case.
+
+So I hit the problem with the CLaude hammer repeatedly, and it worked out well.
+
+I also invited you to be a collaorator on the three github repos involved:
+
+    https://github.com/tkurtbond/alibfyaml
+    https://github.com/tkurtbond/besm2_fmt
+    https://github.com/tkurtbond/besm-tools
+
+though more so you can easily look at the code if you are interested.
