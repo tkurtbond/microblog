@@ -1,5 +1,6 @@
 # T. Kurt Bond's µBlog
 
+=> 2026/2026-09-21-if-you-dont-want-your-github-repos-full-of-oberon-code-to-show-up-as-modula-2-code.gmi 2026-09-21 15:43:25-04:00 - If you don't want your GitHub repos full of Oberon code to show up as Modula-2 code...
 => 2026/2026-07-25-helen-of-wyndhorn.gmi 2026-07-25 00:16:55-04:00 - Helen of Wyndhorn
 => 2026/2026-07-24-cairn-players-guide-2e.gmi 2026-07-24 21:59:56-04:00 - Cairn Player's Guide - 2E
 => 2026/2026-05-11-chaosiums-questworlds-arrived-today.gmi 2026-05-11 20:37:24-04:00 - Chaosium's QuestWorlds arrived today!

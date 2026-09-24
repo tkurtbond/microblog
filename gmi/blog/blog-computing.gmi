@@ -1,5 +1,6 @@
 # T. Kurt Bond's µBlog, Computing Sub-Blog
 
+=> 2026/2026-09-21-if-you-dont-want-your-github-repos-full-of-oberon-code-to-show-up-as-modula-2-code.gmi 2026-09-21 15:43:25-04:00 - If you don't want your GitHub repos full of Oberon code to show up as Modula-2 code...
 => 2025/2025-10-31-nocodb-no-code-db.gmi 2025-10-31 14:21:30-04:00 - NocoDB — No Code DB
 => 2025/2025-10-09-c-and-ada.gmi 2025-10-09 14:07:04-04:00 - C and Ada
 => 2025/2025-03-07-modern-unix-terminal-emulators-and-vms-5.5-2-emacs-and-edit-tpu.gmi 2025-03-07 12:44:50-05:00 - Modern Unix terminal emulators and VMS 5.5-2, emacs, and EDIT/TPU
