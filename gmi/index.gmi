@@ -17,6 +17,8 @@ This is both a World Wide Web site and a Gemini capsule.
 
 => gemini://kennedy.gemi.dev/site-search/s/consp.org/ Search this capsule
 
+=> files/tkurtbond-at-gmail-com.pub My PGP/GPG key
+
 ## µBlog
 
 Well, I suppose it's not that micro compared to a lot of things, but compared to my other blog and its overhead?  Definitely micro.
