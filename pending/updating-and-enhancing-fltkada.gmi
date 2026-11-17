@@ -1,0 +1,18 @@
+# Forking and updating and enhancing FLTKAda; AI
+
+FLTKAda is Jed Barber's public domain binding of FLTK for Ada.
+
+=> http://jedbarber.id.au/fltkada.xhtml FLTKAda web page
+=> http://jedbarber.id.au/cgi-bin/cgit.cgi/fltkada FLTKAda git repo
+
+Unfortunately, it was for FLTK 1.3, and I wanted to work with FLTK 1.4.5, the latest release.  So I used Claude AI to port it to 1.4.5.  That was easy, so I set about expanding it to cover more of 1.4.5.  By now it is pretty complete, and works well for me.  It has numerous example programs, mostly adapted from the FLTK C++ examples.
+
+=> https://github.com/tkurtbond/fltkada My fork of FLTKAda
+
+I use it for a character generator program for the OVA RPG from Wise Turtle, so that might be useful as an example of a larger program that uses FLTKAda.
+
+It also uses as a git submodule the ova_fmt repo, which uses alibfyaml, an Ada binding to libfyaml that I created with Claude AI, for parsing OVA characters expressed as YAML.  The directory ova_cg_ada/test/data contains OVA characters in YAML files that can be used with ova_cg_ada.1
+
+=> https://github.com/tkurtbond/ova_cg_ada ova_cg_ada - Character generator for the OVA RPG that uses FLTK
+=> https://github.com/tkurtbond/alibfyaml alibfyaml, an Ada binding to libfyaml
+

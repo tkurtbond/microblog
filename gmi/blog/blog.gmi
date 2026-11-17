@@ -1,5 +1,7 @@
 # T. Kurt Bond's µBlog
 
+=> 2026/2026-11-17-announcing-oo2c-2.2.4-a-revived-fork-of-the-optimizing-oberon-2-compiler.gmi 2026-11-17 18:07:04-05:00 - Announcing oo2c 2.2.4: a revived fork of the Optimizing Oberon-2 Compiler
+=> 2026/2026-11-17-announcing-peaseblossom-an-oberon-2-compiler-and-libraries-and-programs-for-it-and-for-voc.gmi 2026-11-17 17:02:24-05:00 - Announcing Peaseblossom: an Oberon-2 compiler, and libraries and programs for it and for voc
 => 2026/2026-09-21-if-you-dont-want-your-github-repos-full-of-oberon-code-to-show-up-as-modula-2-code.gmi 2026-09-21 15:43:25-04:00 - If you don't want your GitHub repos full of Oberon code to show up as Modula-2 code...
 => 2026/2026-07-25-helen-of-wyndhorn.gmi 2026-07-25 00:16:55-04:00 - Helen of Wyndhorn
 => 2026/2026-07-24-cairn-players-guide-2e.gmi 2026-07-24 21:59:56-04:00 - Cairn Player's Guide - 2E
