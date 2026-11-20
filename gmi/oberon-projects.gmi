@@ -1,0 +1,59 @@
+# Peaseblossom and its Oberon-2 projects
+
+Peaseblossom is an Oberon-2 compiler, poc. The projects below are libraries and programs built with it, and a few built with Vishap Oberon (voc). They are listed in the order you would use them: each comes after everything it needs. All are on GitHub.
+
+## The compiler
+
+=> https://github.com/tkurtbond/peaseblossom Peaseblossom: poc, the Peaseblossom Oberon-2 compiler
+poc compiles through LLVM on Linux, FreeBSD, NetBSD and OpenBSD, and through its own back end for VAX/VMS 5.5-2. It compiles itself.
+
+=> https://github.com/tkurtbond/peaseblossom/releases Peaseblossom releases: source, packages and the VAX/VMS kits
+
+## Libraries that need only poc
+
+=> https://github.com/tkurtbond/oberon-argparser ArgParser: command-line options and arguments (poc and voc; on VAX/VMS too, where opp compiles it from source)
+=> https://github.com/tkurtbond/oberon-ropes Ropes: ropes, strings kept as trees of pieces (poc and voc)
+=> https://github.com/tkurtbond/poDateTime poDateTime: dates, times, durations and time zones (also for VAX/VMS, with VmsInstants to convert VMS times)
+=> https://github.com/tkurtbond/pounicode pounicode: Unicode runes, UTF-8, character properties, case mapping and files
+=> https://github.com/tkurtbond/pounix pounix: Unix services: users, files as descriptors, child processes
+=> https://github.com/tkurtbond/polibfyaml polibfyaml: a binding to libfyaml, for YAML
+=> https://github.com/tkurtbond/pofltk pofltk: a binding to the FLTK 1.4 GUI toolkit
+=> https://github.com/tkurtbond/poDB poDB: a database-independent SQL interface, with SQLite and PostgreSQL drivers
+
+## Libraries that need poDateTime
+
+=> https://github.com/tkurtbond/posockets posockets: TCP and Unix-domain sockets, with Tasks support
+=> https://github.com/tkurtbond/polibtls polibtls: a binding to libtls (LibreTLS)
+
+## Gemini
+
+=> https://github.com/tkurtbond/pogeminilib pogeminilib: a library for Gemini clients and servers: URLs, requests and responses, TOFU, client certificates, gemtext (needs poDateTime, posockets, polibtls and pounix)
+=> https://github.com/tkurtbond/pogemini pogemini: a Gemini server (needs pogeminilib)
+
+## Programs
+
+=> https://github.com/tkurtbond/opp opp: the Oberon pretty printer, for poc and voc (needs ArgParser; also built for VAX/VMS)
+
+### Role-playing game tools
+
+=> https://github.com/tkurtbond/ova_fmt_po ova_fmt_po: formats OVA characters written in YAML (needs ArgParser, Ropes and polibfyaml)
+=> https://github.com/tkurtbond/pobesm2_fmt2 pobesm2_fmt2: formats BESM 2nd Edition Revised characters written in YAML (needs ArgParser, Ropes and polibfyaml)
+=> https://github.com/tkurtbond/ova_cg_po ova_cg_po: an OVA character generator with a GUI (needs ArgParser, Ropes, polibfyaml and pofltk)
+=> https://github.com/tkurtbond/besm2_cg_po besm2_cg_po: a BESM 2nd Edition Revised character generator with a GUI (needs ArgParser, Ropes, polibfyaml and pofltk)
+
+## Built with Vishap Oberon (voc)
+
+Vishap Oberon is the compiler that bootstraps poc. These projects came before Peaseblossom or keep a voc build. ArgParser, Ropes and opp, above, build with both compilers.
+
+=> https://github.com/vishapoberon/compiler Vishap Oberon (voc), by its own authors
+=> https://github.com/tkurtbond/olibfyaml olibfyaml: a binding to libfyaml for voc; polibfyaml is its poc port
+=> https://github.com/tkurtbond/obesm2_fmt obesm2_fmt: formats BESM 2nd Edition Revised characters written in YAML (needs ArgParser and olibfyaml)
+=> https://github.com/tkurtbond/obesm2_fmt2 obesm2_fmt2: the same, using Ropes; pobesm2_fmt2 is its poc port (needs ArgParser, Ropes and olibfyaml)
+=> https://github.com/tkurtbond/vishap-bugs vishap-bugs: bugs found in voc, with reproducers and fixes
+
+## VAX/VMS only
+
+These are built with poc's VAX/VMS back end and run only on VAX/VMS 5.5-2. ArgParser, poDateTime and opp, above, also run there. The two repos below are private for now, so their links do not work yet.
+
+=> https://github.com/tkurtbond/poPOISE-DMS poPOISE-DMS: a binding to the POISE DMS Support Procedure Library (the SPL itself is proprietary and not included)
+=> https://github.com/tkurtbond/poDMSFIELDS poDMSFIELDS: an Oberon-2 rewrite of the VAX BASIC DMSFIELDS programs for POISE DMS (needs poPOISE-DMS)
